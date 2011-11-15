@@ -5,8 +5,8 @@
 (global-font-lock-mode t)
 (setq inhibit-splash-screen t)
 
+; used for git, be careful not to introduce too much change!
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
-
 
 ;;; alter load path for additional libraries
 (add-to-list 'load-path "~/.emacs.d/lisp")
@@ -14,26 +14,32 @@
 
 ;;; SLIME
 (add-to-list 'load-path "~/.emacs.d/lisp/slime")
-;(setq inferior-lisp-program "lein swank")
 (require 'slime)
-
 
 ;;; Clojure
 (require 'clojure-mode)
-(require 'clojurescript-mode)
+
 (require 'paredit)
 (defun turn-on-paredit () (paredit-mode 1))
 (add-hook 'clojure-mode-hook 'turn-on-paredit)
-(add-hook 'clojurescript-mode-hook 'turn-on-paredit)
+(add-hook 'slime-mode-hook 'turn-on-paredit)
+(add-hook 'slime-repl-mode-hook 'turn-on-paredit)
 (add-hook 'slime-repl-mode-hook 'clojure-mode-font-lock-setup)
 (setq slime-net-coding-system 'utf-8-unix)
+(setq slime-protocol-version 'ignore)
 
 (eval-after-load "slime"
-  '(progn (slime-setup '(slime-repl))
-	(defun paredit-mode-enable () (paredit-mode 1))
-	(add-hook 'slime-mode-hook 'paredit-mode-enable)
-	(add-hook 'slime-repl-mode-hook 'paredit-mode-enable)
-	(setq slime-protocol-version 'ignore)))
+  '(progn (slime-setup '(slime-repl))))
+
+;;; Clojurescript
+;;; set inferior lisp program ( C-c C-z ) to clojurescript repl
+;;; refer to https://github.com/clojure/clojurescript/wiki/Emacs-%26-inferior-lisp-mode
+;;; for information
+(require 'clojurescript-mode)
+(add-hook 'clojurescript-mode-hook 'turn-on-paredit)
+(add-hook 'inferior-lisp-mode-hook 'turn-on-paredit)
+(setq inferior-lisp-program "browser-repl")
+
 
 
 ;;; Setup for C-Programming
@@ -80,6 +86,8 @@
 (semantic-load-enable-code-helpers)      ; Enable prototype help and smart completion
 (global-srecode-minor-mode 1)            ; Enable template insertion menu
 
+;;; Semantic
+;;; currently commented out due to signficant slow down of Emacs
 ;(require 'semanticdb)
 ;(global-semanticdb-minor-mode 1)
 
