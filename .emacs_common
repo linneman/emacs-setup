@@ -79,6 +79,8 @@
 (require 'git-emacs)
 (require 'git-blame)
 
+(require 'git-commit)
+
 
 ;;; CEDT
 (load-file "~/.emacs.d/lisp/cedet-1.0/common/cedet.el")
