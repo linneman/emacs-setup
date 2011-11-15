@@ -65,6 +65,28 @@
   (:documentation
    "Dummy class created so that swank.lisp will compile and load."))
 
+;; #+#.(cl:if (cl:find-package "LINUX") '(and) '(or))
+;; (progn
+;;   (defmacro with-blocked-signals ((&rest signals) &body body)
+;;     (ext:with-gensyms ("SIGPROCMASK" ret mask)
+;;       `(multiple-value-bind (,ret ,mask)
+;;            (linux:sigprocmask-set-n-save
+;;             ,linux:SIG_BLOCK
+;;             ,(do ((sigset (linux:sigset-empty)
+;;                           (linux:sigset-add sigset (the fixnum (pop signals)))))
+;;                  ((null signals) sigset)))
+;;          (linux:check-res ,ret 'linux:sigprocmask-set-n-save)
+;;          (unwind-protect
+;;               (progn ,@body)
+;;            (linux:sigprocmask-set ,linux:SIG_SETMASK ,mask nil)))))
+
+;;   (defimplementation call-without-interrupts (fn)
+;;     (with-blocked-signals (#.linux:SIGINT) (funcall fn))))
+
+;; #+#.(cl:if (cl:find-package "LINUX") '(or) '(and))
+(defimplementation call-without-interrupts (fn)
+  (funcall fn))
+
 (let ((getpid (or (find-symbol "PROCESS-ID" :system)
                   ;; old name prior to 2005-03-01, clisp <= 2.33.2
                   (find-symbol "PROGRAM-ID" :system)
@@ -135,20 +157,6 @@
                        :name file 
                        :type type)))))
 
-;;;; UTF 
-
-(defimplementation string-to-utf8 (string)
-  (let ((enc (load-time-value 
-              (ext:make-encoding :charset "utf-8" :line-terminator :unix)
-              t)))
-    (ext:convert-string-to-bytes string enc)))
-
-(defimplementation utf8-to-string (octets)
-  (let ((enc (load-time-value 
-              (ext:make-encoding :charset "utf-8" :line-terminator :unix)
-              t)))
-    (ext:convert-string-from-bytes octets enc)))
-
 ;;;; TCP Server
 
 (defimplementation create-socket (host port)
@@ -165,11 +173,9 @@
                                       &key external-format buffering timeout)
   (declare (ignore buffering timeout))
   (socket:socket-accept socket
-                        :buffered buffering ;; XXX may not work if t
-                        :element-type (if external-format 
-                                          'character
-                                          '(unsigned-byte 8))
-                        :external-format (or external-format :default)))
+                        :buffered nil ;; XXX should be t
+                        :element-type 'character
+                        :external-format external-format))
 
 #-win32
 (defimplementation wait-for-input (streams &optional timeout)
@@ -193,7 +199,7 @@
 (defvar *external-format-to-coding-system*
   '(((:charset "iso-8859-1" :line-terminator :unix)
      "latin-1-unix" "iso-latin-1-unix" "iso-8859-1-unix")
-    ((:charset "iso-8859-1")
+    ((:charset "iso-8859-1":latin-1)
      "latin-1" "iso-latin-1" "iso-8859-1")
     ((:charset "utf-8") "utf-8")
     ((:charset "utf-8" :line-terminator :unix) "utf-8-unix")
@@ -621,9 +627,7 @@ Execute BODY with NAME's function slot set to FUNCTION."
                           :location (compiler-note-location))))
 
 (defimplementation swank-compile-file (input-file output-file
-                                       load-p external-format
-                                       &key policy)
-  (declare (ignore policy))
+                                       load-p external-format)
   (with-compilation-hooks ()
     (with-compilation-unit ()
       (multiple-value-bind (fasl-file warningsp failurep)
@@ -864,3 +868,8 @@ Execute BODY with NAME's function slot set to FUNCTION."
                 ,@(if restart-function 
                       `((:init-function ,restart-function))))))
     (apply #'ext:saveinitmem args)))
+
+;;; Local Variables:
+;;; eval: (put 'compile-file-frobbing-notes 'lisp-indent-function 1)
+;;; eval: (put 'dynamic-flet 'common-lisp-indent-function 1)
+;;; End:
