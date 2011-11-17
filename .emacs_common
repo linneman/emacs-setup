@@ -44,7 +44,7 @@
 
 ;;; Setup for C-Programming
 (setq c-default-style "linux"
-          c-basic-offset 2)
+      c-basic-offset 2)
 
 ;; CSCOPE
 ;(require 'xcscope)
@@ -55,9 +55,13 @@
 (autoload 'gtags-mode "gtags" "" t)
 
 (add-hook 'c-mode-hook
-   '(lambda ()
-      (gtags-mode 1)
-))
+	  '(lambda ()
+	     (gtags-mode 1)
+	     (setq default-tab-size 2)
+	     (setq default-tab-width 2)
+	     (setq indent-tabs-mode nil)
+	     (setq c-indent-level 2)
+	     ))
 
 (add-hook 'gtags-select-mode-hook
   '(lambda ()
