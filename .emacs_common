@@ -5,6 +5,9 @@
 (global-font-lock-mode t)
 (setq inhibit-splash-screen t)
 
+; use short version for yes or no question
+(defalias 'yes-or-no-p 'y-or-n-p)
+
 ; used for git, be careful not to introduce too much change!
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
@@ -122,9 +125,14 @@
         ((looking-back "[\[\(\{]" 1) (backward-char) (forward-sexp))
         (t nil)))
 
+(defun show-file-name ()
+  "Show the full path file name in the minibuffer."
+  (interactive)
+  (message (buffer-file-name)))
 
 ;;; global keys
 (global-set-key (kbd "C-x g") 'goto-line)
 (global-set-key (kbd "C-x 5") 'goto-match-paren)
 (global-set-key (kbd "C-o") 'vi-open-line-below)
+(global-set-key (kbd "C-?") 'show-file-name)
 
