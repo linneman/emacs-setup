@@ -15,6 +15,21 @@
 (add-to-list 'load-path "~/.emacs.d/lisp")
 
 
+;;; Rainbow Delimiters
+(require 'rainbow-delimiters)
+(add-hook 'clojure-mode-hook 'rainbow-delimiters-mode-enable)
+(add-hook 'clojurescript-mode-hook 'rainbow-delimiters-mode-enable)
+
+(custom-set-faces
+ '(rainbow-delimiters-depth-1-face ((((background dark)) (:foreground "#00FF00"))))
+ '(rainbow-delimiters-depth-2-face ((((background dark)) (:foreground "#00CCFF"))))
+ '(rainbow-delimiters-depth-3-face ((((background dark)) (:foreground "#FFFF00"))))
+ '(rainbow-delimiters-depth-4-face ((((background dark)) (:foreground "#FF8800"))))
+ '(rainbow-delimiters-depth-6-face ((((background dark)) (:foreground "#22CC22"))))
+ '(rainbow-delimiters-depth-7-face ((((background dark)) (:foreground "#CC00FF"))))
+ '(rainbow-delimiters-depth-8-face ((((background dark)) (:foreground "#FF00AA")))))
+
+
 ;;; SLIME
 (add-to-list 'load-path "~/.emacs.d/lisp/slime")
 (require 'slime)
