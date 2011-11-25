@@ -1,6 +1,18 @@
 ;;; disable git since it slows down to much on coLinux and large projects
 (setq vc-handled-backends 'nil)
 
+;;; corporate proxy server
+(setq url-proxy-services '(("no_proxy" . "colinux")
+                           ("http" . "172.28.28.254:3128")))
+
+;;; Windows directory do not support file locking in colinux.
+;;; we suppress the warning about changed files for this reason 
+(defun ask-user-about-supersession-threat (fn)
+  "blatantly ignore files that changed on disk"
+  )
+(defun ask-user-about-lock (file opponent)
+  "always grab lock"
+   t)
 
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
