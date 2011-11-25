@@ -150,4 +150,5 @@
 (global-set-key (kbd "C-x 5") 'goto-match-paren)
 (global-set-key (kbd "C-o") 'vi-open-line-below)
 (global-set-key (kbd "C-?") 'show-file-name)
-
+(global-set-key (kbd "C-,") 'point-to-register)
+(global-set-key (kbd "C-.") 'jump-to-register)
