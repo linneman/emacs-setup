@@ -152,6 +152,8 @@
   (message (buffer-file-name)))
 
 ;;; global keys
+(define-key evil-insert-state-map "\C-f" 'evil-normal-state)
+(define-key evil-visual-state-map "\C-f" 'evil-normal-state)
 (global-set-key (kbd "C-x g") 'goto-line)
 (global-set-key (kbd "C-x 5") 'goto-match-paren)
 (global-set-key (kbd "C-o") 'vi-open-line-below)
