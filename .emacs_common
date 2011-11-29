@@ -15,6 +15,12 @@
 (add-to-list 'load-path "~/.emacs.d/lisp")
 
 
+;;; evil (VIM emulation)
+(add-to-list 'load-path "~/.emacs.d/lisp/evil")
+(require 'evil)
+(evil-mode 1)
+
+
 ;;; Rainbow Delimiters
 (require 'rainbow-delimiters)
 (add-hook 'clojure-mode-hook 'rainbow-delimiters-mode-enable)
