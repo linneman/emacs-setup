@@ -151,9 +151,21 @@
   (interactive)
   (message (buffer-file-name)))
 
+
+;;; evil mode extensions for gtags-select-mode
+(define-minor-mode evil-gtags-select-mode
+    "gtags-select-mode."
+  :keymap (make-sparse-keymap))
+
+(add-hook 'gtags-select-mode-hook 'evil-gtags-select-mode)
+
+
 ;;; global keys
 (define-key evil-insert-state-map "\C-f" 'evil-normal-state)
 (define-key evil-visual-state-map "\C-f" 'evil-normal-state)
+(define-key evil-normal-state-map "\C-t" 'gtags-pop-stack)
+(evil-define-key 'normal evil-gtags-select-mode-map (kbd "RET") 'gtags-select-tag)
+
 (global-set-key (kbd "C-x g") 'goto-line)
 (global-set-key (kbd "C-x 5") 'goto-match-paren)
 (global-set-key (kbd "C-o") 'vi-open-line-below)
