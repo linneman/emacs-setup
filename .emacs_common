@@ -4,6 +4,7 @@
 (global-linum-mode 1)
 (global-font-lock-mode t)
 (setq inhibit-splash-screen t)
+(server-start)
 
 ; use short version for yes or no question
 (defalias 'yes-or-no-p 'y-or-n-p)
@@ -108,6 +109,19 @@
 (require 'git-blame)
 
 (require 'git-commit)
+
+
+;;; Octave
+(add-to-list 'load-path "~/.emacs.d/lisp/octave")
+(autoload 'octave-mode "octave-mod" nil t)
+(autoload 'octave-help "octave-hlp" nil t)
+(setq auto-mode-alist (cons '("\\.m$" . octave-mode) auto-mode-alist))
+(add-hook 'octave-mode-hook
+          (lambda ()
+            (abbrev-mode 1)
+            (auto-fill-mode 1)
+            (if (eq window-system 'x)
+                (font-lock-mode 1))))
 
 
 ;;; CEDT
