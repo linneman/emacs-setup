@@ -139,6 +139,9 @@
 ;(semanticdb-enable-gnu-global-databases 'c-mode)
 ;(semanticdb-enable-gnu-global-databases 'c++-mode)
 
+;;; org-mode
+(add-to-list 'load-path "~/.emacs.d/lisp/org-mode")
+(require 'org-install)
 
 ;;; VIM like helper(s)
 (defun vi-open-line-below ()
