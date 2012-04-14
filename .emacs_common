@@ -76,7 +76,8 @@
 (add-hook 'inferior-lisp-mode-hook 'turn-on-paredit)
 (setq inferior-lisp-program "browser-repl")
 
-
+;;; Gambit Scheme
+(require 'gambit)
 
 ;;; Setup for C-Programming
 (setq c-default-style "linux"
