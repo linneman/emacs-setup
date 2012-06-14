@@ -16,6 +16,20 @@
 (add-to-list 'load-path "~/.emacs.d/lisp")
 
 
+;;; Color Scheme
+(add-to-list 'load-path "~/.emacs.d/lisp/color-theme-6.6.0")
+(require 'color-theme)
+(eval-after-load "color-theme"
+  '(progn
+     (color-theme-initialize)
+     (color-theme-hober)))
+
+;;; Solarized Colorscheme for Emacs
+(add-to-list 'load-path "~/.emacs.d/lisp/emacs-color-theme-solarized")
+(require 'color-theme-solarized)
+(color-theme-solarized-dark)
+
+
 ;;; ido mode
 (require 'ido)
 (custom-set-variables
@@ -39,13 +53,16 @@
 (add-hook 'clojurescript-mode-hook 'rainbow-delimiters-mode-enable)
 
 (custom-set-faces
- '(rainbow-delimiters-depth-1-face ((((background dark)) (:foreground "#00FF00"))))
- '(rainbow-delimiters-depth-2-face ((((background dark)) (:foreground "#00CCFF"))))
- '(rainbow-delimiters-depth-3-face ((((background dark)) (:foreground "#FFFF00"))))
- '(rainbow-delimiters-depth-4-face ((((background dark)) (:foreground "#FF8800"))))
- '(rainbow-delimiters-depth-6-face ((((background dark)) (:foreground "#22CC22"))))
- '(rainbow-delimiters-depth-7-face ((((background dark)) (:foreground "#CC00FF"))))
- '(rainbow-delimiters-depth-8-face ((((background dark)) (:foreground "#FF00AA")))))
+ '(rainbow-delimiters-depth-1-face ((((background dark)) (:foreground "#b58900")))) ; yellow
+ '(rainbow-delimiters-depth-2-face ((((background dark)) (:foreground "#859900")))) ; green
+ '(rainbow-delimiters-depth-3-face ((((background dark)) (:foreground "#cb4b16")))) ; orange
+ '(rainbow-delimiters-depth-4-face ((((background dark)) (:foreground "#268bd2")))) ; blue
+ '(rainbow-delimiters-depth-5-face ((((background dark)) (:foreground "#dc322f")))) ; red
+ '(rainbow-delimiters-depth-6-face ((((background dark)) (:foreground "#2aa198")))) ; cyan
+ '(rainbow-delimiters-depth-7-face ((((background dark)) (:foreground "#d33682")))) ; magenta
+ '(rainbow-delimiters-depth-8-face ((((background dark)) (:foreground "#268bd2")))) ; blue
+ '(rainbow-delimiters-depth-9-face ((((background dark)) (:foreground "#6c71c4")))) ; violet
+)
 
 
 ;;; SLIME
@@ -199,10 +216,10 @@
 
 
 ;;; CEDT
-(load-file "~/.emacs.d/lisp/cedet-1.0/common/cedet.el")
-(global-ede-mode 1)                      ; Enable the Project management system
-(semantic-load-enable-code-helpers)      ; Enable prototype help and smart completion
-(global-srecode-minor-mode 1)            ; Enable template insertion menu
+;(load-file "~/.emacs.d/lisp/cedet-1.0/common/cedet.el")
+;(global-ede-mode 1)                      ; Enable the Project management system
+;(semantic-load-enable-code-helpers)      ; Enable prototype help and smart completion
+;(global-srecode-minor-mode 1)            ; Enable template insertion menu
 
 ;;; Semantic
 ;;; currently commented out due to signficant slow down of Emacs
@@ -212,6 +229,7 @@
 ;(require 'semanticdb-global)
 ;(semanticdb-enable-gnu-global-databases 'c-mode)
 ;(semanticdb-enable-gnu-global-databases 'c++-mode)
+
 
 ;;; org-mode
 (add-to-list 'load-path "~/.emacs.d/lisp/org-mode")
