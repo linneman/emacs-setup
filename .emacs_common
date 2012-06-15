@@ -195,11 +195,13 @@
 
 
 ;;; GIT
-(add-to-list 'load-path "~/.emacs.d/lisp/git-emacs")
-(require 'git-emacs)
-(require 'git-blame)
+(add-to-list 'load-path "~/.emacs.d/lisp/magit")
+(require 'magit)
 
-(require 'git-commit)
+;(add-to-list 'load-path "~/.emacs.d/lisp/git-emacs")
+;(require 'git-emacs)
+;(require 'git-blame)
+;(require 'git-commit)
 
 
 ;;; Octave
