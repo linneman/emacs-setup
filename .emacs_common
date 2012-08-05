@@ -245,6 +245,9 @@
             (if (eq window-system 'x)
                 (font-lock-mode 1))))
 
+;;; ediff
+(setq ediff-window-setup-function 'ediff-setup-windows-plain)
+
 
 ;;; CEDT
 ;(load-file "~/.emacs.d/lisp/cedet-1.0/common/cedet.el")
