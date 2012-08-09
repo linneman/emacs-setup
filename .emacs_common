@@ -316,6 +316,18 @@
   )
 
 
+;;; autocomplete
+(add-to-list 'load-path "/Users/ol/.emacs.d/")
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "/Users/ol/.emacs.d/ac-dict")
+(ac-config-default)
+(setq ac-sources '(ac-source-semantic ac-source-yasnippet))
+
+
+;;; gcc sense
+(require 'gccsense)
+
+
 ;;; evil mode extensions for gtags-select-mode
 (define-minor-mode evil-gtags-select-mode
     "gtags-select-mode."
