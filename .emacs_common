@@ -289,10 +289,17 @@
         ((looking-back "[\[\(\{]" 1) (backward-char) (forward-sexp))
         (t nil)))
 
-(defun show-file-name ()
-  "Show the full path file name in the minibuffer."
+(defun ol-put-file-name-on-clipboard ()
+  "Put the current file name on the clipboard"
   (interactive)
-  (message (buffer-file-name)))
+  (let ((filename (if (equal major-mode 'dired-mode)
+                      default-directory
+                    (buffer-file-name))))
+    (when filename
+      (with-temp-buffer
+        (insert filename)
+        (clipboard-kill-region (point-min) (point-max)))
+      (message filename))))
 
 
 ;;; shell evaluation and replacement for par
@@ -348,6 +355,7 @@
 (global-set-key (kbd "C-x g") 'goto-line)
 (global-set-key (kbd "C-x 5") 'goto-match-paren)
 (global-set-key (kbd "C-o") 'vi-open-line-below)
-(global-set-key (kbd "C-?") 'show-file-name)
+(global-set-key (kbd "C-?") 'ol-put-file-name-on-clipboard)
 (global-set-key (kbd "C-,") 'point-to-register)
 (global-set-key (kbd "C-.") 'jump-to-register)
+
