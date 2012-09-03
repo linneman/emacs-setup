@@ -93,12 +93,12 @@
  '(rainbow-delimiters-depth-9-face ((((background dark)) (:foreground "#6c71c4")))) ; violet
 )
 
-
 ;;; SLIME
 (add-to-list 'load-path "~/.emacs.d/lisp/slime")
 (require 'slime)
 
-
+(eval-after-load "slime"
+  '(progn (slime-setup '(slime-repl))))
 
 ;;; Clojure
 (require 'clojure-mode)
@@ -111,6 +111,8 @@
 ;; Taken from clojure-one (https://github.com/brentonashworth/one/wiki/Emacs)
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(add-to-list 'auto-mode-alist '("\.cljs$" . clojure-mode))
 
 ;; This is a total hack: we're hardcoding the name of the shell buffer
 (defun shell-send-input (input)
@@ -154,33 +156,14 @@
 (add-hook 'clojure-mode-hook
 	  '(lambda ()
 	     (turn-on-paredit)
-             (define-key clojure-mode-map (kbd "\C-c\C-e") 'shell-eval-last-expression)
-             (define-key clojure-mode-map (kbd "\C-c\C-x") 'shell-eval-defun)))
+             (define-key clojure-mode-map (kbd "C-c e") 'shell-eval-last-expression)
+             (define-key clojure-mode-map (kbd "C-c x") 'shell-eval-defun)))
 
 (add-hook 'slime-mode-hook 'turn-on-paredit)
 (add-hook 'slime-repl-mode-hook 'turn-on-paredit)
 (add-hook 'slime-repl-mode-hook 'clojure-mode-font-lock-setup)
 (setq slime-net-coding-system 'utf-8-unix)
 (setq slime-protocol-version 'ignore)
-
-(eval-after-load "slime"
-  '(progn (slime-setup '(slime-repl))))
-
-
-(require 'clojurescript-mode)
-(add-hook 'clojurescript-mode-hook
-	  '(lambda ()
-	     (turn-on-paredit)
-             (define-key clojurescript-mode-map (kbd "\C-c\C-e") 'shell-eval-last-expression)
-             (define-key clojurescript-mode-map (kbd "\C-c\C-x") 'shell-eval-defun)))
-
-;;; Clojurescript
-;;; set (alternative) inferior lisp program ( C-c C-z ) to clojurescript repl
-;;; refer to https://github.com/clojure/clojurescript/wiki/Emacs-%26-inferior-lisp-mode
-;;; for information
-(add-hook 'inferior-lisp-mode-hook 'turn-on-paredit)
-(setq inferior-lisp-program "browser-repl")
-
 
 
 
