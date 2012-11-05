@@ -1,4 +1,28 @@
-;;;; Repeat system
+;;; evil-repeat.el --- Repeat system
+
+;; Author: Frank Fischer <frank.fischer at mathematik.tu-chemnitz.de>
+;; Maintainer: Vegard Øye <vegard_oye at hotmail.com>
+;;
+;; This file is NOT part of GNU Emacs.
+
+;;; License:
+
+;; This file is part of Evil.
+;;
+;; Evil is free software: you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
+;;
+;; Evil is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+;;
+;; You should have received a copy of the GNU General Public License
+;; along with Evil.  If not, see <http://www.gnu.org/licenses/>.
+
+;;; Commentary:
 
 ;; A repeat begins when leaving Normal state; it ends when re-entering
 ;; Normal state. The diagram below shows possible routes between
@@ -80,6 +104,13 @@
 ;; `evil-record-repeat' to append further repeat-information of the
 ;; form described above to `evil-repeat-info'. See the implementation
 ;; of `evil-repeat-keystrokes' and `evil-repeat-changes' for examples.
+;; Those functions are called in different situations before and after
+;; the execution of a command. Each function should take one argument
+;; which can be either 'pre, 'post, 'pre-operator or 'post-operator
+;; specifying when the repeat function has been called. If the command
+;; is a usual command the function is called with 'pre before the
+;; command is executed and with 'post after the command has been
+;; executed.
 ;;
 ;; The repeat information is executed with `evil-execute-repeat-info',
 ;; which passes key-sequence elements to `execute-kbd-macro' and
@@ -92,6 +123,8 @@
 ;; key-sequence.
 
 (require 'evil-states)
+
+;;; Code:
 
 (declare-function evil-visual-state-p "evil-visual")
 (declare-function evil-visual-range "evil-visual")
@@ -115,7 +148,7 @@
                          (line-number-at-pos beg))))
       (evil-repeat-record
        (cond
-        ((memq evil-visual-type '(inclusive exclusive))
+        ((eq evil-visual-selection 'char)
          (list #'evil-repeat-visual-char
                nfwdlines
                (- end
@@ -124,17 +157,12 @@
                     (save-excursion
                       (goto-char end)
                       (line-beginning-position))))))
-        ((eq evil-visual-type 'line)
+        ((eq evil-visual-selection 'line)
          (list #'evil-repeat-visual-line nfwdlines))
-        ((eq evil-visual-type 'block)
+        ((eq evil-visual-selection 'block)
          (list #'evil-repeat-visual-block
                nfwdlines
-               (abs (- (save-excursion
-                         (goto-char beg)
-                         (current-column))
-                       (save-excursion
-                         (goto-char end)
-                         (current-column)))))))))))
+               (abs (- (evil-column beg) (evil-column end))))))))))
 
 (defun evil-repeat-stop ()
   "Stop recording a repeat.
@@ -197,10 +225,9 @@ buffer is known and different from the current buffer."
   "Return the :repeat property of COMMAND.
 If COMMAND doesn't have this property, return DEFAULT."
   (when (functionp command) ; ignore keyboard macros
-    (let ((type (if (evil-has-property command :repeat)
-                    (evil-get-command-property command :repeat)
-                  default)))
-      (or (cdr-safe (assq type evil-repeat-types)) type))))
+    (let* ((type (evil-get-command-property command :repeat default))
+           (repeat-type (assq type evil-repeat-types)))
+      (if repeat-type (cdr repeat-type) type))))
 
 (defun evil-repeat-force-abort-p (repeat-type)
   "Returns non-nil iff the current command should abort the recording of repeat information."
@@ -208,7 +235,8 @@ If COMMAND doesn't have this property, return DEFAULT."
       (eq repeat-type 'abort)                    ; ... explicitely forced
       (eq evil-recording-repeat 'abort)          ; ... already aborted
       (evil-emacs-state-p)                       ; ... in Emacs state
-      (evil-mouse-events-p (this-command-keys))  ; ... mouse events
+      (and (evil-mouse-events-p (this-command-keys))  ; ... mouse events
+           (eq repeat-type nil))
       (minibufferp)))                            ; ... minibuffer activated
 
 (defun evil-repeat-record (info)
@@ -248,6 +276,7 @@ has :repeat nil."
           (evil-repeat-start))
         (setq evil-recording-current-command t)
         (funcall repeat-type 'pre))))))
+(put 'evil-repeat-pre-hook 'permanent-local-hook t)
 
 ;; called from `post-command-hook'
 (defun evil-repeat-post-hook ()
@@ -269,9 +298,17 @@ has :repeat nil."
         (funcall repeat-type 'post)
         ;; In normal state, the repeat sequence is complete, so record it.
         (when (evil-normal-state-p)
-          (evil-repeat-stop))))))
-  ;; done with recording the current command
-  (setq evil-recording-current-command nil))
+          (evil-repeat-stop)))))
+    ;; done with recording the current command
+    (setq evil-recording-current-command nil)))
+(put 'evil-repeat-post-hook 'permanent-local-hook t)
+
+(defun evil-clear-command-keys ()
+  "Clear `this-command-keys' and all information about the current command keys.
+Calling this function prevents further recording of the keys that
+invoked the current command"
+  (clear-this-command-keys t)
+  (setq evil-repeat-keys ""))
 
 (defun evil-repeat-keystrokes (flag)
   "Repeation recording function for commands that are repeated by keystrokes."
@@ -283,7 +320,7 @@ has :repeat nil."
                             evil-repeat-keys
                           (this-command-keys)))
     ;; erase commands keys to prevent double recording
-    (clear-this-command-keys t))))
+    (evil-clear-command-keys))))
 
 (defun evil-repeat-motion (flag)
   "Repeation for motions. Motions are recorded by keystroke but only in insert state."
@@ -314,6 +351,7 @@ has :repeat nil."
       (evil-repeat-record-change (- beg evil-repeat-pos)
                                  (buffer-substring beg end)
                                  length))))
+(put 'evil-repeat-change-hook 'permanent-local-hook t)
 
 (defun evil-repeat-record-change (relpos ins ndel)
   "Record the current buffer changes during a repeat.
@@ -334,6 +372,27 @@ If CHANGE is specified, it is added to `evil-repeat-changes'."
                           ,evil-repeat-changes
                           ,(- (point) evil-repeat-pos)))
     (setq evil-repeat-changes nil)))
+
+(defun evil-repeat-insert-at-point (flag)
+  "Repeation recording function for commands that insert text in region.
+This records text insertion when a command inserts some text in a
+buffer between (point) and (mark)."
+  (cond
+   ((eq flag 'pre)
+    (add-hook 'after-change-functions #'evil-repeat-insert-at-point-hook nil t))
+   ((eq flag 'post)
+    (remove-hook 'after-change-functions #'evil-repeat-insert-at-point-hook t))))
+
+(defun evil-repeat-insert-at-point-hook (beg end length)
+  (let ((repeat-type (evil-repeat-type this-command t)))
+    (when (and (evil-repeat-recording-p)
+               (eq repeat-type 'evil-repeat-insert-at-point)
+               (not (evil-emacs-state-p))
+               (not (evil-repeat-different-buffer-p t))
+               evil-state)
+      (setq evil-repeat-pos beg)
+      (evil-repeat-record (list 'insert (buffer-substring beg end))))))
+(put 'evil-repeat-insert-at-point-hook 'permanent-local-hook t)
 
 (defun evil-normalize-repeat-info (repeat-info)
   "Concatenate consecutive arrays in REPEAT-INFO.
@@ -463,6 +522,7 @@ and only if COUNT is non-nil."
   "Repeat the last editing command with count replaced by COUNT.
 If SAVE-POINT is non-nil, do not move point."
   :repeat ignore
+  :suppress-operator t
   (interactive (list current-prefix-arg
                      (not evil-repeat-move-cursor)))
   (cond
@@ -472,16 +532,18 @@ If SAVE-POINT is non-nil, do not move point."
     (save-excursion
       (evil-repeat count)))
    (t
-    (let ((confirm-kill-emacs t)
-          (kill-buffer-hook
-           (cons #'(lambda ()
-                     (error "Cannot delete buffer in repeat command"))
-                 kill-buffer-hook))
-          (undo-pointer buffer-undo-list))
-      (evil-with-single-undo
-        (setq evil-last-repeat (list (point) count undo-pointer))
-        (evil-execute-repeat-info-with-count
-         count (ring-ref evil-repeat-ring 0)))))))
+    (unwind-protect
+        (let ((confirm-kill-emacs t)
+              (kill-buffer-hook
+               (cons #'(lambda ()
+                         (error "Cannot delete buffer in repeat command"))
+                     kill-buffer-hook))
+              (undo-pointer buffer-undo-list))
+          (evil-with-single-undo
+            (setq evil-last-repeat (list (point) count undo-pointer))
+            (evil-execute-repeat-info-with-count
+             count (ring-ref evil-repeat-ring 0))))
+      (evil-normal-state)))))
 
 ;; TODO: the same issue concering disabled undos as for `evil-paste-pop'
 (evil-define-command evil-repeat-pop (count &optional save-point)
@@ -493,10 +555,11 @@ was used for the first repeat.
 The COUNT argument inserts the COUNT-th previous kill.
 If COUNT is negative, this is a more recent kill."
   :repeat nil
+  :suppress-operator t
   (interactive (list (prefix-numeric-value current-prefix-arg)
                      (not evil-repeat-move-cursor)))
   (cond
-   ((not (and (eq last-command 'evil-repeat)
+   ((not (and (eq last-command #'evil-repeat)
               evil-last-repeat))
     (error "Previous command was not evil-repeat: %s" last-command))
    (save-point
@@ -517,12 +580,13 @@ If COUNT is negative, this is a more recent kill."
         (ring-insert evil-repeat-ring
                      (ring-remove evil-repeat-ring)))
       (setq count (1+ count)))
-    (setq this-command 'evil-repeat)
+    (setq this-command #'evil-repeat)
     (evil-repeat (cadr evil-last-repeat)))))
 
 (evil-define-command evil-repeat-pop-next (count &optional save-point)
   "Same as `evil-repeat-pop', but with negative COUNT."
   :repeat nil
+  :suppress-operator t
   (interactive (list (prefix-numeric-value current-prefix-arg)
                      (not evil-repeat-move-cursor)))
   (evil-repeat-pop (- count) save-point))
