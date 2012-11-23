@@ -223,7 +223,6 @@ BUFFER defaults to the current buffer.
 Uses STATE if specified, or calls `evil-initial-state-for-buffer'.
 See also `evil-set-initial-state'."
   (with-current-buffer (or buffer (current-buffer))
-    (remove-hook 'post-command-hook #'evil-initialize-state t)
     (if state (evil-change-state state)
       (evil-change-to-initial-state buffer))))
 (put 'evil-initialize-state 'permanent-local-hook t)
@@ -287,10 +286,10 @@ This is the state the buffer comes up in."
 (defadvice evil-mode-check-buffers (before start-evil activate)
   "Determine the initial state."
   (dolist (buffer evil-mode-buffers)
-    (when (buffer-live-p buffer)
+    (when (and (buffer-live-p buffer)
+               (not (minibufferp buffer)))
       (with-current-buffer buffer
-        (when evil-local-mode
-          (evil-initialize-state))))))
+        (evil-initialize-state)))))
 
 (evil-define-command evil-change-to-initial-state
   (&optional buffer message)

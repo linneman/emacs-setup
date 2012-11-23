@@ -216,12 +216,14 @@ and nil means no mode line tag."
   :type 'symbol
   :group 'evil)
 
-(defcustom evil-word "[:word:]_"
-  "The characters to be considered as a word.
-This should be a regexp set without the enclosing []."
-  :type 'string
+(defcustom evil-mouse-word 'evil-move-word
+  "The (movement) function to be used for double click selection.
+The double-click starts visual state in a special word selection
+mode. This function is used to determine the words to be
+selected. Possible values are 'evil-move-word or
+'evil-move-WORD."
+  :type 'symbol
   :group 'evil)
-(make-variable-buffer-local 'evil-word)
 
 (defcustom evil-bigword "^ \t\r\n"
   "The characters to be considered as a big word.
@@ -1155,14 +1157,10 @@ BEG end END are the region of the inserted text.")
 This should be a pair (OBJ . CONS) where OBJ is the entry as an
 object, and CONS is a copy of the entry.")
 
-(evil-define-local-var evil-last-insertion-command nil
-  "The last command which inserted text in the buffer.")
-
-(evil-define-local-var evil-current-insertions nil
+(evil-define-local-var evil-current-insertion nil
   "Information about the latest insertion in insert state.
-This should be a pair (TEXT . INSERTIONS) where TEXT is a
-inserted text and INSERTIONS is a list of ranges, of which buffer
-string of the disjoint union is identical to TEXT.")
+This should be a pair (BEG . END) that describes the
+buffer-region of the newly inserted text.")
 
 (defvar evil-last-insertion nil
   "The last piece of inserted text.")
