@@ -216,6 +216,11 @@
 ;(require 'git-blame)
 ;(require 'git-commit)
 
+;;; Text mode (Latex)
+(add-hook 'text-mode-hook
+          (lambda ()
+            (auto-fill-mode 1)
+            (set-fill-column 100)))
 
 ;;; Octave
 (add-to-list 'load-path "~/.emacs.d/lisp/octave")
