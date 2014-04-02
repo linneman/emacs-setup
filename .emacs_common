@@ -339,6 +339,12 @@
                               (rdictcc-buffer-mode           . emacs))
       do (evil-set-initial-state mode state))
 
+;;; declare jk as <esc> in evil insert mode using the package key-chord
+;;; taken from http://blog.jenkster.com/2013/02/mapping-jk-in-emacs-evil-mode.html
+(require 'key-chord)
+(key-chord-mode 1)
+(key-chord-define evil-insert-state-map "jk" 'evil-normal-state)
+
 ;;; clojure keymaps
 (evil-define-key 'normal clojure-mode-map (kbd "M-.") 'slime-edit-definition)
 (evil-define-key 'normal clojure-mode-map (kbd "M-,") 'slime-pop-find-definition-stack)
