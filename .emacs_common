@@ -7,8 +7,9 @@
 (server-start)
 (customize-set-variable 'indent-tabs-mode nil)
 
-(setq url-proxy-services '(("http" . "172.28.28.254:3128")
-                           ("https" . "172.28.28.254:3128")))
+;(setq url-proxy-services '(("http" . "172.28.28.254:3128")
+;                           ("https" . "172.28.28.254:3128")))
+
 (require 'package)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
@@ -33,38 +34,38 @@
 ;     (color-theme-hober)))
 
 ;;; Solarized Colorscheme for Emacs
-(add-to-list 'load-path "~/.emacs.d/lisp/emacs-color-theme-solarized")
-(require 'color-theme-solarized)
-(eval-after-load "color-theme-solarized"
-  '(progn
-     (color-theme-initialize)
-     (color-theme-solarized-dark)))
+;(require 'color-theme-solarized)
+;(eval-after-load "color-theme-solarized"
+;  '(progn
+;     (color-theme-initialize)
+;     (color-theme-solarized-dark)))
+(color-theme-solarized-dark)
 
 ;;; Solarized Colorscheme for Ansi-Term
-(defun my-term-hook ()
-  (goto-address-mode)
-  (define-key term-raw-map "\C-y" 'my-term-paste)
-  (let ((base03  "#002b36")
-        (base02  "#073642")
-        (base01  "#586e75")
-        (base00  "#657b83")
-        (base0   "#839496")
-        (base1   "#93a1a1")
-        (base2   "#eee8d5")
-        (base3   "#fdf6e3")
-        (yellow  "#b58900")
-        (orange  "#cb4b16")
-        (red     "#dc322f")
-        (magenta "#d33682")
-        (violet  "#6c71c4")
-        (blue    "#268bd2")
-        (cyan    "#2aa198")
-        (green   "#859900"))
-    (setq ansi-term-color-vector
-          (vconcat `(unspecified ,base02 ,red ,green ,yellow ,blue
-                                 ,magenta ,cyan ,base2)))))
-
-(add-hook 'term-mode-hook 'my-term-hook)
+;(defun my-term-hook ()
+;  (goto-address-mode)
+;  (define-key term-raw-map "\C-y" 'my-term-paste)
+;  (let ((base03  "#002b36")
+;        (base02  "#073642")
+;        (base01  "#586e75")
+;        (base00  "#657b83")
+;        (base0   "#839496")
+;        (base1   "#93a1a1")
+;        (base2   "#eee8d5")
+;        (base3   "#fdf6e3")
+;        (yellow  "#b58900")
+;        (orange  "#cb4b16")
+;        (red     "#dc322f")
+;        (magenta "#d33682")
+;        (violet  "#6c71c4")
+;        (blue    "#268bd2")
+;        (cyan    "#2aa198")
+;        (green   "#859900"))
+;    (setq ansi-term-color-vector
+;          (vconcat `(unspecified ,base02 ,red ,green ,yellow ,blue
+;                                 ,magenta ,cyan ,base2)))))
+;
+;(add-hook 'term-mode-hook 'my-term-hook)
 
 
 ;;; ido mode
@@ -79,7 +80,6 @@
  '(tool-bar-mode nil))
 
 ;;; evil (VIM emulation)
-(add-to-list 'load-path "~/.emacs.d/lisp/evil")
 (require 'evil)
 (evil-mode 1)
 
@@ -205,6 +205,7 @@
 ;; GTAGS
 (autoload 'gtags-mode "gtags" "" t)
 
+
 (add-hook 'c-mode-hook
 	  '(lambda ()
 	     (gtags-mode 1)
@@ -230,8 +231,6 @@
 
 
 ;;; GIT
-(add-to-list 'load-path "~/.emacs.d/lisp/git-modes")
-(add-to-list 'load-path "~/.emacs.d/lisp/magit")
 (eval-after-load 'info
   '(progn (info-initialize)
           (add-to-list 'Info-directory-list "lisp/magit/")))
@@ -279,10 +278,6 @@
 ;(semanticdb-enable-gnu-global-databases 'c-mode)
 ;(semanticdb-enable-gnu-global-databases 'c++-mode)
 
-
-;;; org-mode
-(add-to-list 'load-path "~/.emacs.d/lisp/org-mode")
-(require 'org-install)
 
 ;;; VIM like helper(s)
 (defun vi-open-line-below ()
