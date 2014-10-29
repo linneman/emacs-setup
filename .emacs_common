@@ -7,6 +7,13 @@
 (server-start)
 (customize-set-variable 'indent-tabs-mode nil)
 
+(setq url-proxy-services '(("http" . "172.28.28.254:3128")
+                           ("https" . "172.28.28.254:3128")))
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/") t)
+(package-initialize)
+
 ; use short version for yes or no question
 (defalias 'yes-or-no-p 'y-or-n-p)
 
@@ -104,16 +111,22 @@
 )
 
 ;;; SLIME
-(add-to-list 'load-path "~/.emacs.d/lisp/slime")
-(require 'slime)
+;(add-to-list 'load-path "~/.emacs.d/lisp/slime")
+;(require 'slime)
 
 (eval-after-load "slime"
   '(progn (slime-setup '(slime-repl))))
 
 ;;; Clojure
+;(add-to-list 'load-path "~/.emacs.d/lisp/clojure-mode")
 (require 'clojure-mode)
 (require 'paredit)
 (defun turn-on-paredit () (paredit-mode 1))
+
+;;; Dash
+(add-to-list 'load-path "~/.emacs.d/lisp/dash")
+(require 'dash)
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
@@ -217,7 +230,11 @@
 
 
 ;;; GIT
+(add-to-list 'load-path "~/.emacs.d/lisp/git-modes")
 (add-to-list 'load-path "~/.emacs.d/lisp/magit")
+(eval-after-load 'info
+  '(progn (info-initialize)
+          (add-to-list 'Info-directory-list "lisp/magit/")))
 (require 'magit)
 
 ;(add-to-list 'load-path "~/.emacs.d/lisp/git-emacs")
@@ -322,7 +339,6 @@
 
 
 ;;; autocomplete
-(add-to-list 'load-path "~/.emacs.d")
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "/Users/ol/.emacs.d/ac-dict")
 (ac-config-default)
@@ -369,4 +385,3 @@
 (global-set-key (kbd "C-?") 'ol-put-file-name-on-clipboard)
 (global-set-key (kbd "C-,") 'point-to-register)
 (global-set-key (kbd "C-.") 'jump-to-register)
-
