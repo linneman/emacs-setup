@@ -13,6 +13,8 @@
 (require 'package)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.org/packages/") t)
+;(add-to-list 'package-archives
+;             '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (package-initialize)
 
 ; use short version for yes or no question
@@ -366,8 +368,8 @@
 (key-chord-define evil-insert-state-map "jk" 'evil-normal-state)
 
 ;;; clojure keymaps
-(evil-define-key 'normal clojure-mode-map (kbd "M-.") 'slime-edit-definition)
-(evil-define-key 'normal clojure-mode-map (kbd "M-,") 'slime-pop-find-definition-stack)
+(evil-define-key 'normal clojure-mode-map (kbd "M-.") 'cider-jump)
+(evil-define-key 'normal clojure-mode-map (kbd "M-,") 'cider-jump-back)
 
 ;;; global keys
 (define-key evil-insert-state-map "\C-f" 'evil-normal-state)
