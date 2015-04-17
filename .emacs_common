@@ -27,21 +27,11 @@
 (add-to-list 'load-path "~/.emacs.d/lisp")
 
 
-;;; Color Scheme
-(add-to-list 'load-path "~/.emacs.d/lisp/color-theme-6.6.0")
-(require 'color-theme)
-;(eval-after-load "color-theme"
-;  '(progn
-;     (color-theme-initialize)
-;     (color-theme-hober)))
-
 ;;; Solarized Colorscheme for Emacs
-;(require 'color-theme-solarized)
-;(eval-after-load "color-theme-solarized"
-;  '(progn
-;     (color-theme-initialize)
-;     (color-theme-solarized-dark)))
-(color-theme-solarized-dark)
+;(load-theme 'solarized-light t)
+;(load-theme 'whiteboard t)
+(load-theme 'solarized-dark t)
+
 
 ;;; Solarized Colorscheme for Ansi-Term
 ;(defun my-term-hook ()
