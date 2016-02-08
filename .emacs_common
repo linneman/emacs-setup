@@ -223,17 +223,9 @@
 
 
 ;;; GIT
-(eval-after-load 'info
-  '(progn (info-initialize)
-          (add-to-list 'Info-directory-list "lisp/magit/")))
 (require 'magit)
-(add-to-list 'load-path "~/.emacs.d/lisp/evil-rebellion/")
-(require 'evil-magit-rebellion)
+(require 'evil-magit)
 
-;(add-to-list 'load-path "~/.emacs.d/lisp/git-emacs")
-;(require 'git-emacs)
-;(require 'git-blame)
-;(require 'git-commit)
 
 ;;; Text mode (Latex)
 (add-hook 'text-mode-hook
@@ -337,6 +329,12 @@
 ;;; gcc sense
 (require 'gccsense)
 
+;; org mode
+(define-key global-map "\C-cl" 'org-store-link)
+(define-key global-map "\C-ca" 'org-agenda)
+(setq org-log-done t)
+
+
 ;;; evil initial state setup
 (loop for (mode . state) in '((inferior-emacs-lisp-mode      . emacs)
                               (pylookup-mode                 . emacs)
@@ -360,7 +358,7 @@
 (key-chord-define evil-insert-state-map "jk" 'evil-normal-state)
 
 ;;; clojure keymaps
-(evil-define-key 'normal clojure-mode-map (kbd "M-.") 'cider-jump)
+(evil-define-key 'normal clojure-mode-map (kbd "M-.") 'cider-test-jump)
 (evil-define-key 'normal clojure-mode-map (kbd "M-,") 'cider-jump-back)
 
 ;;; global keys
