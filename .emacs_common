@@ -135,7 +135,7 @@
   (save-selected-window
     (switch-to-buffer-other-window "*shell*")
     (goto-char (point-max))
-    (insert input)
+    (insert (replace-regexp-in-string "\n" " " input ))
     (comint-send-input)))
 
 (defun defun-at-point ()
