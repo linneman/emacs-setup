@@ -72,6 +72,7 @@
  '(tool-bar-mode nil))
 
 ;;; evil (VIM emulation)
+(setq evil-want-C-i-jump nil) ;; for tab in org mode under terminal
 (require 'evil)
 (evil-mode 1)
 
