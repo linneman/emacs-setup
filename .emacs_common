@@ -59,6 +59,15 @@
 ;
 ;(add-hook 'term-mode-hook 'my-term-hook)
 
+;; Terminal buffer configuration.
+ (add-hook 'term-mode-hook 'my-term-mode-hook)
+ (defun my-term-mode-hook ()
+   ;; disable line numbers in terminal
+   (linum-mode 0)
+   ;; https://www.emacswiki.org/emacs/AnsiTermHints#toc8
+   ;; https://debbugs.gnu.org/cgi/bugreport.cgi?bug=20611
+   (setq bidi-paragraph-direction 'left-to-right))
+
 
 ;;; ido mode
 (require 'ido)
