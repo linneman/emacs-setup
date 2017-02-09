@@ -346,6 +346,11 @@
 (setq org-log-done t)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 (require 'evil-org)
+(require 'ob-sh)
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages '((shell . t)
+                             (emacs-lisp . t)))
 
 
 ;;; evil initial state setup
