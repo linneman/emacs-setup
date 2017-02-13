@@ -347,6 +347,7 @@
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 (require 'evil-org)
 (require 'ob-sh)
+(setq org-hide-emphasis-markers t)
 
 (org-babel-do-load-languages
  'org-babel-load-languages '((shell . t)
