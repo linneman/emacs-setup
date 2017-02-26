@@ -6,6 +6,7 @@
 (setq inhibit-splash-screen t)
 (server-start)
 (customize-set-variable 'indent-tabs-mode nil)
+(setq split-width-threshold 120)
 
 ;(setq url-proxy-services '(("http" . "172.28.28.254:3128")
 ;                           ("https" . "172.28.28.254:3128")))
@@ -348,10 +349,21 @@
 (require 'evil-org)
 (require 'ob-sh)
 (setq org-hide-emphasis-markers t)
+(setq org-image-actual-width nil)
+
+;; image mode hook (requires image-magick)
+(add-hook 'image-mode-hook 'eimp-mode)
 
 (org-babel-do-load-languages
  'org-babel-load-languages '((shell . t)
                              (emacs-lisp . t)))
+
+;; web browser
+;(setq browse-url-browser-function 'eww-browse-url)
+(add-hook 'eww-mode-hook 'my-eww-hook)
+(defun my-eww-hook ()
+  ;; disab le line numbers in terminal
+  (linum-mode 0))
 
 
 ;;; evil initial state setup
