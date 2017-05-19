@@ -345,7 +345,7 @@
 (define-key global-map "\C-cl" 'org-store-link)
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-log-done t)
-(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+(add-hook 'org-mode-hook (lambda () (linum-mode 0) (org-bullets-mode 1)))
 (require 'evil-org)
 (require 'ob-sh)
 (setq org-hide-emphasis-markers t)
