@@ -125,6 +125,18 @@
 (require 'paredit)
 (defun turn-on-paredit () (paredit-mode 1))
 
+;;; inferior clojure, we use this outdated version 1.1 for exclusively for pixie
+(add-to-list 'load-path "~/.emacs.d/lisp/inf-clojure")
+;(autoload 'inf-clojure "inf-clojure" "Run an inferior Clojure process" t)
+(require 'inf-clojure)
+(add-hook 'clojure-mode-hook 'inf-clojure-minor-mode)
+
+;;; Pixie
+(add-to-list 'load-path "~/.emacs.d/lisp/pixie-mode")
+(add-to-list 'auto-mode-alist '("\\.pxi\\'" . clojure-mode))
+(require 'pixie-mode)
+(add-hook 'pixie-mode-hook #'inf-clojure-minor-mode)
+
 ;;; Dash
 (add-to-list 'load-path "~/.emacs.d/lisp/dash")
 (require 'dash)
