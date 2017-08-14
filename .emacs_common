@@ -86,6 +86,16 @@
 (require 'evil)
 (evil-mode 1)
 
+;;; evil key bindings in occur mode
+;;; https://blog.aaronbieber.com/2016/01/23/living-in-evil.html
+(evil-add-hjkl-bindings occur-mode-map 'emacs
+  (kbd "/")       'evil-search-forward
+  (kbd "n")       'evil-search-next
+  (kbd "N")       'evil-search-previous
+  (kbd "C-d")     'evil-scroll-down
+  (kbd "C-u")     'evil-scroll-up
+  (kbd "C-w C-w") 'other-window)
+
 ;;; define macros @j,@k in evil for justifying paragraph to 70 respecively
 ;;; 80 columns
 ;;; requires the unix par command installed on your machine
