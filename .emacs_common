@@ -60,11 +60,33 @@
 ;
 ;(add-hook 'term-mode-hook 'my-term-hook)
 
+
+;; mode switch in multiterm mode
+;; from https://www.reddit.com/r/emacs/comments/4ccczt/keybindings_in_multiterm/
+ (defun my-term-switch-line-char ()
+   "Switch `term-in-line-mode' and `term-in-char-mode' in `ansi-term'"
+   (interactive)
+   (cond
+    ((term-in-line-mode)
+     (term-char-mode)
+     (hl-line-mode -1))
+    ((term-in-char-mode)
+     (term-line-mode)
+     (hl-line-mode 1))))
+
+
 ;; Terminal buffer configuration.
  (add-hook 'term-mode-hook 'my-term-mode-hook)
  (defun my-term-mode-hook ()
    ;; disable line numbers in terminal
    (linum-mode 0)
+
+   ;; from https://www.reddit.com/r/emacs/comments/4ccczt/keybindings_in_multiterm/
+   (setq term-buffer-maximum-size 1000)
+   (toggle-truncate-lines 1)
+   (define-key term-raw-map (kbd "C-j") 'my-term-switch-line-char)
+   (define-key term-mode-map (kbd "C-j") 'my-term-switch-line-char)
+
    ;; https://www.emacswiki.org/emacs/AnsiTermHints#toc8
    ;; https://debbugs.gnu.org/cgi/bugreport.cgi?bug=20611
    (setq bidi-paragraph-direction 'left-to-right))
