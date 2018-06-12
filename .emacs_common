@@ -442,7 +442,7 @@
 
 ;;; clojure keymaps
 (evil-define-key 'normal clojure-mode-map (kbd "M-.") 'cider-test-jump)
-(evil-define-key 'normal clojure-mode-map (kbd "M-,") 'cider-jump-back)
+(evil-define-key 'normal clojure-mode-map (kbd "M-,") 'cider-pop-back)
 
 ;;; global keys
 (define-key evil-insert-state-map "\C-f" 'evil-normal-state)
