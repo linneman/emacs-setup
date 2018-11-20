@@ -399,7 +399,7 @@
 (setq org-log-done t)
 (add-hook 'org-mode-hook (lambda () (linum-mode 0) (org-bullets-mode 1)))
 (require 'evil-org)
-(require 'ob-sh)
+(require 'ob-shell)
 (setq org-hide-emphasis-markers t)
 (setq org-image-actual-width nil)
 
