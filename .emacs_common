@@ -5,15 +5,22 @@
 (global-font-lock-mode t)
 (setq inhibit-splash-screen t)
 (server-start)
-(customize-set-variable 'indent-tabs-mode nil)
+(setq-default indent-tabs-mode nil)
 (setq split-width-threshold 120)
+
+;; http://ergoemacs.org/emacs/emacs_tabs_space_indentation_setup.html
+;; set default tab char's display width to 4 spaces
+(setq-default tab-width 2) ; emacs 23.1 to 26 default to 8
+;; set current buffer's tab char's display width to 4 spaces
+(setq tab-width 2)
+
 
 ;(setq url-proxy-services '(("http" . "172.28.28.254:3128")
 ;                           ("https" . "172.28.28.254:3128")))
 
 (require 'package)
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.org/packages/") t)
+             '("melpa" . "https://melpa.org/packages/") t)
 ;(add-to-list 'package-archives
 ;             '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (package-initialize)
@@ -265,11 +272,13 @@
 (add-hook 'c-mode-hook
 	  '(lambda ()
 	     (gtags-mode 1)
+       (setq-default c-basic-offset 2)
 	     (setq default-tab-size 2)
 	     (setq default-tab-width 2)
 	     (setq indent-tabs-mode nil)
 	     (setq c-indent-level 2)
-	     ))
+       (company-mode)
+       ))
 
 (add-hook 'gtags-select-mode-hook
   '(lambda ()

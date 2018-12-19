@@ -1,0 +1,52 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/ol/development/vss/include/" . "vss/")
+ ("/home/ol/development/vss/" . "src/")
+ ("/home/ol/development/" . "vss/")
+ ("/home/ol/" . "development/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/ol/development/vss/src/"
+ "/home/ol/.emacs.d/"
+ "/home/ol/development/tmp/"
+ "/home/ol/development/vss/include/vss/"
+ "/home/ol/development/vss/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "alsa_utils.c"
+ ".emacs_common"
+ "alsa.c"
+ "tmp.c"
+ "rtp.c"
+ "udp.c"
+ "rtp.h"
+ "README"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/ol/" (23578 46588 502727 586000) ".viminfo" ".bash_history" ".Xauthority" ".vss.rc" ".lesshst" ".java/" ".mysql_history" ".linphonerc" ".linphonec_history" ".linphone-zidcache" "Nextcloud/" ".python-history" "players.dat" ".repo_.gitconfig.json" "notes_ril.txt" "notes_ril.txt~" "OpenLayers.js" ".serverauth.5330" ".xdg_menu_cache/" ".repopickle_.gitconfig" ".gnome2/" "notes.org" ".gtk-bookmarks" ".xboardrc" "._.apdisk" ".apdisk" ".profile" ".gitconfig" ".gitconfig~" "notes.org~" ".guestfish" ".xsession-x2go-maxwell-errors" ".xsession-x2go-maxwell-errors.old" ".screenrc" "notes-mac.org" ".wget-hsts" ".y2usersettings" ".y2log" ".esd_auth" ".inputrc" ".xinitrc.template" ".xim.template" ".i18n" ".bashrc" ".m2/" ".dbus/" ".ICEauthority" ".cache/" ".cache_backup/" ".dbus_backup/" ".local/" ".pki/" "public_html/" ".gimp-2.8/" ".bitcoin/" ".armory/" ".xpra/" "data/" "software/" ".docker/" ".gvfs/" "tmp/" ".DS_Store" ".subversion/" ".gnupg/" ".repoconfig/" ".vim/" ".lein/" ".dir_colors/" "VirtualBox VMs/" ".vbox/" ".x2goclient/" ".x2go/" ".ssh/" "development/" ".emacs" ".emacs.d/" ".mozilla/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" "bin/" ".fonts/" ".config/" "../" "./")
+
+ ("/home/ol/.emacs.d/" (23578 46588 606729 198000) ".emacs_common" "ido.last" "ido.last~" ".emacs_common~" "#.emacs_common#" "auto-save-list/" "ac-comphist.dat" ".emacs" ".emacs~" "eshell/" ".emacs_linux" "elpa/" ".emacs_mac" "swank/" "lisp/" "fuzzy.el" "ac-dict/" "README.md" ".gitignore" ".git/" "../" "./")
+
+ ("/home/ol/development/vss/src/" (23578 45869 679598 102000) "alsa_utils.c" "alsa_utils.c~" "vss.c" "vsc.c" "udp.c" "rtp.c" "audio_params.h" "alsa.c" "#alsa_utils.c#" "pcm.c" "Makefile.am" "udp.c~" "rtp.c~" "vssapi.c" "vss_config.h" "vss_config.c" "crtl.h" "crtl.c" "segfault_handler.c" "segfault_handler.h" "revision.c" "vss_log.c" "strutils.h" "strutils.c" "../" "./")
+
+ ("/home/ol/development/vss/" (23578 44260 518546 887000) "GRTAGS" "GPATH" "GTAGS" "vss.rc" "configure.ac" ".gitignore" "src/" "m4/" "libvss.pc.in" "include/" "example/" "doc/" "README" "NEWS" "Makefile.am" "INSTALL" "ChangeLog" "COPYING" "AUTHORS" ".git/" "../" "./")
+
+ ("/home/ol/development/tmp/" (23578 1468 338442 298000) "a.out" "tmp.c" "tmp.c~" "libuv/" "pixie/" "libxmlexample/" "test.py" "minicaller/" "libcutils/" "../" "./")
+
+ ("/home/ol/development/vss/include/vss/" (23577 29316 507288 448000) "udp.h" "rtp.h" "pcm.h" "Makefile.am" "vssapi.h" "alsa.h" "revision.h" "vss_log.h" "alsa_utils.h" "../" "./")
+
+ ("/home/ol/development/vss/include/" (23577 29308 11152 55000) "vss/" "Makefile.am" "../" "./")
+
+ ("/home/ol/development/" (23571 61577 697207 932000) "vss/" "udp-test/" "geodb.sql" "bctoolbox/" "ortp/" "mediastreamer2/" "tinyscheme/" "alsaucm/" "poky-latest/" "atlin_ws1/" "nextcloud_docker/" "ltenad9628-ws1/" "voip-packages/" "speexdsp-1.2rc3.tar.gz" "speex-1.2.0.tar.gz" "project-alpha/" "ltenad9640-pixie-ws1/" "nrepl-adapter/" "caf/" "open-source-atm1-2018-05-03/" "open-source-atm1-2018-05-03.tgz" "unamefake/" "tar-1.30/" "tar-1.30.tar.gz" "libcutils/" "libxmlexample/" "minicaller/" "mandelbrot-set/" "libintercom/" "libffitest/" "pixie/" "radiomat/" "patch-manifest/" "poky-jethro/" "planck/" "ryzen-test/" "._.DS_Store" ".DS_Store" "tmp/" "git-repo/" "solitaire/" "pub-oss/" "gnome-terminal-colors-solarized/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
