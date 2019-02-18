@@ -177,7 +177,7 @@
 ;;; https://stackoverflow.com/a/3685541
 (add-hook 'python-mode-hook
       (lambda ()
-        (setq indent-tabs-mode t)
+        (setq indent-tabs-mode nil)
         (setq tab-width 4)
         (setq python-indent 4)))
 
@@ -263,6 +263,15 @@
 
 
 (add-hook 'c-mode-hook
+	  '(lambda ()
+	     (gtags-mode 1)
+	     (setq default-tab-size 2)
+	     (setq default-tab-width 2)
+	     (setq indent-tabs-mode nil)
+	     (setq c-indent-level 2)
+	     ))
+
+(add-hook 'java-mode-hook
 	  '(lambda ()
 	     (gtags-mode 1)
 	     (setq default-tab-size 2)
