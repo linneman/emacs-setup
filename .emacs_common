@@ -156,6 +156,8 @@
 (require 'clojure-mode)
 (require 'paredit)
 (defun turn-on-paredit () (paredit-mode 1))
+;; set cider to use IPv4 acc. to: https://github.com/clojure-emacs/cider/issues/1960
+(set-variable 'cider-lein-parameters "repl :headless :host localhost")
 
 ;;; inferior clojure, we use this outdated version 1.1 for exclusively for pixie
 (add-to-list 'load-path "~/.emacs.d/lisp/inf-clojure")
