@@ -2,16 +2,19 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/ol/development/nightly-build/src/" . "nightly_build/")
+ ("/home/ol/development/nightly-build/" . "src/")
  ("/home/ol/development/vss/include/" . "vss/")
  ("/home/ol/development/vss/" . "src/")
- ("/home/ol/development/" . "vss/")
+ ("/home/ol/development/" . "nightly-build/")
  ("/home/ol/" . "development/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/ol/development/vss/src/"
+ "/home/ol/development/nightly-build/src/nightly_build/"
  "/home/ol/.emacs.d/"
+ "/home/ol/development/vss/src/"
  "/home/ol/development/tmp/"
  "/home/ol/development/vss/include/vss/"
  "/home/ol/development/vss/"
@@ -19,8 +22,9 @@
 
 ;; ----- ido-work-file-list -----
 (
- "alsa_utils.c"
+ "build_task.clj"
  ".emacs_common"
+ "alsa_utils.c"
  "alsa.c"
  "tmp.c"
  "rtp.c"
@@ -31,9 +35,17 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ol/" (23578 46588 502727 586000) ".viminfo" ".bash_history" ".Xauthority" ".vss.rc" ".lesshst" ".java/" ".mysql_history" ".linphonerc" ".linphonec_history" ".linphone-zidcache" "Nextcloud/" ".python-history" "players.dat" ".repo_.gitconfig.json" "notes_ril.txt" "notes_ril.txt~" "OpenLayers.js" ".serverauth.5330" ".xdg_menu_cache/" ".repopickle_.gitconfig" ".gnome2/" "notes.org" ".gtk-bookmarks" ".xboardrc" "._.apdisk" ".apdisk" ".profile" ".gitconfig" ".gitconfig~" "notes.org~" ".guestfish" ".xsession-x2go-maxwell-errors" ".xsession-x2go-maxwell-errors.old" ".screenrc" "notes-mac.org" ".wget-hsts" ".y2usersettings" ".y2log" ".esd_auth" ".inputrc" ".xinitrc.template" ".xim.template" ".i18n" ".bashrc" ".m2/" ".dbus/" ".ICEauthority" ".cache/" ".cache_backup/" ".dbus_backup/" ".local/" ".pki/" "public_html/" ".gimp-2.8/" ".bitcoin/" ".armory/" ".xpra/" "data/" "software/" ".docker/" ".gvfs/" "tmp/" ".DS_Store" ".subversion/" ".gnupg/" ".repoconfig/" ".vim/" ".lein/" ".dir_colors/" "VirtualBox VMs/" ".vbox/" ".x2goclient/" ".x2go/" ".ssh/" "development/" ".emacs" ".emacs.d/" ".mozilla/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" "bin/" ".fonts/" ".config/" "../" "./")
+ ("/home/ol/development/nightly-build/src/nightly_build/" (23815 62417 170277 555000) "config.clj" "config.clj~" "build_task.clj" "build_task.clj~" "utils.clj" "email.clj" "shell_utils.clj" "shell_utils.clj~" "utils.clj~" "email.clj~" "core.clj" "core.clj~" "tasks.clj" "tasks.clj~" "cron.clj" "cron.clj~" "macros.clj" "macros.clj~" "conch.clj~" "../" "./")
 
- ("/home/ol/.emacs.d/" (23578 46588 606729 198000) ".emacs_common" "ido.last" "ido.last~" ".emacs_common~" "#.emacs_common#" "auto-save-list/" "ac-comphist.dat" ".emacs" ".emacs~" "eshell/" ".emacs_linux" "elpa/" ".emacs_mac" "swank/" "lisp/" "fuzzy.el" "ac-dict/" "README.md" ".gitignore" ".git/" "../" "./")
+ ("/home/ol/development/nightly-build/src/" (23751 1628 0 0) "nightly_build/" "../" "./")
+
+ ("/home/ol/development/nightly-build/" (23815 62534 808371 646000) "README" "target/" "README.md" "README.md~" "COPYING" "project.clj" "project.clj~" ".lein-repl-history" ".git/" "doc/" "test/" ".hgignore" "src/" ".gitignore" "resources/" "CHANGELOG.md" "../" "./")
+
+ ("/home/ol/development/" (23848 30712 180040 702000) "ltenad9607-bl2_2_0-quectel-ws1/" "randtest.c" "peikertools/" "git-2.7.4/" "tmp/" "nightly-build-python/" "nightly-build/" "SDL/" "mandelbrot-native/" "vss/" "bctoolbox/" "ortp/" "mediastreamer2/" "tinyscheme/" "alsaucm/" "project-alpha/" "nrepl-adapter/" "unamefake/" "tar-1.30/" "libcutils/" "libxmlexample/" "minicaller/" "mandelbrot-set/" "libintercom/" "libffitest/" "pixie/" "radiomat/" "patch-manifest/" "._.DS_Store" ".DS_Store" "git-repo/" "solitaire/" "pub-oss/" "gnome-terminal-colors-solarized/" "../" "./")
+
+ ("/home/ol/" (23852 60154 365323 154000) ".bash_history" ".mysql_history" ".Xauthority" "Dockerfile" "version_2019-06-11-17h39.log" "changelog_2019-06-11-17h39.log" "changes.txt" "changes.txt~" ".viminfo" "nightly_2019-06-11-17h39.log" ".pyhistory" "cleanup.log" "peikertools.bundle" "tmp/" ".repo_.gitconfig.json" ".gitconfig" "._git-lfs-2.5.2-1.5.x86_64.rpm" "git-lfs-2.5.2-1.5.x86_64.rpm" ".bashrc~" ".bashrc" "go/" "notes.org_archive" "mandelp" ".lesshst" "upload/" "compare/" "._notes-mac.org" "notes_ril.txt" ".java/" ".linphonerc" ".linphonec_history" ".linphone-zidcache" "Nextcloud/" ".python-history" "notes_ril.txt~" "OpenLayers.js" ".serverauth.5330" ".xdg_menu_cache/" ".repopickle_.gitconfig" ".gnome2/" "notes.org" ".gtk-bookmarks" ".xboardrc" "._.apdisk" ".apdisk" ".profile" ".gitconfig~" "notes.org~" ".guestfish" ".xsession-x2go-maxwell-errors" ".xsession-x2go-maxwell-errors.old" ".screenrc" "notes-mac.org" ".wget-hsts" ".y2usersettings" ".y2log" ".esd_auth" ".inputrc" ".xinitrc.template" ".xim.template" ".i18n" ".m2/" ".dbus/" ".ICEauthority" ".cache/" ".cache_backup/" ".dbus_backup/" ".local/" ".pki/" "public_html/" ".gimp-2.8/" ".bitcoin/" ".armory/" ".xpra/" "data/" "software/" ".docker/" ".gvfs/" ".DS_Store" ".subversion/" ".gnupg/" ".repoconfig/" ".vim/" ".lein/" ".dir_colors/" "VirtualBox VMs/" ".vbox/" ".x2goclient/" ".x2go/" ".ssh/" "development/" ".emacs" ".emacs.d/" ".mozilla/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" "bin/" ".fonts/" ".config/" "../" "./")
+
+ ("/home/ol/.emacs.d/" (23855 11075 534751 419000) "ido.last" "ido.last~" ".emacs" "ac-comphist.dat" "auto-save-list/" ".emacs_common" "eshell/" ".emacs_linux" "elpa/" ".emacs_mac" "swank/" "lisp/" "fuzzy.el" "ac-dict/" "README.md" ".gitignore" ".git/" "../" "./")
 
  ("/home/ol/development/vss/src/" (23578 45869 679598 102000) "alsa_utils.c" "alsa_utils.c~" "vss.c" "vsc.c" "udp.c" "rtp.c" "audio_params.h" "alsa.c" "#alsa_utils.c#" "pcm.c" "Makefile.am" "udp.c~" "rtp.c~" "vssapi.c" "vss_config.h" "vss_config.c" "crtl.h" "crtl.c" "segfault_handler.c" "segfault_handler.h" "revision.c" "vss_log.c" "strutils.h" "strutils.c" "../" "./")
 
@@ -44,8 +56,6 @@
  ("/home/ol/development/vss/include/vss/" (23577 29316 507288 448000) "udp.h" "rtp.h" "pcm.h" "Makefile.am" "vssapi.h" "alsa.h" "revision.h" "vss_log.h" "alsa_utils.h" "../" "./")
 
  ("/home/ol/development/vss/include/" (23577 29308 11152 55000) "vss/" "Makefile.am" "../" "./")
-
- ("/home/ol/development/" (23571 61577 697207 932000) "vss/" "udp-test/" "geodb.sql" "bctoolbox/" "ortp/" "mediastreamer2/" "tinyscheme/" "alsaucm/" "poky-latest/" "atlin_ws1/" "nextcloud_docker/" "ltenad9628-ws1/" "voip-packages/" "speexdsp-1.2rc3.tar.gz" "speex-1.2.0.tar.gz" "project-alpha/" "ltenad9640-pixie-ws1/" "nrepl-adapter/" "caf/" "open-source-atm1-2018-05-03/" "open-source-atm1-2018-05-03.tgz" "unamefake/" "tar-1.30/" "tar-1.30.tar.gz" "libcutils/" "libxmlexample/" "minicaller/" "mandelbrot-set/" "libintercom/" "libffitest/" "pixie/" "radiomat/" "patch-manifest/" "poky-jethro/" "planck/" "ryzen-test/" "._.DS_Store" ".DS_Store" "tmp/" "git-repo/" "solitaire/" "pub-oss/" "gnome-terminal-colors-solarized/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
