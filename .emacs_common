@@ -118,15 +118,19 @@
   (kbd "C-u")     'evil-scroll-up
   (kbd "C-w C-w") 'other-window)
 
-;;; define macros @j,@k in evil for justifying paragraph to 70 respecively
-;;; 80 columns
-;;; requires the unix par command installed on your machine
-(evil-set-register ?j
-   [?V ?\} ?\M-x ?s ?h ?e ?l ?l ?- ?c ?o ?m ?m ?a ?n ?d ?- ?o ?n ?- ?r ?e ?g ?i ?e backspace tab return ?p ?a ?r ?  ?w ?7 ?0 ?j return ?\C-x ?b ?S ?h ?e ?l ?l ?  ?C ?o ?m ?m ?a ?n ?d ?  ?O ?u ?t ?p ?u ?t return ?g ?g ?V ?G ?y ?\C-x ?b return ?\{ ?V escape ?k ?j ?j ?V ?\} ?p])
+;; text alighment (using par edit's justified mode)
+(defun align-paragraph (width beg end)
+  "Align selected region to WIDTH prefix.
+The Unix system program `par' is required be installed on the system."
+  (interactive "p\nr")
+  (let ((width (if (= width 1) 70 width)))
+    (call-process-region beg end "par" t t nil (format "w%dj" width))))
 
-(evil-set-register ?k
- [?V ?\} ?\M-x ?s ?h ?e ?l ?l ?- ?c ?o ?m ?m ?a ?n ?d ?- ?o ?n ?- ?r ?e ?g ?i ?e backspace tab return ?p ?a ?r ?  ?w ?8 ?0 ?j return ?\C-x ?b ?S ?h ?e ?l ?l ?  ?C ?o ?m ?m ?a ?n ?d ?  ?O ?u ?t ?p ?u ?t return ?g ?g ?V ?G ?y ?\C-x ?b return ?\{ ?V escape ?k ?j ?j ?V ?\} ?p])
+(defun align-par70 (beg end) (interactive "r") (align-paragraph 70 beg end))
+(defun align-par80 (beg end) (interactive "r") (align-paragraph 80 beg end))
 
+(global-set-key (kbd "C-x j") 'align-par70)
+(global-set-key (kbd "C-x J") 'align-par80)
 
 ;;; Rainbow Delimiters
 (require 'rainbow-delimiters)
