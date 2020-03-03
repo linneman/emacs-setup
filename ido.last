@@ -2,50 +2,394 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/cortexa8hf-vfp-neon-oe-linux-gnueabi/lib-peikerril/5.30-r0/" . "temp/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9640-hf-tcbootstrap/usr/" . "include/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/mdm9640_hf-oe-linux-gnueabi/linux-quic/" . "git-7551c9dcd5c63a2bdc86800864b4577c5f42dbee-r2/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/mdm9640_hf-oe-linux-gnueabi/" . "linux-quic/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9640-hf/usr/include/" . "uapi/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9640-hf/usr/" . "include/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9640-hf/" . "usr/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/" . "mdm9640-hf/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/peiker/lib-peikerril/" . "version2/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/peiker/" . "lib-peikerril/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/meta-peiker/recipes/" . "lib-peikerril/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/cortexa8hf-vfp-neon-oe-linux-gnueabi/lib-peikerril/5.30-r1/" . "temp/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/cortexa8hf-vfp-neon-oe-linux-gnueabi/lib-peikerril/" . "5.30-r0/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/cortexa8hf-vfp-neon-oe-linux-gnueabi/" . "lib-peikerril/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/jdk8u-ea99a8a5d3c1/hotspot/make/linux/" . "makefiles/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/jdk8u-ea99a8a5d3c1/hotspot/make/" . "linux/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/jdk8u-ea99a8a5d3c1/hotspot/" . "make/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/jdk8u-ea99a8a5d3c1/" . "hotspot/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/" . "jdk8u-ea99a8a5d3c1/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/" . "102b14-r0/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/x86_64-linux/" . "openjdk-8-native/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/" . "cortexa8hf-vfp-neon-oe-linux-gnueabi/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/" . "work/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/" . "tmp-glibc/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/meta-peiker/conf/" . "distro/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/meta-peiker/" . "recipes/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/" . "build/")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/" . "oe-core/")
+ ("/home/ol/development/ltenad9640-ws1/" . "apps_proc/")
+ ("/home/ol/development/project-alpha/src/project_alpha_client/" . "lib/")
+ ("/home/ol/development/project-alpha/src/" . "project_alpha_client/")
+ ("/home/ol/development/project-alpha/" . "src/")
+ ("/home/ol/development/libcutils/include/" . "olcutils/")
+ ("/home/ol/development/libcutils/" . "include/")
+ ("/home/ol/development/libintercom/include/" . "intercom/")
+ ("/home/ol/development/libintercom/" . "src/")
+ ("/home/ol/data/development/quectel4/modem_proc/qmimsgs/nvimgr/" . "idl/")
+ ("/home/ol/data/development/quectel4/modem_proc/qmimsgs/" . "nvimgr/")
+ ("/home/ol/data/development/quectel4/modem_proc/" . "qmimsgs/")
+ ("/home/ol/development/ltenad9607-bl2_0_1-ws1/apps_proc/poky/meta-java/" . "recipes-core/")
+ ("/home/ol/development/ltenad9607-bl2_0_1-ws1/apps_proc/poky/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/jdk8u-ea99a8a5d3c1/hotspot/make/linux/" . "makefiles/")
+ ("/home/ol/development/ltenad9607-bl2_0_1-ws1/apps_proc/poky/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/jdk8u-ea99a8a5d3c1/hotspot/make/" . "linux/")
+ ("/home/ol/development/ltenad9607-bl2_0_1-ws1/apps_proc/poky/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/jdk8u-ea99a8a5d3c1/hotspot/" . "make/")
+ ("/home/ol/development/ltenad9607-bl2_0_1-ws1/apps_proc/poky/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/jdk8u-ea99a8a5d3c1/" . "hotspot/")
+ ("/home/ol/development/ltenad9607-bl2_0_1-ws1/apps_proc/poky/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/" . "102b14-r0/")
+ ("/home/ol/development/ltenad9607-bl2_0_1-ws1/apps_proc/poky/build/tmp-glibc/work/x86_64-linux/" . "openjdk-8-native/")
+ ("/home/ol/development/ltenad9607-bl2_0_1-ws1/apps_proc/poky/build/tmp-glibc/work/" . "x86_64-linux/")
+ ("/home/ol/development/ltenad9607-bl2_0_1-ws1/apps_proc/poky/build/tmp-glibc/" . "work/")
+ ("/home/ol/development/ltenad9607-bl2_0_1-ws1/apps_proc/poky/build/" . "tmp-glibc/")
+ ("/home/ol/development/ltenad9607-bl2_0_1-ws1/apps_proc/poky/" . "build/")
+ ("/home/ol/development/ltenad9607-bl2_0_1-ws1/apps_proc/" . "poky/")
+ ("/home/ol/development/ltenad9607-bl2_0_1-ws1/apps_proc/peiker/" . "java/")
+ ("/home/ol/development/ltenad9607-bl2_0_1-ws1/" . "apps_proc/")
+ ("/home/ol/development/clojure-test-env/src/" . "clojure_test_env/")
+ ("/home/ol/development/clojure-test-env/" . "src/")
+ ("/home/ol/development/poky/build/tmp/work/x86_64-linux/qemu-native/4.1.0-r0/" . "temp/")
+ ("/home/ol/development/poky/build/tmp/work/x86_64-linux/qemu-native/" . "4.1.0-r0/")
+ ("/home/ol/development/poky/build/tmp/work/x86_64-linux/" . "qemu-native/")
+ ("/home/ol/development/poky/build/tmp/work/" . "x86_64-linux/")
+ ("/home/ol/development/poky/build/tmp/" . "work/")
+ ("/home/ol/development/poky/build/" . "tmp/")
+ ("/home/ol/development/ltenad9607-bl2_2_0-ws1/apps_proc/peiker/ssc/" . "src/")
+ ("/home/ol/development/ltenad9607-bl2_2_0-ws1/apps_proc/peiker/" . "ssc/")
+ ("/usr/local/share/toolchain/RVS41/standard-linux-pentium-rel/lib/" . "armlib/")
+ ("/home/ol/development/ltenad9607-bl2_2_0-ws1/boot_images/build/" . "build/")
+ ("/usr/local/share/toolchain/RVS41/standard-linux-pentium-rel/" . "licenses/")
+ ("/usr/local/share/toolchain/RVS41/" . "standard-linux-pentium-rel/")
+ ("/usr/local/share/toolchain/" . "RVS41/")
+ ("/usr/local/share/" . "toolchain/")
+ ("/usr/local/" . "share/")
+ ("/usr/" . "local/")
+ ("/home/ol/development/ltenad9607-bl2_2_0-ws1/boot_images/" . "build/")
+ ("/data/ol/development/quectel4/modem_proc/gps/gnss/sm/tm/" . "src/")
+ ("/data/ol/development/quectel4/modem_proc/gps/gnss/sm/" . "tm/")
+ ("/data/ol/development/quectel4/modem_proc/gps/gnss/" . "sm/")
+ ("/data/ol/development/quectel4/modem_proc/gps/" . "gnss/")
+ ("/data/ol/development/quectel4/modem_proc/" . "gps/")
+ ("/data/git/ltenad/" . "proj1737_apps_proc-peiker-alsaucm.git/")
+ ("/data/git/" . "ltenad/")
+ ("/home/ol/data/solaris-home/Entwicklung/" . "quicksort/")
+ ("/home/ol/data/solaris-home/Entwicklung/quicksort/src/" . "quicksort/")
+ ("/home/ol/data/solaris-home/Entwicklung/quicksort/" . "src/")
+ ("/home/ol/data/solaris-home/" . "Entwicklung/")
+ ("/home/ol/development/ltenad9607-bl2_2_0-ws1/apps_proc/poky/meta-peiker/" . "conf/")
+ ("/home/ol/development/ltenad9607-bl2_2_0-ws1/apps_proc/poky/build/" . "conf/")
+ ("/home/ol/development/ltenad9607-bl2_2_0-ws1/apps_proc/poky/" . "build/")
+ ("/home/ol/development/ltenad9607-bl2_2_0-ws1/apps_proc/" . "poky/")
+ ("/home/ol/development/ltenad9607-bl2_2_0-ws1/" . "apps_proc/")
+ ("/data/simulacron-wiki/" . "wiki/")
+ ("/home/" . "ol/")
+ ("/data/ol/Software/docker/" . "ltenad-wiki/")
+ ("/data/ol/Software/" . "docker/")
+ ("/data/ltenad-wiki/" . "wiki/")
+ ("/data/ol/" . "Software/")
+ ("/data/" . "git/")
+ ("/" . "home/")
+ ("/home/ol/data/Software/docker/" . "ltenad-sdk-3/")
+ ("/home/ol/data/Software/" . "docker/")
+ ("/home/ol/data/development/atlin-master-allproducts/meta-valeo-bsp-mdm9607/" . "classes/")
+ ("/home/ol/data/development/atlin-master-allproducts/" . "meta-valeo-bsp-mdm9607/")
+ ("/home/ol/data/" . "development/")
+ ("/home/ol/development/radiomat/src/" . "server/")
+ ("/home/ol/development/radiomat/" . "src/")
+ ("/home/ol/.m2/repository/org/clojars/ol42/" . "lein-codox/")
+ ("/home/ol/.m2/repository/org/clojars/" . "ol42/")
+ ("/home/ol/.m2/repository/org/" . "clojars/")
+ ("/home/ol/.m2/repository/" . "org/")
+ ("/home/ol/.m2/" . "repository/")
+ ("/home/ol/development/ltenad9607-bl2_2_0-quectel-ws1/apps_proc/peiker/" . "ril-client/")
+ ("/home/ol/development/ltenad9607-bl2_2_0-quectel-ws1/apps_proc/" . "peiker/")
+ ("/home/ol/development/ltenad9607-bl2_2_0-quectel-ws1/" . "apps_proc/")
+ ("/home/ol/development/nightly-build/src/" . "client/")
+ ("/home/ol/development/nightly-build/" . "src/")
  ("/home/ol/development/vss/include/" . "vss/")
  ("/home/ol/development/vss/" . "src/")
- ("/home/ol/development/" . "vss/")
- ("/home/ol/" . "development/")
+ ("/home/ol/development/" . "ltenad9640-ws1/")
+ ("/home/ol/" . ".ssh/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/ol/development/vss/src/"
- "/home/ol/.emacs.d/"
- "/home/ol/development/tmp/"
- "/home/ol/development/vss/include/vss/"
- "/home/ol/development/vss/"
+ "/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/cortexa8hf-vfp-neon-oe-linux-gnueabi/lib-peikerril/5.30-r0/temp/"
+ "/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9640-hf-tcbootstrap/usr/include/"
+ "/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9640-hf/usr/include/uapi/"
+ "/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9640-hf/sysroot-providers/"
+ "/home/ol/development/ltenad9640-ws1/apps_proc/peiker/lib-peikerril/version2/"
+ "/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/meta-peiker/recipes/lib-peikerril/"
+ "/home/ol/development/ltenad9640-ws1/apps_proc/peiker/libintercom/"
+ "/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/cortexa8hf-vfp-neon-oe-linux-gnueabi/lib-peikerril/5.30-r1/temp/"
+ "/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/jdk8u-ea99a8a5d3c1/hotspot/make/linux/makefiles/"
+ "/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/meta-peiker/conf/distro/"
+ "/home/ol/"
+ "/home/ol/.ssh/"
+ "/home/ol/development/nightly-build/src/client/"
+ "/home/ol/development/project-alpha/src/project_alpha_client/lib/"
+ "/home/ol/development/nightly-build/src/server/"
+ "/home/ol/development/libintercom/src/"
+ "/home/ol/development/libcutils/include/olcutils/"
+ "/home/ol/development/libintercom/include/intercom/"
+ "/home/ol/development/libcutils/"
+ "/home/ol/development/aperri/xmlcplusplus2/"
+ "/home/ol/data/development/quectel4/modem_proc/qmimsgs/nvimgr/idl/"
+ "/home/ol/data/development/quectel4/modem_proc/qmimsgs/nvimgr/api/"
+ "/home/ol/development/ltenad9607-bl2_0_1-ws1/apps_proc/poky/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/jdk8u-ea99a8a5d3c1/hotspot/make/linux/"
+ "/home/ol/development/ltenad9607-bl2_0_1-ws1/apps_proc/poky/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/jdk8u-ea99a8a5d3c1/hotspot/make/linux/makefiles/"
+ "/home/ol/development/nightly-build/src/crossover/"
+ "/home/ol/development/clojure-test-env/src/clojure_test_env/"
+ "/home/ol/development/nightly-build/"
+ "/home/ol/development/clojure-test-env/"
+ "/home/ol/data/Software/docker/ltenad-sdk-3/"
+ "/home/ol/data/Software/docker/debian-buster/"
+ "/home/ol/development/poky/build/tmp/work/x86_64-linux/qemu-native/4.1.0-r0/temp/"
+ "/home/ol/development/ltenad9607-bl2_2_0-ws1/apps_proc/poky/build/conf/"
+ "/home/ol/development/poky/build/conf/"
+ "/home/ol/development/ltenad9607-bl2_2_0-ws1/apps_proc/peiker/ssc/src/"
+ "/etc/"
+ "/home/ol/development/ltenad9607-bl2_2_0-ws1/boot_images/build/"
+ "/usr/local/share/toolchain/RVS41/standard-linux-pentium-rel/licenses/"
+ "/home/ol/development/nightly-build/src/nightly_build/"
+ "/home/ol/development/emailrelay-2.1/"
+ "/home/ol/data/solaris-home/Entwicklung/quicksort/src/quicksort/"
+ "/home/ol/software/Armory3/"
+ "/home/ol/software/armory_0.96.3-src/"
+ "/home/ol/.xpra/"
+ "/home/ol/data/peiker/dokumente/"
+ "/home/ol/development/alsaucm/"
+ "/home/ol/development/ltenad9607-bl2_2_0-ws1/apps_proc/poky/meta-peiker/conf/"
+ "/home/ol/tmp/"
+ "/data/ol/Software/docker/simulacron-wiki/"
+ "/data/ol/Software/docker/ltenad-wiki/"
+ "/data/ltenad-wiki/wiki/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "alsa_utils.c"
- ".emacs_common"
- "alsa.c"
- "tmp.c"
- "rtp.c"
- "udp.c"
- "rtp.h"
- "README"
+ "log.do_compile"
+ "linux"
+ ".install"
+ "virtual_kernel"
+ "ril_requests.c"
+ "lib-peikerril.bb"
+ "configure.ac"
+ "defs.make"
+ "msm.conf"
+ ".gitconfig"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ol/" (23578 46588 502727 586000) ".viminfo" ".bash_history" ".Xauthority" ".vss.rc" ".lesshst" ".java/" ".mysql_history" ".linphonerc" ".linphonec_history" ".linphone-zidcache" "Nextcloud/" ".python-history" "players.dat" ".repo_.gitconfig.json" "notes_ril.txt" "notes_ril.txt~" "OpenLayers.js" ".serverauth.5330" ".xdg_menu_cache/" ".repopickle_.gitconfig" ".gnome2/" "notes.org" ".gtk-bookmarks" ".xboardrc" "._.apdisk" ".apdisk" ".profile" ".gitconfig" ".gitconfig~" "notes.org~" ".guestfish" ".xsession-x2go-maxwell-errors" ".xsession-x2go-maxwell-errors.old" ".screenrc" "notes-mac.org" ".wget-hsts" ".y2usersettings" ".y2log" ".esd_auth" ".inputrc" ".xinitrc.template" ".xim.template" ".i18n" ".bashrc" ".m2/" ".dbus/" ".ICEauthority" ".cache/" ".cache_backup/" ".dbus_backup/" ".local/" ".pki/" "public_html/" ".gimp-2.8/" ".bitcoin/" ".armory/" ".xpra/" "data/" "software/" ".docker/" ".gvfs/" "tmp/" ".DS_Store" ".subversion/" ".gnupg/" ".repoconfig/" ".vim/" ".lein/" ".dir_colors/" "VirtualBox VMs/" ".vbox/" ".x2goclient/" ".x2go/" ".ssh/" "development/" ".emacs" ".emacs.d/" ".mozilla/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" "bin/" ".fonts/" ".config/" "../" "./")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/cortexa8hf-vfp-neon-oe-linux-gnueabi/lib-peikerril/5.30-r0/temp/" (24157 41541 113100 122000) "run.do_compile.20252" "run.do_compile" "log.do_compile.20252" "log.do_compile" "run.do_generate_doc.20251" "run.do_generate_doc" "log.do_generate_doc.20251" "log.do_generate_doc" "run.autotools_postconfigure.17267" "run.do_qa_configure.17267" "run.do_configure.17267" "run.do_configure" "run.autotools_copy_aclocals.17267" "run.sstate_create_package.17268" "run.sstate_hardcode_path.17268" "run.sstate_task_postfunc.17268" "run.do_populate_lic.17268" "run.do_populate_lic" "run.sstate_task_prefunc.17268" "run.autotools_preconfigure.17267" "log.do_populate_lic.17268" "log.do_populate_lic" "run.sysroot_cleansstate.17267" "log.do_configure.17267" "log.do_configure" "run.patch_do_patch.17264" "run.do_patch.17264" "run.do_patch" "log.do_patch.17264" "log.do_patch" "run.do_qa_unpack.17258" "run.base_do_unpack.17258" "run.do_unpack.17258" "run.do_unpack" "log.do_unpack.17258" "log.do_unpack" "run.do_analysesource.17256" "run.do_analysesource" "log.do_analysesource.17256" "log.do_analysesource" "run.base_do_fetch.17254" "run.do_fetch.17254" "run.do_fetch" "log.do_fetch.17254" "log.do_fetch" "run.do_cleanall.17182" "run.do_cleanall" "log.do_cleanall.17182" "log.do_cleanall" "run.do_cleansstate.17181" "run.do_cleansstate" "log.do_cleansstate.17181" "log.do_cleansstate" "log.task_order" "../" "./")
 
- ("/home/ol/.emacs.d/" (23578 46588 606729 198000) ".emacs_common" "ido.last" "ido.last~" ".emacs_common~" "#.emacs_common#" "auto-save-list/" "ac-comphist.dat" ".emacs" ".emacs~" "eshell/" ".emacs_linux" "elpa/" ".emacs_mac" "swank/" "lisp/" "fuzzy.el" "ac-dict/" "README.md" ".gitignore" ".git/" "../" "./")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/cortexa8hf-vfp-neon-oe-linux-gnueabi/lib-peikerril/5.30-r0/" (24157 41534 556980 432000) "configure.sstate" "license-destdir/" "peiker/" "isafw/" "temp/" "build/" "../" "./")
 
- ("/home/ol/development/vss/src/" (23578 45869 679598 102000) "alsa_utils.c" "alsa_utils.c~" "vss.c" "vsc.c" "udp.c" "rtp.c" "audio_params.h" "alsa.c" "#alsa_utils.c#" "pcm.c" "Makefile.am" "udp.c~" "rtp.c~" "vssapi.c" "vss_config.h" "vss_config.c" "crtl.h" "crtl.c" "segfault_handler.c" "segfault_handler.h" "revision.c" "vss_log.c" "strutils.h" "strutils.c" "../" "./")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/cortexa8hf-vfp-neon-oe-linux-gnueabi/lib-peikerril/" (24157 41509 16514 136000) "5.30-r0/" "../" "./")
 
- ("/home/ol/development/vss/" (23578 44260 518546 887000) "GRTAGS" "GPATH" "GTAGS" "vss.rc" "configure.ac" ".gitignore" "src/" "m4/" "libvss.pc.in" "include/" "example/" "doc/" "README" "NEWS" "Makefile.am" "INSTALL" "ChangeLog" "COPYING" "AUTHORS" ".git/" "../" "./")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9640-hf/usr/include/linux/" (24157 33158 280657 743000) ".install" "version.h" "zorro_ids.h" "zorro.h" "xilinx-v4l2-controls.h" "xfrm.h" "xattr.h" "x25.h" "wireless.h" "wimax.h" "watchdog.h" "wanrouter.h" "wait.h" "vt.h" "vm_sockets.h" "virtio_types.h" "virtio_scsi.h" "virtio_rng.h" "virtio_ring.h" "virtio_pci.h" "virtio_net.h" "virtio_input.h" "virtio_ids.h" "virtio_console.h" "virtio_config.h" "virtio_blk.h" "virtio_balloon.h" "virtio_9p.h" "videodev2.h" "vhost.h" "vfio.h" "veth.h" "v4l2-subdev.h" "v4l2-mediabus.h" "v4l2-dv-timings.h" "v4l2-controls.h" "v4l2-common.h" "uvcvideo.h" "uuid.h" "utsname.h" "utime.h" "usbip.h" "usbdevice_fs.h" "unix_diag.h" "unistd.h" "un.h" "ultrasound.h" "uio.h" "uinput.h" "uhid.h" "udp.h" "udf_fs_i.h" "types.h" "tty_flags.h" "tty.h" "toshiba.h" "tipc_netlink.h" "tipc_config.h" "tipc.h" "tiocl.h" "timex.h" "times.h" "time.h" "thermal.h" "termios.h" "telephony.h" "tcp_metrics.h" "tcp.h" "taskstats.h" "target_core_user.h" "sysinfo.h" "sysctl.h" "synclink.h" "swab.h" "suspend_ioctls.h" "string.h" "stddef.h" "stat.h" "soundcard.h" "sound.h" "sonypi.h" "sonet.h" "sockios.h" "socket.h" "sock_diag.h" "snmp.h" "smiapp.h" "signalfd.h" "signal.h" "shm.h" "serio.h" "serial_reg.h" "serial_core.h" "serial.h" "sem.h" "selinux_netlink.h" "securebits.h" "seccomp.h" "sdla.h" "sctp.h" "screen_info.h" "sched.h" "scc.h" "rtnetlink.h" "rtc.h" "route.h" "rose.h" "romfs_fs.h" "rfkill.h" "resource.h" "reiserfs_xattr.h" "reiserfs_fs.h" "reboot.h" "rds.h" "raw.h" "random.h" "radeonfb.h" "quota.h" "qnxtypes.h" "qnx4_fs.h" "ptrace.h" "ptp_clock.h" "psci.h" "prctl.h" "pps.h" "ppp_defs.h" "ppp-ioctl.h" "ppp-comp.h" "ppdev.h" "posix_types.h" "poll.h" "pmu.h" "pktcdvd.h" "pkt_sched.h" "pkt_cls.h" "phonet.h" "phantom.h" "pg.h" "pfkeyv2.h" "personality.h" "perf_event.h" "pci_regs.h" "pci.h" "patchkey.h" "parport.h" "param.h" "packet_diag.h" "openvswitch.h" "oom.h" "omapfb.h" "omap3isp.h" "nvram.h" "nvme.h" "nubus.h" "nl80211.h" "nfsacl.h" "nfs_mount.h" "nfs_idmap.h" "nfs_fs.h" "nfs4_mount.h" "nfs4.h" "nfs3.h" "nfs2.h" "nfs.h" "nfc.h" "netrom.h" "netlink_diag.h" "netlink.h" "netfilter_ipv6.h" "netfilter_ipv4.h" "netfilter_decnet.h" "netfilter_bridge.h" "netfilter_arp.h" "netfilter.h" "netdevice.h" "netconf.h" "net_tstamp.h" "net_namespace.h" "net_dropmon.h" "net.h" "neighbour.h" "ncp_no.h" "ncp_mount.h" "ncp_fs.h" "ncp.h" "nbd.h" "n_r3964.h" "mtio.h" "msg.h" "msdos_fs.h" "mroute6.h" "mroute.h" "mqueue.h" "mpls.h" "mmtimer.h" "mman.h" "minix_fs.h" "mii.h" "mic_ioctl.h" "mic_common.h" "meye.h" "mempolicy.h" "memfd.h" "mei.h" "media.h" "media-bus-format.h" "mdio.h" "matroxfb.h" "map_to_7segment.h" "major.h" "magic.h" "lp.h" "loop.h" "llc.h" "limits.h" "libc-compat.h" "l2tp.h" "kvm_para.h" "kvm.h" "keyctl.h" "keyboard.h" "kexec.h" "kernelcapi.h" "kernel.h" "kernel-page-flags.h" "kdev_t.h" "kd.h" "kcmp.h" "joystick.h" "jffs2.h" "ixjuser.h" "ivtvfb.h" "ivtv.h" "iso_fs.h" "isdnif.h" "isdn_ppp.h" "isdn_divertif.h" "isdn.h" "irqnr.h" "irda.h" "ipx.h" "ipv6_route.h" "ipv6.h" "ipsec.h" "ipmi_msgdefs.h" "ipmi.h" "ipc.h" "ip_vs.h" "ip6_tunnel.h" "ip.h" "ioctl.h" "input.h" "inotify.h" "inet_diag.h" "in_route.h" "in6.h" "in.h" "igmp.h" "if_x25.h" "if_vlan.h" "if_tunnel.h" "if_tun.h" "if_team.h" "if_slip.h" "if_pppox.h" "if_pppol2tp.h" "if_ppp.h" "if_plip.h" "if_phonet.h" "if_packet.h" "if_ltalk.h" "if_link.h" "if_infiniband.h" "if_hippi.h" "if_frad.h" "if_fddi.h" "if_fc.h" "if_ether.h" "if_eql.h" "if_cablemodem.h" "if_bridge.h" "if_bonding.h" "if_arp.h" "if_arcnet.h" "if_alg.h" "if_addrlabel.h" "if_addr.h" "if.h" "icmpv6.h" "icmp.h" "i8k.h" "i2o-dev.h" "i2c.h" "i2c-dev.h" "hysdn_if.h" "hyperv.h" "hw_breakpoint.h" "hsr_netlink.h" "hpet.h" "hidraw.h" "hiddev.h" "hid.h" "hdreg.h" "hdlcdrv.h" "hdlc.h" "gigaset_dev.h" "gfs2_ondisk.h" "genetlink.h" "gen_stats.h" "gameport.h" "futex.h" "fuse.h" "fsl_hypervisor.h" "fs.h" "fou.h" "flat.h" "firewire-constants.h" "firewire-cdev.h" "filter.h" "fiemap.h" "fib_rules.h" "fdreg.h" "fd.h" "fcntl.h" "fb.h" "fanotify.h" "falloc.h" "fadvise.h" "eventpoll.h" "ethtool.h" "errqueue.h" "errno.h" "elfcore.h" "elf.h" "elf-fdpic.h" "elf-em.h" "efs_fs_sb.h" "edd.h" "dqblk_xfs.h" "dn.h" "dm-log-userspace.h" "dm-ioctl.h" "dlmconstants.h" "dlm_plock.h" "dlm_netlink.h" "dlm_device.h" "dlm.h" "dccp.h" "dcbnl.h" "cycx_cfm.h" "cyclades.h" "cuda.h" "cramfs_fs.h" "const.h" "connector.h" "coff.h" "coda_psdev.h" "coda.h" "cn_proc.h" "cm4000_cs.h" "chio.h" "cgroupstats.h" "cdrom.h" "cciss_ioctl.h" "cciss_defs.h" "capi.h" "capability.h" "can.h" "btrfs.h" "bsg.h" "bpqether.h" "bpf_common.h" "bpf.h" "blktrace_api.h" "blkpg.h" "binfmts.h" "bfs_fs.h" "bcm933xx_hcs.h" "baycom.h" "b1lli.h" "ax25.h" "auxvec.h" "auto_fs4.h" "auto_fs.h" "audit.h" "atmsvc.h" "atmsap.h" "atmppp.h" "atmmpc.h" "atmlec.h" "atmioc.h" "atmdev.h" "atmclip.h" "atmbr2684.h" "atmarp.h" "atmapi.h" "atm_zatm.h" "atm_tcp.h" "atm_nicstar.h" "atm_idt77105.h" "atm_he.h" "atm_eni.h" "atm.h" "atalk.h" "arcfb.h" "apm_bios.h" "am437x-vpfe.h" "aio_abi.h" "agpgart.h" "affs_hardblocks.h" "adfs_fs.h" "adb.h" "acct.h" "wimax/" "usb/" "tc_ematch/" "tc_act/" "sunrpc/" "spi/" "raid/" "nfsd/" "netfilter_ipv6/" "netfilter_ipv4/" "netfilter_bridge/" "netfilter_arp/" "netfilter/" "mmc/" "isdn/" "iio/" "hsi/" "hdlc/" "dvb/" "can/" "caif/" "byteorder/" "android/" "../" "./")
 
- ("/home/ol/development/tmp/" (23578 1468 338442 298000) "a.out" "tmp.c" "tmp.c~" "libuv/" "pixie/" "libxmlexample/" "test.py" "minicaller/" "libcutils/" "../" "./")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9640-hf-tcbootstrap/" (24157 33997 0 0) "sysroot-providers/" "usr/" "lib/" "../" "./")
 
- ("/home/ol/development/vss/include/vss/" (23577 29316 507288 448000) "udp.h" "rtp.h" "pcm.h" "Makefile.am" "vssapi.h" "alsa.h" "revision.h" "vss_log.h" "alsa_utils.h" "../" "./")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9640-hf-tcbootstrap/usr/" (24157 33997 0 0) "include/" "lib/" "../" "./")
 
- ("/home/ol/development/vss/include/" (23577 29308 11152 55000) "vss/" "Makefile.am" "../" "./")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9640-hf-tcbootstrap/usr/include/" (24157 33998 83464 562000) "asm-generic" "asm" "linux" "link.h" "elf.h" "pty.h" "utmpx.h" "lastlog.h" "utmp.h" "stropts.h" "nss.h" "netdb.h" "resolv.h" "ifaddrs.h" "aliases.h" "thread_db.h" "execinfo.h" "mqueue.h" "aio.h" "semaphore.h" "pthread.h" "crypt.h" "argp.h" "gshadow.h" "shadow.h" "wctype.h" "syslog.h" "regexp.h" "ustat.h" "err.h" "syscall.h" "sysexits.h" "libgen.h" "error.h" "mntent.h" "fstab.h" "search.h" "ttyent.h" "paths.h" "sgtty.h" "a.out.h" "ar.h" "stab.h" "ulimit.h" "termio.h" "termios.h" "fts.h" "ftw.h" "utime.h" "poll.h" "fcntl.h" "spawn.h" "cpio.h" "re_comp.h" "wait.h" "sched.h" "tar.h" "getopt.h" "fnmatch.h" "regex.h" "wordexp.h" "glob.h" "unistd.h" "pwd.h" "grp.h" "dirent.h" "time.h" "uchar.h" "wchar.h" "byteswap.h" "envz.h" "argz.h" "endian.h" "strings.h" "memory.h" "string.h" "mcheck.h" "malloc.h" "obstack.h" "dlfcn.h" "libio.h" "_G_config.h" "stdio.h" "printf.h" "stdio_ext.h" "fmtmsg.h" "alloca.h" "ucontext.h" "errno.h" "stdint.h" "inttypes.h" "monetary.h" "stdlib.h" "signal.h" "setjmp.h" "ieee754.h" "tgmath.h" "fenv.h" "complex.h" "fpu_control.h" "math.h" "nl_types.h" "libintl.h" "ctype.h" "assert.h" "langinfo.h" "xlocale.h" "locale.h" "gconv.h" "iconv.h" "stdc-predef.h" "gnu-versions.h" "features.h" "values.h" "limits.h" "rpcsvc/" "nfs/" "rpc/" "netiucv/" "netatalk/" "neteconet/" "netrose/" "netrom/" "netpacket/" "netax25/" "netash/" "netipx/" "protocols/" "arpa/" "netinet/" "net/" "scsi/" "sys/" "bits/" "gnu/" "../" "./")
 
- ("/home/ol/development/" (23571 61577 697207 932000) "vss/" "udp-test/" "geodb.sql" "bctoolbox/" "ortp/" "mediastreamer2/" "tinyscheme/" "alsaucm/" "poky-latest/" "atlin_ws1/" "nextcloud_docker/" "ltenad9628-ws1/" "voip-packages/" "speexdsp-1.2rc3.tar.gz" "speex-1.2.0.tar.gz" "project-alpha/" "ltenad9640-pixie-ws1/" "nrepl-adapter/" "caf/" "open-source-atm1-2018-05-03/" "open-source-atm1-2018-05-03.tgz" "unamefake/" "tar-1.30/" "tar-1.30.tar.gz" "libcutils/" "libxmlexample/" "minicaller/" "mandelbrot-set/" "libintercom/" "libffitest/" "pixie/" "radiomat/" "patch-manifest/" "poky-jethro/" "planck/" "ryzen-test/" "._.DS_Store" ".DS_Store" "tmp/" "git-repo/" "solitaire/" "pub-oss/" "gnome-terminal-colors-solarized/" "../" "./")
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/mdm9640_hf-oe-linux-gnueabi/linux-quic/git-7551c9dcd5c63a2bdc86800864b4577c5f42dbee-r2/" (24157 40196 260544 71000) "deploy-ipks/" "package/" "pkgdata/" "packages-split/" "deploy-linux-quic/" "sysroot-destdir/" "image/" "pseudo/" "isafw/" "license-destdir/" "kernel" "qcom.key" "build/" "temp/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/mdm9640_hf-oe-linux-gnueabi/linux-quic/" (24157 32938 920787 915000) "git-7551c9dcd5c63a2bdc86800864b4577c5f42dbee-r2/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/mdm9640_hf-oe-linux-gnueabi/" (24157 33894 725642 904000) "9640-cdp-ltenad/" "packagegroup-core-boot/" "keymaps/" "sysvinit-inittab/" "lk/" "shadow-securetty/" "base-files/" "depmodwrapper-cross/" "linux-quic/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9640-hf/sysroot-providers/" (24157 37219 881953 405000) "thermal-engine" "nvimgr" "qfuse" "alsaucm" "syslog-ng" "qmi-framework" "rild" "lib-ril" "alsa-intf" "qmi" "acdbloader" "acdbrtac" "adiertac" "configdb" "loc-pla" "libxslt" "dsutils" "audcal" "ril-tests" "xmllib" "libpeikercommon" "loc-stub" "libxml2" "diag" "libhardware" "acdbmapper" "system-core" "data-oss" "audioalsa" "python-zlib" "python-xmlrpc" "python-xml" "python-unixadmin" "python-unittest" "python-tkinter" "python-threading" "python-textutils" "python-tests" "python-terminal" "python-syslog" "python-subprocess" "python-stringold" "python-sqlite3-tests" "python-sqlite3" "python-smtpd" "python-shell" "python-robotparser" "python-resource" "python-readline" "python-re" "python-pydoc" "python-profile" "python-pprint" "python-pkgutil" "python-pickle" "python-numbers" "python-netserver" "python-netclient" "python-multiprocessing" "python-mmap" "python-mime" "python-math" "python-mailbox" "python-logging" "python-lang" "python-json" "python-io" "python-importlib" "python-image" "python-idle" "python-html" "python-hotshot" "python-gdbm" "python-fcntl" "python-email" "python-elementtree" "python-doctest" "python-distutils-staticdev" "python-distutils" "python-difflib" "python-dev" "python-debugger" "python-db" "python-datetime" "python-curses" "python-ctypes" "python-crypt" "python-core" "python-contextlib" "python-compression" "python-compiler" "python-compile" "python-codecs" "python-bsddb" "python-audio" "python-argparse" "python-2to3" "python" "sshfs-fuse" "strongswan" "glib-2.0" "perl" "linphone" "sipgateway" "locproxy" "krb5" "minicaller" "vph-pwr-mon" "mediastreamer2" "exosip4" "socat" "ril-client" "virtual_gettext" "gettext" "osip4" "exosip" "openssl10" "openssl" "pimd" "conntrack-tools" "dhcpcd" "ebtables" "ethtool" "init-audio" "mtd-utils" "iproute2" "init-mss" "libnl" "powerapp-powerconfig" "powerapp-shutdown" "powerapp-reboot" "powerapp" "qrngd" "reboot-daemon" "system-conf" "tcpdump" "tinyproxy" "lib-libmnl" "liblinenoise" "logrotate" "ssc" "txshape" "useradd-peiker" "audit" "wmm" "smack" "radvd" "ptpd" "iperf3" "evtp-prod-default" "busybox" "sysvinit" "bash" "m4" "procps" "kbd" "gawk" "e2fsprogs" "sqlite3" "dnsmasq" "acl" "util-linux" "coreutils" "libcap" "gmp" "attr" "libnetfilter-conntrack" "lzo" "tinyscheme" "readline" "popt" "pcre" "libpcre" "libdaemon" "libswe" "ncurses" "iptables" "libcheck" "libpcap" "flex" "speex" "alsa-lib" "fontconfig" "shadow" "libasrc" "shadow-sysroot" "libintercom" "libnfnetlink" "ortp" "fuse" "virtual_db" "db" "libogg" "speexdsp" "libffi" "osip" "pugixml" "jpeg" "libjpeg-turbo" "time-genoff" "expat" "libpng" "libolcutils" "bzip2" "freetype" "gdbm" "base-passwd" "libtool-cross" "run-postinsts" "persistence-file-init" "modutils-initscripts" "init-ifupdown" "keymaps" "virtual_bootloader" "lk" "initscripts" "zlib" "tcp-wrappers" "startpar" "netbase" "common" "start-scripts-firmware-links" "opkg-utils" "readonly-rootfs" "cryptodev-linux" "virtual_arm-oe-linux-gnueabi-compilerlibs" "gcc-runtime" "virtual_kernel" "linux-quic" "libgcc" "virtual_libiconv" "virtual_arm-oe-linux-gnueabi-libc-for-gcc" "virtual_libc" "glibc" "shadow-securetty" "sysvinit-inittab" "qemuwrapper-cross" "base-files" "linux-libc-headers" "update-rc.d" "depmodwrapper-cross" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9640-hf/usr/include/uapi/" (24157 33158 280657 743000) ".install" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9640-hf/usr/include/" (24157 37183 0 0) "syslog-ng/" "qmi-framework/" "alsa-intf/" "qmi/" "acdbloader/" "acdbrtac/" "adiertac/" "configdb/" "loc-pla/" "libexslt/" "libxslt/" "dsutils/" "audcal/" "xmllib/" "libpeikercommon/" "loc-stub/" "libxml2/" "diag/" "hardware/" "acdbmapper/" "pixelflinger/" "android/" "cutils/" "data-oss/" "audioalsa/" "python2.7/" "gio-unix-2.0/" "glib-2.0/" "linphone/" "krad.h" "gssapi.h" "profile.h" "kdb.h" "krb5.h" "verto-module.h" "verto.h" "gssrpc/" "gssapi/" "krb5/" "kadm5/" "mediastreamer2/" "eXosip2.4/" "ril/" "gettext-po.h" "osip2.4/" "osipparser2.4/" "eXosip2/" "openssl/" "libnl3/" "libmnl/" "linenoise.h" "tshape/" "auparse-defs.h" "auparse.h" "libaudit.h" "iperf_api.h" "initreq.h" "proc/" "com_err.h" "quota/" "ext2fs/" "e2p/" "ss/" "et/" "sqlite3ext.h" "sqlite3.h" "acl/" "uuid/" "libfdisk/" "libmount/" "libsmartcols/" "blkid/" "gmp.h" "gmpxx.h" "attr/" "libnetfilter_conntrack/" "lzo/" "tinyscheme/" "readline/" "popt.h" "pcre_stringpiece.h" "pcrecpparg.h" "pcre.h" "pcre_scanner.h" "pcrecpp.h" "pcreposix.h" "libdaemon/" "swelib.h" "etip.h" "cursslk.h" "cursesw.h" "cursesp.h" "cursesm.h" "cursesf.h" "cursesapp.h" "form.h" "menu.h" "eti.h" "panel.h" "nc_tparm.h" "term_entry.h" "tic.h" "termcap.h" "term.h" "ncurses_dll.h" "unctrl.h" "ncurses.h" "curses.h" "xtables-version.h" "xtables.h" "libiptc/" "check_stdint.h" "check.h" "pcap-namedb.h" "pcap-bpf.h" "pcap.h" "pcap/" "FlexLexer.h" "alsa/" "fontconfig/" "asrc_config.h" "pa_asrc_cfg.h" "pa_guard.h" "pa_fract.h" "pa_stdbool.h" "pa_stdint.h" "pa_fixpoint.h" "pa_asrc_lagrange.h" "pa_osal_cb.h" "pa_sample_stream_log.h" "pa_buffer.h" "pa_asrc.h" "intercom/" "libnfnetlink/" "ortp/" "ulockmgr.h" "fuse.h" "fuse/" "db_cxx.h" "db.h" "db60/" "ogg/" "speex/" "osip2/" "osipparser2/" "pugixml/" "jconfig.h" "turbojpeg.h" "jpeglib.h" "jmorecfg.h" "jerror.h" "expat_external.h" "expat.h" "pngconf.h" "png.h" "pnglibconf.h" "libpng16/" "olcutils/" "bzlib.h" "freetype2/" "ndbm.h" "dbm.h" "gdbm.h" "gdbm/" "zconf.h" "zlib.h" "tcpd.h" "qsocket_ipcr.h" "qsocket.h" "msm_ipc.h" "rex.h" "common_log.h" "target.h" "stringl.h" "customer.h" "comdef.h" "armasm.h" "crypto/" "c++/" "link.h" "elf.h" "utmpx.h" "lastlog.h" "pty.h" "utmp.h" "stropts.h" "nss.h" "netdb.h" "resolv.h" "ifaddrs.h" "aliases.h" "thread_db.h" "execinfo.h" "mqueue.h" "aio.h" "semaphore.h" "pthread.h" "crypt.h" "argp.h" "gshadow.h" "shadow.h" "wctype.h" "syslog.h" "regexp.h" "ustat.h" "syscall.h" "sysexits.h" "error.h" "err.h" "search.h" "mntent.h" "fstab.h" "paths.h" "ttyent.h" "sgtty.h" "stab.h" "a.out.h" "libgen.h" "ar.h" "ulimit.h" "termio.h" "termios.h" "fts.h" "utime.h" "ftw.h" "poll.h" "fcntl.h" "spawn.h" "cpio.h" "wait.h" "re_comp.h" "sched.h" "tar.h" "fnmatch.h" "getopt.h" "glob.h" "wordexp.h" "regex.h" "unistd.h" "pwd.h" "grp.h" "dirent.h" "time.h" "uchar.h" "wchar.h" "byteswap.h" "envz.h" "argz.h" "memory.h" "strings.h" "endian.h" "string.h" "obstack.h" "malloc.h" "mcheck.h" "dlfcn.h" "libio.h" "stdio.h" "_G_config.h" "printf.h" "stdio_ext.h" "alloca.h" "fmtmsg.h" "ucontext.h" "errno.h" "inttypes.h" "stdint.h" "monetary.h" "stdlib.h" "signal.h" "setjmp.h" "ieee754.h" "tgmath.h" "fenv.h" "complex.h" "fpu_control.h" "math.h" "nl_types.h" "libintl.h" "ctype.h" "assert.h" "langinfo.h" "xlocale.h" "locale.h" "gconv.h" "iconv.h" "stdc-predef.h" "gnu-versions.h" "features.h" "values.h" "limits.h" "glibc-scripts-internal-cortexa8hf-vfp-neon-oe-linux-gnueabi/" "glibc-locale-internal-cortexa8hf-vfp-neon-oe-linux-gnueabi/" "nfs/" "rpcsvc/" "rpc/" "netiucv/" "neteconet/" "netrose/" "netpacket/" "netrom/" "netatalk/" "netax25/" "netash/" "netipx/" "protocols/" "arpa/" "netinet/" "net/" "sys/" "gnu/" "bits/" "asm/" "uapi/" "xen/" "video/" "sound/" "scsi/" "rdma/" "mtd/" "misc/" "linux/" "drm/" "asm-generic/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9640-hf/usr/" (24157 37188 0 0) "lib/" "share/" "include/" "bin/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9640-hf/" (24157 37219 0 0) "var/" "etc/" "boot/" "lib/" "pkgdata/" "sysroot-providers/" "usr/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/sysroots/" (24157 37223 962028 558000) "mdm9640-hf-tcbootstrap/" "mdm9640-hf/" "x86_64-linux/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/peiker/lib-peikerril/version2/" (24157 32745 81367 457000) "wms_svc.h" "wms_svc.c" "wds_svc.h" "wds_svc.c" "wda_svc.h" "wda_svc.c" "wakeLocks.h" "wakeLocks.c" "voicecalls.h" "voicecalls.c" "voice_svc.h" "voice_svc.c" "uim_svc.h" "uim_svc.c" "uimRemote_svc.h" "uimRemote_svc.c" "time_svc.h" "time_svc.c" "threadQueue.h" "threadQueue.c" "test.h" "test.c" "sysinfo.h" "sysinfo.c" "sysLockImpl.h" "sysLock.h" "sysLock.c" "stringBufferImpl.h" "stringBuffer.h" "stringBuffer.c" "ssctl_svc.h" "ssctl_svc.c" "smsInfo.h" "smsInfo.c" "simCardImpl.h" "simCard.h" "simCard.c" "signalStrength.h" "signalStrength.c" "selPref.h" "selPref.c" "rtfstyle.cfg" "ril_requests.h" "ril_requests.c" "ril_indicate.h" "ril_indicate.c" "rilTransImpl.h" "rilTrans.h" "rilTrans.c" "rilTime.h" "rilTime.c" "rilDataImpl.h" "rilData.h" "rilData.c" "rilConfigImpl.h" "rilConfig.h" "rilConfig.c" "rfBand.h" "rfBand.c" "rebootButton.h" "rebootButton.c" "radioState.h" "radioState.c" "qup.h" "qup.c" "qmiTrans.h" "qmiTrans.c" "qf_wrapper.h" "qf_wrapper.c" "peikerrilImpl.h" "peikerril.h" "peikerril.c" "pdc_svc.h" "pdc_svc.c" "oemDefinitions.h" "netdevice.h" "netdevice.c" "nas_svc.h" "nas_svc.c" "memCtl.h" "memCtl.c" "loc_svc.h" "loc_svc.c" "locPos.h" "locPos.c" "libpeikerril.pc.in" "input_int.dox" "input_ext.dox" "imss_svc.h" "imss_svc.c" "imsa_svc.h" "imsa_svc.c" "evtConfig.h" "evtConfig.c" "emodem_svc.h" "emodem_svc.c" "dsd_svc.h" "dsd_svc.c" "dms_svc.h" "dms_svc.c" "dfs_svc.h" "dfs_svc.c" "datafilter.h" "datafilter.c" "datacalls.h" "datacalls.c" "configure.ac" "commonDefinitions.h" "cat_svc.h" "cat_svc.c" "RTFextension" "Makefile.am" "Doxyfile_int" "Doxyfile_ext" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/meta-peiker/recipes/lib-peikerril/" (24157 40143 371576 902000) "lib-peikerril.bb" "lib-peikerril.bb~" "ril-version.txt" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/peiker/lib-peikerril/" (24157 32745 69367 245000) "version2/" "test/" ".git/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/peiker/libintercom/" (24157 36436 615721 423000) "test-driver" "depcomp" "Makefile.in" "INSTALL" "missing" "install-sh" "config.sub" "config.guess" "compile" "config.h.in" "configure" "aclocal.m4" "ltmain.sh" "autom4te.cache/" "src/" "m4/" "libintercom.pc.in" "include/" "example/" "doc/" "configure.ac" "autogen.sh" "README.md" "README" "NEWS" "Makefile.am" "ChangeLog" "COPYING" "AUTHORS" ".gitignore" ".git/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/peiker/" (24157 32745 977383 270000) "wmm/" "vph-pwr-mon/" "usbtools/" "uppertester/" "txshape/" "tinyscheme/" "swup/" "ssc/" "sipgateway/" "rild/" "ril-tests-java/" "ril-tests/" "ril-shell-java/" "ril-java/" "ril-client/" "rci/" "qfuses/" "ortp/" "nvimgr/" "minicaller/" "mediastreamer2/" "locproxy/" "loc-headers/" "linphone/" "libswe/" "libosip2-v2.4-4.0.0/" "libosip2-v2-3.5.0/" "liblinenoise/" "libintercom/" "libeXosip2-v2.4-4.0.0/" "libeXosip2-v2-3.5.0/" "libcutils/" "libasrc/" "lib-ril/" "lib-peikerril/" "java/" "inband_modem/" "gps-tests/" "evtp-prod-default/" "evtp-platform/" "dlt-qxdm/" "dlt-daemon/" "dci-fe/" "crashlog/" "alsaucm/" "a-gps-loc-client/" "PeikerCommonLib/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/meta-peiker/recipes/" (24157 32744 349354 539000) "wmm/" "watchdog-appl/" "vph-pwr-mon/" "useradd-peiker/" "tinyscheme/" "system-conf/" "swup/" "ssc/" "speedtest/" "smack-example/" "sipgateway/" "secure-boot/" "secure-boot-ramfs-init/" "rild/" "ril-tests/" "ril-tests-java/" "ril-shell-java/" "ril-java/" "ril-client/" "readonly-rootfs/" "rci/" "ramfs-init/" "qmi/" "qmi-framework/" "qfuse/" "qdiag/" "ptpd/" "packagegroups/" "osip/" "ortp/" "openjdk-8/" "nvimgr/" "nfs4-development/" "mtdrd/" "mosquitto/" "minicaller/" "mediastreamer2/" "locproxy/" "loc-headers/" "loc-api/" "linux-secure-boot/" "linux-ramdisk/" "linux-quic/" "linux-minikernel/" "linphone/" "libswe/" "libolcutils/" "libogg/" "liblinenoise/" "libkcapi/" "libintercom/" "libdsp/" "libasrc/" "lib-ril/" "lib-peikerril/" "lib-libmnl/" "lan-config/" "iperf/" "init-scripts/" "inband-modem/" "images/" "idefix/" "googletest/" "exosip/" "evtp-prod-default/" "evtp-platform/" "dlt/" "dci-fe/" "audiorouter/" "audioloop/" "audiofrontend/" "alsaucm/" "a-gps-loc-client/" "PeikerCommonLib/" "../" "./")
+
+ ("/home/ol/development/nightly-build/src/crossover/" (24019 1298 474025 451000) "macros.clj" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/jdk8u-ea99a8a5d3c1/hotspot/make/linux/makefiles/" (24157 35699 758301 695000) "zeroshark.make" "zero.make" "vm.make" "trace.make" "top.make" "tiered.make" "sparcv9.make" "sparcWorks.make" "sparc.make" "shark.make" "saproc.make" "sa.make" "rules.make" "product.make" "ppc64.make" "optimized.make" "minimal1.make" "mapfile-vers-product" "mapfile-vers-jsig" "mapfile-vers-debug" "jvmti.make" "jsig.make" "ia64.make" "i486.make" "hp1.make" "hp.make" "gcc.make" "fastdebug.make" "dtrace.make" "defs.make" "debug.make" "core.make" "compiler2.make" "compiler1.make" "buildtree.make" "amd64.make" "adlc.make" "adjust-mflags.sh" "aarch32.make" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/cortexa8hf-vfp-neon-oe-linux-gnueabi/lib-peikerril/5.30-r1/temp/" (24157 37217 549910 445000) "run.do_compile.14873" "run.do_compile" "log.do_compile.14873" "log.do_compile" "run.do_generate_doc.14863" "run.do_generate_doc" "log.do_generate_doc.14863" "log.do_generate_doc" "run.autotools_postconfigure.20789" "run.do_qa_configure.20789" "run.do_configure.20789" "run.do_configure" "run.autotools_copy_aclocals.20789" "run.autotools_preconfigure.20789" "run.sysroot_cleansstate.20789" "log.do_configure.20789" "log.do_configure" "run.do_analysesource.16275" "run.do_analysesource" "log.do_analysesource.16275" "log.do_analysesource" "run.sstate_create_package.17792" "run.sstate_hardcode_path.17792" "run.sstate_task_postfunc.17792" "run.do_populate_lic.17792" "run.do_populate_lic" "run.sstate_task_prefunc.17792" "log.do_populate_lic.17792" "log.do_populate_lic" "run.patch_do_patch.3531" "run.do_patch.3531" "run.do_patch" "log.do_patch.3531" "log.do_patch" "run.do_qa_unpack.3234" "run.base_do_unpack.3234" "run.do_unpack.3234" "run.do_unpack" "log.do_unpack.3234" "log.do_unpack" "run.base_do_fetch.2964" "run.do_fetch.2964" "run.do_fetch" "log.do_fetch.2964" "log.do_fetch" "log.task_order" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/cortexa8hf-vfp-neon-oe-linux-gnueabi/lib-peikerril/5.30-r1/" (24157 37201 329611 641000) "configure.sstate" "isafw/" "license-destdir/" "build/" "peiker/" "temp/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/cortexa8hf-vfp-neon-oe-linux-gnueabi/" (24157 33892 481603 352000) "gcc-runtime/" "libgcc/" "libgcc-initial/" "pimd/" "conntrack-tools/" "dhcpcd/" "init-audio/" "ethtool/" "ebtables/" "init-mss/" "libnl/" "mtd-utils/" "powerapp/" "qrngd/" "reboot-daemon/" "start-scripts-firmware-links/" "system-conf/" "tcpdump/" "tinyproxy/" "alsaucm/" "linphone/" "lib-libmnl/" "loc-api-test/" "logrotate/" "liblinenoise/" "qfuse/" "ril-tests/" "sipgateway/" "ssc/" "syslog-ng/" "thermal-engine/" "useradd-peiker/" "a-gps-loc-client/" "audit/" "persistence-file-init/" "wmm/" "nvimgr/" "readonly-rootfs/" "smack/" "radvd/" "ptpd/" "iperf3/" "locproxy/" "minicaller/" "vph-pwr-mon/" "evtp-platform/" "evtp-prod-default/" "modutils-initscripts/" "iproute2/" "init-ifupdown/" "perl/" "sysvinit/" "qemuwrapper-cross/" "procps/" "kbd/" "dnsmasq/" "strongswan/" "lib-peikerril/" "txshape/" "avro-cpp/" "m4/" "netbase/" "ril-tests-java/" "bash/" "gawk/" "busybox/" "libnetfilter-conntrack/" "alsa-intf/" "lzo/" "acl/" "tinyscheme/" "socat/" "mediastreamer2/" "popt/" "libpcre/" "sshfs-fuse/" "libdaemon/" "libswe/" "libpeikercommon/" "boost/" "coreutils/" "rild/" "gmp/" "iptables/" "openjre-8/" "startpar/" "exosip/" "exosip4/" "libcheck/" "libpcap/" "flex/" "acdbloader/" "speex/" "libasrc/" "loc-hal/" "shadow/" "shadow-sysroot/" "ril-java/" "libnfnetlink/" "ortp/" "alsa-lib/" "fuse/" "libintercom/" "adiertac/" "tcp-wrappers/" "libogg/" "speexdsp/" "acdbrtac/" "loc-pla/" "lib-ril/" "osip/" "osip4/" "openjdk-8/" "data/" "base-passwd/" "loc-stub/" "libolcutils/" "ril-client/" "pugixml/" "libxslt/" "libjpeg-turbo/" "libpng/" "krb5/" "fontconfig/" "data-oss/" "e2fsprogs/" "libhardware/" "audcal/" "libxml2/" "qmi-framework/" "freetype/" "python/" "util-linux/" "acdbmapper/" "qmi/" "sqlite3/" "db/" "gdbm/" "bzip2/" "audioalsa/" "configdb/" "dsutils/" "xmllib/" "diag/" "readline/" "time-genoff/" "system-core/" "libcap/" "attr/" "common/" "initscripts/" "openssl/" "cryptodev-linux/" "ncurses/" "glib-2.0/" "gettext/" "libffi/" "expat/" "opkg-utils/" "zlib/" "libtool-cross/" "glibc/" "glibc-initial/" "linux-libc-headers/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/" (24157 36332 269824 842000) "qa.log" "deploy/" "sysroots/" "sstate-control/" "work-shared/" "work/" "stamps/" "cache/" "abi_version" "saved_tmpdir" "log/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/jdk8u-ea99a8a5d3c1/hotspot/make/linux/" (24157 33471 70174 142000) "platform_zero.in" "platform_sparcv9" "platform_sparc" "platform_ppc64" "platform_ia64" "platform_i486.suncc" "platform_i486" "platform_amd64.suncc" "platform_amd64" "platform_aarch32" "makefiles/" "adlc_updater" "README" "Makefile" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/jdk8u-ea99a8a5d3c1/hotspot/make/" (24157 33471 114174 918000) "windows/" "templates/" "solaris/" "scm.make" "sa.files" "pic.make" "openjdk_distro" "linux/" "jprt.gmk" "jdk6_hotspot_distro" "hotspot_version" "hotspot_distro" "hotspot.script" "excludeSrc.make" "defs.make" "cscope.make" "build.sh" "bsd/" "altsrc.make" "aix/" "Makefile" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/jdk8u-ea99a8a5d3c1/hotspot/" (24157 33475 898259 276000) "test/" "src/" "make/" "agent/" "THIRD_PARTY_README" "README" "LICENSE" "ASSEMBLY_EXCEPTION" ".jcheck/" ".hgtags" ".hgignore" ".hg_archival.txt" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/jdk8u-ea99a8a5d3c1/" (24157 33515 478957 190000) ".pc/" "patches/" "nashorn/" "langtools/" "jdk/" "jaxws/" "jaxp/" "hotspot/" "corba/" "test/" "make/" "get_source.sh" "cross_make.sh" "cross_configure.sh" "cross-pkg-config" "configure" "common/" "THIRD_PARTY_README" "README-builds.html" "README" "Makefile" "LICENSE" "ASSEMBLY_EXCEPTION" ".jcheck/" ".hgtags" ".hgignore" ".hg_archival.txt" "../" "./")
+
+ ("/home/ol/development/nightly-build/src/client/" (24150 56552 46547 185000) "tabbar.cljs" "tabbar.cljs~" "status_tab.cljs" "cron_jobs_tab.cljs" "cron_jobs_tab.cljs~" "status_tab.cljs~" "configurations_tab.cljs" "utils.cljs" "clj_reader.cljs" "auth.cljs" "html_table.cljs" "build_console.cljs" "advanced_tab.cljs" "administration_tab.cljs" "about_tab.cljs" "repl.cljs" "logging.cljs" "json.cljs" "dispatch.cljs" "core.cljs" "ajax.cljs" "../" "./")
+
+ ("/home/ol/.ssh/" (24157 31872 529959 592000) "config" "config~" "known_hosts" "known_hosts~" "authorized_keys" "id_rsa.pub" "id_rsa" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/meta-peiker/conf/distro/" (24157 32784 626065 323000) "msm.conf" "msm.conf~" "msm-secure-boot.conf" "msm-secure-boot-perf.conf" "msm-secure-boot-dbg.conf" "msm-readonly.conf" "msm-perf.conf" "msm-overlay.conf" "msm-dbg.conf" "msm-cve.conf" "include/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/102b14-r0/" (24157 34092 777170 961000) "configure.sstate" "license-destdir/" "build/" "openjdk8-thread-rename.patch" "openjdk8-prevent-debuginfo-in-favour-of-openembedded-package-split.patch" "openjdk8-find-compiler-fix-env-respect.patch" "openjdk8-no-unused-deps.patch" "openjdk8-no-genx11-in-headless.patch" "dont-expect-fqpn-for-make.patch" "filter-aclocal-copy-too.patch" "remove-shell-variables-from-autoheader.patch" "LICENSE" "df0f94bd0adf.tar.bz2" "891272e1a696.tar.bz2" "837459e35625.tar.bz2" "673b978382a6.tar.bz2" "faf230ef2f5e.tar.bz2" "78a44b3233f2.tar.bz2" "94196ecf679d.tar.bz2" "jdk8u-ea99a8a5d3c1/" "temp/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/x86_64-linux/openjdk-8-native/" (24157 33083 155332 534000) "102b14-r0/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/x86_64-linux/" (24157 33887 761520 156000) "gcc-cross-arm/" "gcc-cross-initial-arm/" "opkg-native/" "checksec-native/" "mklibs-native/" "makedevs-native/" "libarchive-native/" "yaffs2-utils-native/" "ext4-utils-native/" "mtd-utils-native/" "gdb-cross-arm/" "libselinux-native/" "libsparse-native/" "squashfs-tools-native/" "lz4-native/" "kern-tools-native/" "intltool-native/" "libxml-parser-perl-native/" "bjam-native/" "shadow-native/" "prelink-native/" "cve-check-tool-native/" "binutils-native/" "libcheck-native/" "json-glib-native/" "curl-native/" "python-lxml-native/" "gnome-common-native/" "python-setuptools-native/" "autoconf-archive-native/" "openjdk-8-native/" "giflib-native/" "jpeg-native/" "libpng-native/" "fontconfig-native/" "make-native/" "expat-native/" "nasm-native/" "groff-native/" "e2fsprogs-native/" "cmake-native/" "util-linux-native/" "lzo-native/" "perl-native/" "libxslt-native/" "zip-native/" "freetype-native/" "unzip-native/" "doxygen-native/" "ca-certificates-native/" "libxml2-native/" "libcap-native/" "opkg-utils-native/" "kmod-native/" "bc-native/" "dtbtool-native/" "mkbootimg-native/" "libmincrypt-native/" "update-rc.d-native/" "glib-2.0-native/" "libffi-native/" "gtk-doc-stub-native/" "pigz-native/" "gettext-native/" "rpm-native/" "popt-native/" "ossp-uuid-native/" "byacc-native/" "file-native/" "beecrypt-native/" "db-native/" "acl-native/" "libpcre-native/" "elfutils-native/" "python-native/" "bzip2-native/" "readline-native/" "openssl-native/" "makedepend-native/" "cryptodev-linux-native/" "xproto-native/" "util-macros-native/" "kconfig-frontends-native/" "unifdef-native/" "gperf-native/" "libmpc-native/" "binutils-cross-arm/" "bison-native/" "flex-native/" "sqlite3-native/" "pseudo-native/" "attr-native/" "ncurses-native/" "xz-native/" "pkgconfig-native/" "gmp-native/" "zlib-native/" "automake-native/" "mpfr-native/" "m4-native/" "texinfo-dummy-native/" "autoconf-native/" "gnu-config-native/" "libtool-native/" "quilt-native/" "gettext-minimal-native/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/tmp-glibc/work/" (24157 32951 829015 663000) "all-oe-linux/" "mdm9640_hf-oe-linux-gnueabi/" "cortexa8hf-vfp-neon-oe-linux-gnueabi/" "x86_64-linux/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/" (24157 32870 519581 12000) "downloads/" "sstate-cache/" "bitbake.lock" "cache/" "tmp-glibc/" "conf/" "BUILD_ramdisk.sh" ".gitignore" ".git/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/" (24157 32843 487104 11000) "libtbm-msm/" "xf86-video-msm/" "dlog/" "neutrino-noship/" "msdc/" "vendor/" "gps-noship/" "libtbm/" "camera-hal/" "mm-video-oss/" "base/" "graphics/" "xmllib/" "wlan-proprietary/" "wlan/" "webserver/" "wap-fota-daemon/" "time-services/" "thermal-engine/" "thermal/" "tftp/" "system/" "synergy-bt-proprietary/" "ss-restart/" "remotefs/" "reboot-daemon/" "qmi-shutdown-modem/" "qmi-framework/" "qmi/" "qcom-opensource/" "proprietary/" "prebuilt_mdm9640-perf/" "prebuilt_mdm9640-hf-perf/" "prebuilt_mdm9640-hf/" "prebuilt_mdm9640/" "peiker/" "pdc-daemon/" "oe-core/" "mm-audio/" "mdm-init/" "mcm-gps/" "mcm-core/" "mcm-api/" "mbim/" "manufacture/" "kernel-tests/" "kernel/" "init_mss/" "hardware/" "gps/" "fs-scrub-daemon/" "filesystems/" "external/" "diag-reboot-app/" "diag/" "device/" "data-oss/" "data-ipa-cfg-mgr/" "data/" "common/" "bt-proprietary/" "bootable/" "atfwd-daemon/" "syncbuild.sh" "DL_CodeAurora.sh" "BUILD.sh" "../" "./")
+
+ ("/home/ol/development/" (24157 31975 659781 710000) "ltenad9640-ws1/" "ssc/" "aperri/" "clojure-test-env/" "emailrelay-2.1/" "no-more-secrets/" "ttyd/" "randtest.c" "peikertools/" "git-2.7.4/" "tmp/" "nightly-build-python/" "nightly-build/" "SDL/" "mandelbrot-native/" "vss/" "bctoolbox/" "ortp/" "mediastreamer2/" "tinyscheme/" "alsaucm/" "project-alpha/" "nrepl-adapter/" "unamefake/" "tar-1.30/" "libcutils/" "libxmlexample/" "minicaller/" "mandelbrot-set/" "libintercom/" "libffitest/" "pixie/" "radiomat/" "patch-manifest/" "._.DS_Store" ".DS_Store" "git-repo/" "solitaire/" "pub-oss/" "gnome-terminal-colors-solarized/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/build/conf/" (24157 32744 41349 103000) "tar-fixes.patch" "set_bb_env.sh" "local.conf" "get_bblayers.py" "add_delete_task.patch" ".gitignore" ".git/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/meta-peiker/conf/" (24157 32744 213352 138000) "layer.conf" "distro/" "additional-licenses/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/meta-peiker/" (24157 32744 229352 420000) "recipes/" "recipes-support/" "recipes-security/" "recipes-multimedia/" "recipes-kernel/" "recipes-gnome/" "recipes-filesystem/" "recipes-extended/" "recipes-devtools/" "recipes-core/" "recipes-connectivity/" "recipes-bsp/" "recipes-benchmark/" "peiker-restricted" "peiker-proprietary" "conf/" "classes/" "BSD_restricted" "Apache-2.0_restricted" ".gitignore" ".git/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/apps_proc/oe-core/" (24157 32744 421355 809000) "meta-security-isafw/" "meta-qcom/" "meta-proprietary/" "meta-peiker-qcom/" "meta-peiker/" "meta-msm/" "meta-manufacture/" "meta-java/" "meta-binarise/" "build/" "scripts/" "oe-init-build-env-memres" "oe-init-build-env" "meta/" "meta-yocto/" "meta-yocto-bsp/" "meta-skeleton/" "meta-selftest/" "documentation/" "bitbake/" "README.hardware" "README" "LICENSE" ".templateconf" ".gitignore" ".git/" "../" "./")
+
+ ("/home/ol/development/ltenad9640-ws1/" (24157 32754 605535 538000) "trustzone_images/" "rpm_proc/" "peikertools/" "nv_configuration/" "modem_proc/" "common/" "cnss_proc/" "btfm_proc/" "boot_images/" "contents.xml" "apps_proc/" "about.html" "TRACE32.bat" "Load_Rpm.sh" "Load_Rpm.cfg" "Load_Modem.sh" "Load_Modem.cfg" "Get_NAND_apps_only.sh" "Get_NAND.sh" "BUILD.sh" "9x40_nand_images/" ".gitignore" ".gitattributes" ".git/" ".repo/" "../" "./")
+
+ ("/home/ol/" (24157 31715 247209 382000) ".Xauthority" ".bash_history" ".viminfo" ".nightly-build/" "build-descriptions/" "bond-0.1.0-SNAPSHOT-standalone.jar" "._libxml++2.6.so_symbols" "libxml++2.6.so_symbols" "xmlcplusplus2.tgz" "0001-nvimgr-fixes-for-Quectel.patch" ".mysql_history" "._instructions_koen.txt" "instructions_koen.txt" "instructions_koen.txt~" ".rnd" ".octave_hist" "nightly-build-logs-test/" ".httpie/" "etc/" ".localhost:10.0-fakexinerama" ".fakexinerama" ".:0-fakexinerama" ".cups/" ".designer/" ".pyhistory" "tmp/" ".repo_.gitconfig.json" ".gitconfig" "._git-lfs-2.5.2-1.5.x86_64.rpm" ".bashrc~" ".bashrc" "go/" ".lesshst" "upload/" "._notes-mac.org" "notes_ril.txt" ".java/" ".linphonerc" ".linphonec_history" ".linphone-zidcache" "Nextcloud/" ".python-history" "notes_ril.txt~" ".serverauth.5330" ".xdg_menu_cache/" ".repopickle_.gitconfig" ".gnome2/" "notes.org" ".gtk-bookmarks" ".xboardrc" "._.apdisk" ".apdisk" ".profile" ".gitconfig~" "notes.org~" ".guestfish" ".xsession-x2go-maxwell-errors" ".xsession-x2go-maxwell-errors.old" ".screenrc" ".wget-hsts" ".y2usersettings" ".y2log" ".esd_auth" ".inputrc" ".xinitrc.template" ".xim.template" ".i18n" ".m2/" ".dbus/" ".ICEauthority" ".cache/" ".cache_backup/" ".dbus_backup/" ".local/" ".pki/" "public_html/" ".gimp-2.8/" ".bitcoin/" ".armory/" ".xpra/" "data/" "software/" ".docker/" ".gvfs/" ".DS_Store" ".subversion/" ".gnupg/" ".repoconfig/" ".vim/" ".lein/" ".dir_colors/" "VirtualBox VMs/" ".vbox/" ".x2goclient/" ".x2go/" ".ssh/" "development/" ".emacs" ".emacs.d/" ".mozilla/" "Videos/" "Pictures/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" "bin/" ".fonts/" ".config/" "../" "./")
+
+ ("/etc/docker/" (23959 26370 570391 71000) "daemon.json.rpmnew" "daemon.json" "key.json" "../" "./")
+
+ ("/home/ol/.nightly-build/" (24150 50404 341986 930000) "log-atom-store.clj" "session-store.clj" "tasks/" "local_settings.clj" "user-store.clj" "active-config" "key_crt.jks" "../" "./")
+
+ ("/home/ol/development/nightly-build/" (24150 56569 506861 242000) "target/" "out/" "project.clj" "README.md" ".gitignore" "browser_repl.clj" "README" "README.md~" "COPYING" "project.clj~" ".lein-repl-history" ".git/" "doc/" "test/" ".hgignore" "src/" "resources/" "CHANGELOG.md" "../" "./")
+
+ ("/home/ol/development/project-alpha/src/project_alpha_client/lib/" (23468 7104 548749 768000) "utils.cljs" "pages.cljs" "ajax.cljs" "table_controller.cljs" "repl.cljs" "register.cljs" "radio_button.cljs" "math.cljs" "login.cljs" "logging.cljs" "json.cljs" "editor.cljs" "dispatch.cljs" "auth.cljs" "../" "./")
+
+ ("/home/ol/development/project-alpha/src/project_alpha_client/" (23462 21589 159595 548000) "lib/" "app/" "../" "./")
+
+ ("/home/ol/development/project-alpha/src/" (23477 10372 785457 86000) "local_settings.clj" "project_alpha_server/" "project_alpha_client/" "macros/" "../" "./")
+
+ ("/etc/" (24135 3970 93141 942000) "ld.so.cache" "kata-containers/" "containers/" "cni/" "fstab" "hosts" "hosts.sbak" "octave/" ".updated" "asound.state" "brltty.conf" "vnc/" "group" "shadow" "passwd" "login.defs" "subgid" "subgid-" "subuid" "subuid-" "yp.conf" "resolv.conf" "autofs.conf" "auto.master" "sysctl.conf.rpmnew" "shells" "profile" "hushlogins" "bash.bashrc" "os-release" "issue.net" "rsyslog.conf" "my.cnf" "my.cnf.rpmnew" "polkit-default-privs.standard" "polkit-default-privs.restrictive" "polkit-default-privs.local" "polkit-default-privs.easy" "snmp/" "cron.weekly/" "cron.monthly/" "cron.hourly/" "nfsmount.conf" "nfs.conf" "iscsid.conf" "redis/" "smartd_warning.sh" "boto.cfg-2.7" "boto.cfg" "fuse3.conf" "sudoers" "environment" "permissions.secure" "permissions.paranoid" "permissions.local" "permissions.easy" "permissions" "ImageMagick-7/" "ImageMagick-7-SUSE/" "mke2fs.conf" "services" "termcap" "pkgconfig/" "libssh/" "sensors3.conf" "rc.d/" "SUSE-brand" "bash_command_not_found" "firebird/" "gdbinit.d/" "vconsole.conf" "mercurial/" "mc/" "lightdm/" "SUSEConnect.example" "containerd/" "chrony.keys" "chrony.d/" "chrony.conf" "smartd.conf" "dnsmasq.conf" "mime.types" "inputrc.keys" "shadow-" "passwd-" "group-" "gnome_defaults.conf" "apulse.conf" "zsh_command_not_found" "krb5.conf.d/" "krb5.conf" "hosts.deny" "hosts.allow" "alsa/" "xattr.conf" "nsswitch.conf.rpmnew" "ant.d/" "ant.conf" "rcc.xml" "Nextcloud/" "xpra/" "dnsmasq.d/" "xboard.conf" "xscreensaver/" "fwupd/" "firewalld/" "libblockdev/" "bind.keys" "corosync/" "ntp.conf.rpmnew" "lftp.conf" "dhcp/" "locale.conf" "openconnect/" "hosts.rpmnew" "hostname.rpmnew" "ethertypes" "localtime" "libvirt/" "qemu/" "smart_drivedb.h" "securetty" "dracut.conf" "rpc" "ld.so.conf" "gai.conf" "bindresvport.blacklist" "phpMyAdmin/" "php7/" "libibverbs.d/" "rdma/" "my.cnf.d/" "mysqlaccess.conf" "unixODBC/" "apache2/" "gnome-vfs-2.0/" "texmf/" "pythonstart" "motd" "gemrc" "raw" "filesystems" "blkid.conf" "dhclient6.conf" "dhclient.conf" "vimrc" "screenrc" "nilfs_cleanerd.conf" "mdadm.conf" "docker/" "group.YaST2save" "vbox/" "logcheck/" "x2go/" "nxagent/" "gtags.conf" "aclocal_dirlist" "zsh_completion.d/" "hosts.YaST2save" "printcap" "udisks2/" "aliases.db" "shadow.YaST2save" "passwd.YaST2save" "adjtime" "gdm/" "purple/" "dleyna-server-service.conf" "gimp/" "cupshelpers/" "gnome-chess/" "gtk-2.0/" "samba/" "cifs-utils/" "gtk-3.0/" "manpath.config" "geoclue/" "chromium/" "tuned/" "grub.d/" "plymouth/" "lvm/" "libao.conf" "depmod.d/" "brltty/" "speech-dispatcher/" "autofs_ldap_auth.conf" "auto.smb" "auto.net" "auto.misc" "auto.master.d/" "dracut.conf.d/" "ntp.keys" "ntp.conf" "NetworkManager/" "named.d/" "brlapi.key" "DIR_COLORS" "idle3/" "sysctl.conf" "ttytype" "rc.status" "rc.splash" "inputrc" "csh.login" "csh.cshrc" "crontab" "cron.deny" "mail.rc" "postfix/" "rsyslog.d/" "nsswitch.conf" "nsswitch.confbak" "avahi/" "UPower/" "openvpn/" "netconfig.d/" "idmapd.conf" "ssh/" "hp/" "sane.d/" "rsyncd.secrets" "rsyncd.conf" "PackageKit/" "reader.conf.d/" "iscsi/" "slp.spi" "slp.conf" "wgetrc" "wpa_supplicant/" "usb_modeswitch.conf" "polkit-1/" "wicked/" "ca-certificates/" "apparmor.d/" "apparmor/" "audit/" "audisp/" "slp.reg.d/" "gpm/" "mcelog/" "nscd.conf" "smartd_warning.d/" "udev/" "logrotate.conf" "gconf/" "fuse.conf" "issue" "mtab" "machine-id" "systemd/" "modules-load.d/" "binfmt.d/" "appstream.conf" "dconf/" "cups/" ".pwd.lock" "modprobe.d/" "ConsoleKit/" "gnupg/" "sudoers.d/" "xml/" "sgml/" "products.d/" "YaST2/" "ssl/" "mtools.conf" "uefi/" "pam.d/" "vpnc/" "issue.d/" "protocols" "networks" "netgroup" "hosts.lpd" "hosts.equiv" "hostname" "host.conf" "ftpusers" "exports" "ethers" "defaultdomain" "aliases" "alternatives/" "security/" "pki/" "ifplugd/" "iproute2/" "request-key.d/" "request-key.conf" "lesskey.bin" "lesskey" "dialogrc" "bash_completion.d/" "vdpau_wrapper.cfg" "joe/" "pulse/" "sasl2/" "dbus-1/" "fonts/" "selinux/" "pkcs11/" "openal/" "pptp.d/" "ppp/" "libaudit.conf" "sensors.d/" "xinetd.d/" "tmpfiles.d/" "sysctl.d/" "skel/" "profile.d/" "permissions.d/" "opt/" "logrotate.d/" "ld.so.conf.d/" "init.d/" "default/" "cron.daily/" "cron.d/" "aliases.d/" "X11/" "xdg/" "terminfo/" "netconfig" "jvm-commmon/" "jvm/" "java/" "libnl/" "openldap/" "icewm/" "rpm/" "magic" "sysconfig/" "zypp/" "snapper/" "../" "./")
+
+ ("/home/ol/data/development/quectel4/modem_proc/qmimsgs/nvimgr/api/" (24133 19936 369576 520000) "nvimgr_service_v01.h" "../" "./")
+
+ ("/home/ol/data/development/quectel4/modem_proc/qmimsgs/nvimgr/idl/" (24133 19936 369576 520000) "nvimgr_service_v01.idl" "readme.rls" "qmi_idl_wire_html_docgen.pm" "qmi_idl_parser.pm" "qmi_idl_c_output.pm" "common_v01.idl" "qmi_idl_compiler.pl" "../" "./")
+
+ ("/home/ol/development/project-alpha/clojurescript/" (23462 21611 915965 315000) "test/" "src/" "script/" "samples/" "pom.template.xml" "epl-v10.html" "devnotes/" "bin/" "README.md" "Clojurescript.iml" ".gitignore" ".git" "../" "./")
+
+ ("/home/ol/development/project-alpha/" (23928 2429 78959 939000) "target/" "project.clj" ".lein-repl-history" "db/" "src/" "resources/" "clojurescript/" "TODO" "README.md" "COPYING" "AUTHORS" ".gitmodules" ".gitignore" ".git/" "../" "./")
+
+ ("/home/ol/development/nightly-build/src/server/" (24150 49761 150746 402000) "utils.clj" "local_settings.clj" "cron.clj" "core.clj" "config.clj" "config.clj~" "#auth.clj#" "tasks.clj" "session.clj" "crypto.clj" "build_task.clj" "build_log_handler.clj" "auth.clj" "build_log_handler.clj~" "local_settings.clj~" "test_config.clj~" "shell_utils.clj" "email.clj" "../" "./")
+
+ ("/home/ol/development/nightly-build/src/" (24019 1333 502644 733000) "server/" "crossover/" "client/" "../" "./")
+
+ ("/home/ol/development/libintercom/src/" (24135 5358 233485 2000) "test_icom_transport" "test_icom_transport-test_data_stream_splitter.o" "test_icom_oneshot_client" "test_icom_oneshot_client-test_oneshot_client.o" "test_icom_client" "test_icom_client-test_client.o" "test_icom_server" "libintercom.la" "utils.lo" "utils.o" "revision.lo" "revision.o" "log.lo" "log.o" "data_stream_splitter.lo" "data_stream_splitter.o" "client.lo" "client.o" "server.lo" "server.o" "events.lo" "events.o" ".libs/" "test_icom_server-test_server.o" "server.c" "server.c~" "events.c" "events.c~" ".deps/" "Makefile" "Makefile.in" "utils.c" "test_server.c" "test_oneshot_client.c" "test_client.c" "client.c" "Makefile.am" "data_stream_splitter.c" "utils.h" "test_data_stream_splitter.c" "test_data_stream_splitter.h" "test_server.h" "test_client.h" "test.sh" "revision.c" "log.c" "../" "./")
+
+ ("/home/ol/development/libintercom/" (24135 5944 919802 818000) "0001-latest-patches.patch" ".gitignore" "libtool" "stamp-h1" "config.h" "libintercom.pc" "Makefile" "config.status" "config.log" "test-driver" "depcomp" "Makefile.in" "missing" "install-sh" "config.sub" "config.guess" "compile" "config.h.in" "configure" "aclocal.m4" "ltmain.sh" "autom4te.cache/" "configure.ac" "README" "src/" "m4/" "libintercom.pc.in" "include/" "example/" "doc/" "autogen.sh" "README.md" "NEWS" "Makefile.am" "INSTALL" "ChangeLog" "COPYING" "AUTHORS" ".git/" "../" "./")
+
+ ("/home/ol/development/libcutils/include/olcutils/" (24135 4628 232683 475000) "Makefile" "Makefile.in" "refstring.h" "alloc.h" "slist.h" "revision.h" "refcnt.h" "memtrace.h" "lambda.h" "json.h" "hashmap.h" "hashfunc.h" "clist.h" "cfg_string.h" "Makefile.am" "../" "./")
+
+ ("/home/ol/development/libcutils/include/" (24135 4628 220683 265000) "Makefile" "Makefile.in" "olcutils/" "Makefile.am" "../" "./")
+
+ ("/home/ol/development/libcutils/" (24135 4628 364685 791000) "libtool" "stamp-h1" "config.h" "libolcutils.pc" "Makefile" "config.status" "config.log" "test-driver" "depcomp" "Makefile.in" "missing" "install-sh" "config.sub" "config.guess" "compile" "config.h.in" "configure" "aclocal.m4" "ltmain.sh" "autom4te.cache/" ".gitignore" "configure.ac" "INSTALL" "src/" "m4/" "libolcutils.pc.in" "include/" "example/" "doc/" "autogen.sh" "README.md" "README" "NEWS" "Makefile.am" "ChangeLog" "COPYING" "AUTHORS" ".git/" "../" "./")
+
+ ("/home/ol/development/libintercom/include/intercom/" (24135 4649 933064 23000) "Makefile" "Makefile.in" "server.h" "events.h" "data_stream_splitter.h" "client.h" "Makefile.am" "revision.h" "log.h" "common.h" "../" "./")
+
+ ("/home/ol/development/libintercom/include/" (24135 4649 917063 743000) "Makefile" "Makefile.in" "intercom/" "Makefile.am" "../" "./")
+
+ ("/home/ol/data/development/" (24021 16924 381176 719000) "modem_proc_build_ms_bin/" "wnc9640/" "wnc/" "nightly-builds/" "ltenad9628-bl2_2-ws2/" "gen-dsp/" "planck/" "packages/" "ltenad9640-pixie-ws1/" "ltenad9640-ws1/" "ltenad9628-bl2_2-ws1/" "history.txt" "atlin-master-allproducts/" "geodb.sql" "quectel4/" "quectel-mirror/" "atm2-nadj/" "._.DS_Store" ".DS_Store" "../" "./")
+
+ ("/home/" (23949 2581 0 0) "guest/" "git/" "ol/" "../" "./")
+
+ ("/home/ol/development/vss/" (23845 64748 668613 500000) "vss-doc.tgz" "libtool" "stamp-h1" "config.h" "libvss.pc" "Makefile" "config.status" "config.log" "depcomp" "Makefile.in" "INSTALL" "missing" "install-sh" "config.sub" "config.guess" "compile" "config.h.in" "configure" "aclocal.m4" "ltmain.sh" "autom4te.cache/" "autogen.sh" "README.md" "README" "AUTHORS" ".gitignore" "vss.rc" "configure.ac" "src/" "m4/" "libvss.pc.in" "include/" "example/" "doc/" "NEWS" "Makefile.am" "ChangeLog" "COPYING" ".git/" "../" "./")
+
+ ("/home/ol/development/vss/include/vss/" (23845 64617 834371 160000) "Makefile" "Makefile.in" "vssapi.h" "udp.h" "rtp.h" "pcm.h" "alsa_utils.h" "alsa.h" "Makefile.am" "revision.h" "vss_log.h" "../" "./")
+
+ ("/home/ol/development/tmp/" (23787 45163 756886 506000) "../" "./")
+
+ ("/home/ol/.emacs.d/" (24116 45223 644238 863000) "ido.last" "ido.last~" "url/" ".emacs_common" ".emacs" "ac-comphist.dat" "auto-save-list/" "eshell/" ".emacs_linux" "elpa/" ".emacs_mac" "swank/" "lisp/" "fuzzy.el" "ac-dict/" "README.md" ".gitignore" ".git/" "../" "./")
+
+ ("/home/ol/development/vss/src/" (23845 64621 554434 911000) "vsc" "vsc-segfault_handler.o" "vsc-strutils.o" "vsc-vss_config.o" "vsc-ucmgw.o" "vsc-crtl.o" "vsc-vsc.o" "vss" "libvss.la" "libvss_la-revision.lo" "libvss_la-revision.o" "libvss_la-vss_log.lo" "libvss_la-vss_log.o" "libvss_la-alsa_utils.lo" "libvss_la-alsa_utils.o" "libvss_la-rtp.lo" "libvss_la-rtp.o" "libvss_la-udp.lo" "libvss_la-udp.o" "libvss_la-alsa.lo" "libvss_la-alsa.o" "libvss_la-pcm.lo" "libvss_la-pcm.o" "libvss_la-vssapi.lo" "libvss_la-vssapi.o" ".libs/" "vss-segfault_handler.o" "vss-strutils.o" "vss-vss_config.o" "vss-ucmgw.o" "vss-crtl.o" "vss-vss.o" ".deps/" "Makefile" "Makefile.in" "vss_config.h" "vss.c" "vsc.c" "ucmgw.h" "ucmgw.c" "segfault_handler.h" "crtl.h" "crtl.c" "audio_params.h" "alsa_utils.c" "alsa.c" "vss_config.c" "udp.c" "Makefile.am" "rtp.c" "pcm.c" "vssapi.c" "segfault_handler.c" "revision.c" "vss_log.c" "strutils.h" "strutils.c" "../" "./")
+
+ ("/home/ol/development/radiomat/" (23863 35981 463028 231000) "target/" "project.clj" "project.clj~" "clean.sh" "build-server.sh" "build-client.sh" "build-and-start.sh" "Makefile" "check_make.sh" ".gitignore" "start-server.sh" "gen-pixie-doc.sh" "test/" "doc/" "resources/" "COPYING" ".git/" "src/" "../" "./")
+
+ ("/home/ol/development/radiomat/src/server/" (23863 35942 330348 304000) "setup.pxic" "setup.pxi" "setup.pxi~" "lib/" "app/" "../" "./")
+
+ ("/home/ol/development/alsaucm/" (23902 64370 603407 146000) "GRTAGS" "GPATH" "GTAGS" "libtool" "Makefile" "stamp-h1" "config.h" "config.status" "Makefile.in" "aclocal.m4" "configure.ac" "configure.ac~" "config.log" "depcomp" "missing" "install-sh" "config.sub" "config.guess" "compile" "config.h.in" "configure" "ltmain.sh" "autom4te.cache/" "ucm.rc" "m4/" "doc/" "alsaucm.scm" "README.md" "README" "Makefile.am" "INSTALL" "COPYING" ".gitignore" "src/" ".git/" "../" "./")
+
+ ("/home/ol/.xpra/" (23959 34427 743107 991000) "maxwell-200" ":200.log" ":200.log.old" ":10.log" ":10.log.old" "maxwell-10" "maxwell-30" ":30.log" ":30.log.old" "xpra.conf" ":20.log" ":20.log.old" ":7000.log" ":7000.log.old" "maxwell-20" ":1.log" ":0.log" ":7777.log" ":7777.log.old" "run-xpra" "../" "./")
+
+ ("/home/ol/software/Armory3/" (23959 31398 508473 490000) "qrc_img_resources.py" "_CppBlockUtils.so" "CppBlockUtils.py" "ArmoryDB" "libtool" "Makefile" "config.status" "config.log" "depcomp" "Makefile.in" "missing" "install-sh" "config.sub" "config.guess" "compile" "ar-lib" "configure" "aclocal.m4" "ltmain.sh" "autom4te.cache/" "writeNSISCompilerArgs.py" "update_version.py" "translations.md" "subprocess_win.py" "setup.py" "qtdialogs.py" "qtdefines.py" "qrcodenative.py" "nginx_example.conf" "jasvet.py" "imgList.xml" "guardian.py" "edit_icons.rts" "edit_icons.bat" "dynamicImport.py" "configure.ac" "changelog.txt" "autogen.sh" "armorymodels.py" "armoryd.README" "armorycolors.py" "SDM.py" "README_macOS.md" "README_ArmoryDB.md" "README.md" "Makefile.am" "LICENSE.py" "LICENSE-MIT" "LICENSE-ATI" "LICENSE" "ArmorySetup.nsi" "ArmoryQt.py" "windowsbuild/" "webshop/" "urllib3/" "ui/" "samplemodules/" "release_scripts/" "r-pi/" "pytest/" "osxbuild/" "m4/" "linuxbuild/" "lang/" "img/" "guitest/" "extras/" "dpkgfiles/" "cppForSwig/" "armoryengine/" "PublicKeys/" ".tx/" "../" "./")
+
+ ("/home/ol/development/emailrelay-2.1/" (23974 3869 654352 473000) "stamp-h1" "gconfig_defs.h" "Makefile" "config.status" "config.log" "doc/" "bin/" "aclocal.m4" "bsd/" "COPYING" "README.md" "LICENSE" "src/" "ChangeLog" "depcomp" "winbuild.bat" "VERSION" "autogen.sh" "runperl.bat" "missing" "INSTALL" "emailrelay.spec" "README" "compile" "test/" "winbuild.pl" "README.rst" "configure.sh" "gconfig_defs.h.in" "configure" "AUTHORS" "install-sh" "debian/" "configure.ac" "bootstrap" "NEWS" "winbuild.pm" "winbuild-parser.pm" "test-driver" "Makefile.in" "m4/" "etc/" "Makefile.am" "../" "./")
+
+ ("/home/ol/data/Software/docker/ltenad-sdk-3/" (24097 39112 18389 783000) "Dockerfile" "README" ".gitignore" ".gitignore~" ".git/" "Dockerfile~" "README~" "#README#" "git_2.7.4_amd64.deb" "repo" "emacs_45.0ubuntu1_all.deb" "../" "./")
+
+ ("/home/ol/development/aperri/xmlcplusplus2/" (24131 11981 89889 736000) "GRTAGS" "GPATH" "GTAGS" "parseResults" "erlang2/" "coffee.beam" "run" "a.out" "Hello.cpp" "myfilesystem.cpp" "filesystem_path_example.cpp" "4diacProjects/" ".gitignore" ".git/" "xmlSIFBsParser.cpp" "xmlPNETParser.cpp" "xmlMODBUSParser.cpp" "xmlConxsParser_temp.cpp" "xmlConxsParser_03_07_19.cpp" "xmlConxsParser.cpp" "xmlConxsParser-29-07-19.cpp" "xmlConxsParser-24-07-19.cpp" "xmlConxsParser-19-07-19.cpp" "xmlBFBParser_temp.cpp" "xmlBFBParser.cpp" "XML FB PID/" "virtualDNS.dns" "txt" "turntable_ctrl/" "timer_example2/" "Timer_example/" "timerTest/" "timer/" "test/" "SUPV.h" "supv.cpp" "supv-14-11-19.cpp" "startXMLToErlangTranslator.cpp" "SIFB_examples/" "SIFBs/" "projects/" "PROFINET_TCPIP_COMMUNICATOR.h" "PROFINET_TCPIP_COMMUNICATOR-17-08-19.h" "profinetTCPIPcommunicator.cpp" "profinetTCPIPcommunicator-17-08-19.cpp" "profinet.erl" "profinet.beam" "priv/" "portal_ctrl/" "PNET_examples/" "pnetListFuns/" "parsing_suite3/" "oven_ctrl/" "oven_control_latest/" "oven_control_2-10-19_temp/" "oven_control/" "ovenTest/" "ovencontroller.rel" "MODBUS_TCPIP_COMMUNICATOR.h" "modbusTCPIPcommunicator.cpp" "getFBsForSysSubApps_development.cpp" "GEN_SIFBs.h" "GEN_SIFBs-17-08-19.h" "gen_func.erl-orig" "gen_func.erl" "genSIFBs.cpp" "genSIFBs-17-08-19.cpp" "gen/" "ERLANG_GENERATOR_temp.h" "ERLANG_GENERATOR.h" "erlangGenerator_temp.cpp" "erlangGenerator_19_06_19.cpp" "erlangGenerator.cpp" "erlangGenerator-16-08-19.cpp" "erlangGenerator-16-07-19.cpp" "erlangGenerator-15-08-19.cpp" "erlangGenerator-12-08-19.cpp" "erlangGenerator-08-08-19-experimental.cpp" "erlangGenerator-07-08-19.cpp" "erlang/" "Emakefile" "CONXS_TRACKER_temp.h" "CONXS_TRACKER_12-07-19.h" "CONXS_TRACKER_03_07_19.h" "CONXS_TRACKER.h" "CONXS_TRACKER-29-07-19.h" "CONXS_TRACKER-24-07-19.h" "CONXS_TRACKER-19-07-19.h" "conxsTracker_temp.cpp" "conxsTracker_2-10-19.cpp" "conxsTracker_12-07-19.cpp" "conxsTracker_03_07_19.cpp" "conxsTracker.cpp" "conxsTracker-29-07-19.cpp" "conxsTracker-24-07-19.cpp" "conxsTracker-22-08-19.cpp" "conxsTracker-19-07-19.cpp" "conxsTracker-12-08-19.cpp" "conxsTracker-03-08-19.cpp" "conxsTrack-22-08-19.cpp" "conveyor_ctrl/" "coffee.erl" "APP.h" "app.cpp" "app-14-11-19.cpp" "ALGO_FUNC_VALIDATOR_AND_GENERATOR.h" "ALGO_FUNC_VALIDATOR_AND_GENERATOR-16-07-19.h" "algosTempFile.cpp" "algoFuncValidatorAndGenerator.cpp" "algoFuncValidatorAndGenerator.16-16-07-19.cpp" ".project" ".erl" "../" "./")
+
+ ("/home/ol/development/aperri/" (24131 9517 130529 272000) "xmlcplusplus2/" "../" "./")
+
+ ("/home/ol/development/mandelbrot-native/" (23701 8573 52921 252000) "libtool" "Makefile" "parmandel-0.1.tar.gz" "Makefile.in" "README.md" "README" ".gitignore" "stamp-h1" "aclocal.m4" "configure.ac" "GRTAGS" "GPATH" "GTAGS" "config.h" "config.status" "config.log" "depcomp" "missing" "install-sh" "config.sub" "config.guess" "compile" "config.h.in" "configure" "ltmain.sh" "autom4te.cache/" "src/" "m4/" "NEWS" "Makefile.am" "ChangeLog" "COPYING" "AUTHORS" ".git/" "../" "./")
+
+ ("/home/ol/data/development/quectel4/modem_proc/qmimsgs/nvimgr/" (24022 17338 739938 622000) "src/" "idl/" "build/" "api/" "../" "./")
+
+ ("/home/ol/data/development/quectel4/modem_proc/qmimsgs/" (24096 11647 448183 366000) "qfuse/" "wms/" "wds/" "wda/" "voice_nas_service_common/" "voice_ext/" "voice/" "uimrmt/" "uim/" "ts/" "tmd/" "time/" "test/" "ssreq/" "ssctl/" "sns_time_api/" "sns_smgr_api/" "sns_sam_smd/" "sns_sam_rmd/" "sns_sam_qmd/" "sns_sam_ped/" "sns_sam_iod_autocal/" "sns_sam_iod/" "sns_sam_db/" "sns_sam_amd/" "sns_common/" "slimbus/" "slim/" "sim_internal/" "sar/" "sap/" "rmtfs/" "rfsa/" "rfrpe/" "qteelicenseservice/" "qos/" "qdssc/" "qcmap/" "qchat/" "pdc/" "pbm/" "otdt/" "nvimgr/" "nas_ext/" "nas/" "mfs/" "lowi/" "loc/" "ipa/" "inband_modem/" "imss/" "imsrtp/" "imsp/" "imsdcm/" "imsa/" "hmon/" "fds/" "dsd/" "dpm/" "dms/" "dhms/" "dfs/" "data_common/" "ctl/" "csvt/" "common/" "coex/" "cfcm/" "cat/" "build/" "auth/" "atp/" "at/" "../" "./")
+
+ ("/home/ol/data/development/quectel4/modem_proc/" (24096 11647 452183 436000) "readme_rebase_peiker_to_bl2_2.txt" "BUILD_peiker.sh" ".gitignore" "AppliedPage2K.txt" "wcdma/" "vendor_design/" "utils/" "uim/" "tools/" "tdscdma/" "stubs/" "sec/" "rftech_wcdma/" "rftech_tdscdma/" "rftech_lte/" "rftech_gsm/" "rftech_gnss/" "rftech_cdma/" "rftarget_jolokia/" "rfnv/" "rfmodem_jolokia/" "rflm/" "rffactory/" "rfdevice_wtr2965/" "rfdevice_tptuner/" "rfdevice_rffe/" "rfdevice_qxsw/" "rfdevice_qtuner/" "rfdevice_qtherm/" "rfdevice_qpa4360/" "rfdevice_qpa4351/" "rfdevice_qpa/" "rfdevice_qfe4373fc/" "rfdevice_qfe4320/" "rfdevice_qfe3320/" "rfdevice_qfe2550/" "rfdevice_qfe2520/" "rfdevice_qfe2340/" "rfdevice_qfe2320/" "rfdevice_qfe1040/" "rfdevice_qcoupler/" "rfdevice_qat3516/" "rfdevice_qasm/" "rfdevice_papm/" "rfdevice_pa/" "rfdevice_interface/" "rfdevice_asm/" "rfc_jolokia/" "rfa/" "qmimsgs/" "qchat/" "platform/" "perf/" "mpower/" "mmcp/" "mcs/" "mcfg_fwk/" "mcfg/" "lte/" "image_info.json" "hdr/" "gps/" "geran/" "fw/" "datamodem/" "dataims/" "core/" "config/" "build/" "avs/" "audio_avs/" "apr/" "apply_page2k_flash.sh" "BUILD.sh" "1x/" ".git/" "../" "./")
+
+ ("/home/ol/data/development/atlin-master-allproducts/meta-product-atlin/conf/templates/mdm9607/" (23749 54621 431428 646000) "local.conf.sample" "bblayers.conf.sample" "../" "./")
+
+ ("/home/ol/data/Software/docker/ltenad-wiki/" (23545 41929 421636 631000) "Dockerfile" "Dockerfile~" "README" "README~" "../" "./")
+
+ ("/home/ol/data/Software/docker/simulacron-wiki/" (23896 17316 686876 566000) "Dockerfile" "Dockerfile_based_on_debian_non_func" "README" "README~" "Dockerfile~" "../" "./")
+
+ ("/data/ltenad-wiki/wiki/" (23893 43771 328502 47000) "LocalSettings.php" "images/" "images_old/" "redirect.phtml" "wiki.phtml" "StartProfiler.sample" "index.php" "resources/" "img_auth.php5" "redirect.php" "CREDITS" "maintenance/" "opensearch_desc.php5" "bin/" "extensions/" "FAQ" "tests/" "COPYING" "RELEASE-NOTES-1.18" "UPGRADE" "img_auth.php" "load.php5" "profileinfo.php" "redirect.php5" "load.php" "languages/" "includes/" "api.php5" "thumb.php5" "mw-config/" "serialized/" "docs/" "cache/" "skins/" "trackback.php" "opensearch_desc.php" "trackback.php5" "index.php5" "api.php" "INSTALL" "HISTORY" "README" "thumb.php" "../" "./")
+
+ ("/data/ol/Software/docker/ltenad-wiki/" (23545 41929 421636 631000) "Dockerfile" "Dockerfile~" "README" "README~" "../" "./")
+
+ ("/data/ol/Software/docker/simulacron-wiki/" (23896 17316 686876 566000) "Dockerfile" "Dockerfile_based_on_debian_non_func" "README" "README~" "Dockerfile~" "../" "./")
+
+ ("/home/ol/tmp/" (24031 43531 485892 104000) "proj1737_apps_proc_proprietary_lfs/" "../" "./")
+
+ ("/home/ol/data/peiker/dokumente/" (23951 34405 189369 681000) "Spec-Nv-Konfiguration/" "wnc-sw-release-process/" "voip_latency_with_mdm96x5/" "reisen/" "hats_position.tgz" "hats_position/" "WAVE_Blockdiagramm_DEMO2_v2.png" "WAVE_Blockdiagramm_DEMO2_v2.pdf" "SoftwareIntegration.pdf" "survey.txt" "DDD_ltenad2_audio_subsystem_v3.pdf" "Lizenzen/" "taiwan.org" "todo.org" "notes.org" "usermanual-voip-demo/" "EMUI 9.0 Security Technology White Paper.pdf" "supplier-peiker-sw-release-process/" "ltenad_source_code_management/" "../" "./")
+
+ ("/home/ol/software/armory_0.96.3-src/" (23117 21926 138626 171000) "ArmoryDB" "qtdialogs.pyc" "qrc_img_resources.pyc" "armorymodels.pyc" "CppBlockUtils.pyc" "_CppBlockUtils.so" "CppBlockUtils.py" "libtool" "Makefile" "config.status" "config.log" "depcomp" "Makefile.in" "missing" "install-sh" "config.sub" "config.guess" "compile" "ar-lib" "aclocal.m4" "ltmain.sh" "autom4te.cache/" "LICENSE.py" "ArmorySetup.nsi" "armorycolors.pyc" "LICENSE.pyc" "autogen.sh" "qtdefines.py" "jasvet.py" "armoryd.README" "qrcodenative.pyc" "armorymodels.py" "ArmoryQt.py" "update_version.py" "translations.md" "LICENSE" "README_OSX.md" "nginx_example.conf" "armorycolors.py" "configure.ac" "qrcodenative.py" "subprocess_win.py" "writeNSISCompilerArgs.py" "imgList.xml" "Makefile.am" "README.md" "edit_icons.rts" "changelog.txt" "osxbuild/" "SDM.pyc" "qtdefines.pyc" "guardian.py" "windowsbuild/" ".tx/" "edit_icons.bat" "SDM.py" "dynamicImport.pyc" "guitest/" "qrc_img_resources.py" "qtdialogs.py" "LICENSE-ATI" "dpkgfiles/" "jasvet.pyc" "linuxbuild/" "webshop/" "pytest/" "m4/" "lang/" "PublicKeys/" "configure" "LICENSE-MIT" "r-pi/" "setup.py" "release_scripts/" "extras/" "armoryengine/" "dynamicImport.py" "urllib3/" "ui/" "img/" "samplemodules/" "cppForSwig/" "../" "./")
+
+ ("/home/ol/data/solaris-home/Entwicklung/quicksort/src/quicksort/" (23971 26735 0 0) "core.clj" "quicksort2.clj" "quicksort2.clj~" "quicksort.c~" "quicksort.c" "core.clj~" "QuickSort.java~" "QuickSort.java" "QuickSort.class" "#core.clj#" "../" "./")
+
+ ("/usr/local/share/toolchain/RVS41/standard-linux-pentium-rel/licenses/" (24031 38914 31380 892000) "license_RVDS40_LD-40000.dat" "../" "./")
+
+ ("/home/ol/data/Software/docker/debian-buster/" (24057 20964 502407 302000) "._README" "README" "README~" "Dockerfile" "Dockerfile~" "armory_0.96.5_amd64_gcc7.2.deb" "sources.list" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
