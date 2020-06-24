@@ -478,3 +478,6 @@ The Unix system program `par' is required be installed on the system."
 (global-set-key (kbd "C-,") 'point-to-register)
 (global-set-key (kbd "C-.") 'jump-to-register)
 (global-set-key (kbd "M-]") 'multi-term)
+
+;; dired
+(setq dired-dwim-target t)
