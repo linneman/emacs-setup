@@ -472,5 +472,10 @@ The Unix system program `par' is required be installed on the system."
 (global-set-key (kbd "C-.") 'jump-to-register)
 (global-set-key (kbd "M-]") 'multi-term)
 
+;; paredit for terminals (the standard barf and slurp keys do not work there!)
+(global-set-key (kbd "M-<") 'paredit-forward-barf-sexp)
+(global-set-key (kbd "M->") 'paredit-forward-slurp-sexp)
+(global-set-key (kbd "M-:") 'paredit-backward-slurp-sexp)
+
 ;; dired
 (setq dired-dwim-target t)
