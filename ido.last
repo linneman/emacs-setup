@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/ol/.rustup/" . "toolchains/")
  ("/home/ol/development/poky-rust/build/tmp/work/armv7vet2hf-neon-poky-linux-gnueabi/rust-ssc/0.0.1.AUTOINC+4938fc13ad-r0/" . "temp/")
  ("/home/ol/development/poky-rust/build/tmp/work/armv7vet2hf-neon-poky-linux-gnueabi/rust-ssc/" . "0.0.1.AUTOINC+4938fc13ad-r0/")
  ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/meta-peiker/recipes/" . "rust-ssc/")
@@ -180,7 +181,7 @@
  ("/home/ol/development/rust/branches/loops/" . "src/")
  ("/home/ol/development/rust/branches/" . "src/")
  ("/home/ol/development/rust/functions/" . "src/")
- ("/home/ol/development/rust/" . "rust-ssc/")
+ ("/home/ol/development/rust/" . "rust-intercom/")
  ("/home/ol/development/rust/variables/" . "src/")
  ("/home/ol/development/rust/guessing_game/" . "src/")
  ("/home/ol/development/rust/hello_cargo/" . "src/")
@@ -201,7 +202,7 @@
  ("/" . "usr/")
  ("/home/ol/tmp/DspParamCrtl/Frameworks/" . "Objective-J/")
  ("/home/ol/tmp/DspParamCrtl/" . "Frameworks/")
- ("/home/ol/development/nightly-build/src/" . "client/")
+ ("/home/ol/development/nightly-build/src/" . "server/")
  ("/home/ol/data/development/MDM9628.LE.2.2-quec85.1.000.92/apps_proc/peiker/libintercom/" . "src/")
  ("/home/ol/data/development/MDM9628.LE.2.2-quec85.1.000.92/apps_proc/peiker/alsaucm/" . "src/")
  ("/home/ol/data/development/MDM9628.LE.2.2-quec85.1.000.92/apps_proc/peiker/" . "libintercom/")
@@ -214,7 +215,7 @@
  ("/home/ol/data/" . "Software/")
  ("/home/ol/development/nightly-build/resources/" . "build-descriptions/")
  ("/home/ol/development/nightly-build/" . "src/")
- ("/home/ol/development/" . "poky-rust/")
+ ("/home/ol/development/" . "nightly-build/")
  ("/home/ol/Entwicklung/" . "DspParameterEditor/")
  ("/home/ol/tmp/boot_images/core/storage/flash/tools/src/nand/" . "config_v2/")
  ("/home/ol/tmp/boot_images/core/storage/flash/tools/src/" . "nand/")
@@ -231,11 +232,16 @@
  ("/home/ol/development/ltenad9607-quectel-bl2_2-next-ws1/apps_proc/peiker/" . "libintercom/")
  ("/home/ol/development/ltenad9607-quectel-bl2_2-next-ws1/apps_proc/" . "peiker/")
  ("/home/ol/development/ltenad9607-quectel-bl2_2-next-ws1/" . "apps_proc/")
- ("/home/ol/" . "development/")
+ ("/home/ol/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/ol/.emacs.d/"
+ "/home/ol/development/nightly-build/src/server/"
+ "/home/ol/development/rust/rust-intercom/src/"
+ "/home/ol/"
+ "/home/ol/development/rust/slices/src/"
  "/home/ol/development/rust/rust-ssc/"
  "/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/meta-peiker/recipes/rust-ssc/"
  "/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/meta-peiker/"
@@ -255,7 +261,6 @@
  "/home/ol/development/nightly-build/"
  "/home/ol/development/nightly-build/src/client/"
  "/home/ol/development/libintercom/src/"
- "/home/ol/development/rust/rust-intercom/src/"
  "/home/ol/development/libintercom/"
  "/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/meta-peiker/recipes-mdm9607/images/"
  "/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/build/tmp-glibc/work/x86_64-linux/rust-llvm-native/1.51.0-r0/temp/"
@@ -264,11 +269,8 @@
  "/home/ol/.ssh/"
  "/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/meta-rust/recipes-devtools/rust/"
  "/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/build/conf/"
- "/home/ol/"
  "/home/ol/development/rust/rust-intercom/example/src/"
- "/home/ol/development/nightly-build/src/server/"
  "/home/ol/development/ltenad9607-quectel-ws1/apps_proc/peiker/alsaucm/"
- "/home/ol/.emacs.d/"
  "/home/ol/tmp/"
  "/home/ol/development/rust/intercom/src/"
  "/home/ol/development/alsa-lib/include/"
@@ -285,40 +287,81 @@
  "/home/ol/development/poky-rust/source/rust-ssc/src/"
  "/home/ol/development/rust/alsa-test/src/"
  "/home/ol/development/rust/alsa-test/"
- "/home/ol/development/ltenad9607-quectel-ws1/apps_proc/poky/meta-peiker/recipes/alsaucm/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ ".emacs_common"
+ "core.clj"
+ "server_connection.rs"
+ ".emacs"
+ ".profile"
+ "main.rs"
  "Cargo.toml"
  "rust-ssc_0.0.1.bb"
  "Apache-2.0_restricted"
- "main.rs"
  "hello"
- "ssc_server.c"
- "alsa.rs"
- "proc.rs"
- "AUTHORS"
- "rust-intercom_0.1.0.bb"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/ol/.emacs.d/" (24726 44225 533683 652000) "ido.last" "ido.last~" ".emacs_common" ".emacs_common~" "auto-save-list/" ".emacs" ".emacs~" "ac-comphist.dat" "session.10f11fe938b3d9d59159638443742906000000189600089" "session.109e665ae7c93362bd159441734996369600000153990090" "session.106b6786a8a7d68b6415943263738411100000195720094" "session.10672e2fb580b58d50159398582697653800000227210092" "session.1026c285d9f12dc07b1593967324791600000161310092" "session.10e5fdffbf37895dd8159395236389969200000108460089" "session.10c0c39ff9f87323e7159395126911473300000308370089" "session.10607fc069b88fe92a159394160660035300000036440089" "session.1020ad4474e7cb5f0a159394092318143800000312550089" "session.102ea3eaa4d03cfdbf159391898425109300000105220092" "abbrev_defs" "eshell/" ".emacs_linux" "elpa/" ".emacs_mac" "swank/" "lisp/" "fuzzy.el" "ac-dict/" "README.md" ".gitignore" ".git/" "../" "./")
+
+ ("/home/ol/development/nightly-build/src/server/" (24722 33872 347723 392000) "local_settings.clj" "build_task.clj" "build_task.clj~" "local_settings.clj~" "#core.clj#" "utils.clj" "crypto.clj" "cron.clj" "core.clj" "config.clj" "config.clj~" "#auth.clj#" "tasks.clj" "session.clj" "build_log_handler.clj" "auth.clj" "build_log_handler.clj~" "test_config.clj~" "shell_utils.clj" "email.clj" "../" "./")
+
+ ("/home/ol/development/nightly-build/src/" (24019 1333 502644 733000) "server/" "crossover/" "client/" "../" "./")
+
+ ("/home/ol/development/rust/rust-intercom/src/" (24726 44162 296510 850000) "server_connection.rs" "server_connection.rs~" "#server_connection.rs#" "rustup" "event.rs" "lib.rs" "lib.rs~" "data_stream.rs" "data_stream.rs~" "event.rs~" "client_connection.rs" "client_connection.rs~" "../" "./")
+
+ ("/home/ol/" (24726 43724 152479 286000) ".bash_history" ".Xauthority" ".gitconfig" ".gitconfig~" ".repo_.gitconfig.json" ".viminfo" ".ssc.rc" ".ssc.rc~" ".octave_hist" "darktable_exported/" ".profile" ".profile~" "my_livecode/" ".runrev/" ".finf/" "mac_system7_5" ".basilisk_ii_prefs" ".basilisk_ii_prefs~" ".basilisk_ii_xpram" "Temp/" ".repopickle_.gitconfig" ".gforth-history" ".dlt/" "splitxml.c~" ".lesshst" ".rustup/" ".cargo/" ".DspParamEditor.properties" ".fgfs/" ".hp48/" ".ngspice_history" ".qucs/" ".cache/" ".ICEauthority" ".xsession-x2go-maxwell-errors" ".xsession-x2go-maxwell-errors.old" ".gsutil/" "Entwicklung/" "Dokumente/" "Dokumentation/" ".icewm/" ".:1-fakexinerama" "share/" ".var/" ".cmake/" ".y2control/" ".audacity-data/" "snap/" "nightly-build-logs/" ".netrc" ".netrc~" "._opel_depends_coreutils.txt" ".gphoto/" ".minirc.dfl" ".tooling/" "eclipse-workspace/" ".swt/" "workspace/" ".eclipse/" ".localhost:10.0-fakexinerama" ".android/" "._reverted_changes.log" "._syslog" ".nightly-build/" "build-descriptions/" ".mysql_history" ".rnd" "nightly-build-logs-test/" ".httpie/" ".cups/" ".designer/" ".pyhistory" "tmp/" ".bashrc~" ".bashrc" "go/" "._notes-mac.org" "notes_ril.txt" ".java/" ".linphonerc" ".linphonec_history" ".linphone-zidcache" "Nextcloud/" ".python-history" "notes_ril.txt~" ".serverauth.5330" ".xdg_menu_cache/" ".gnome2/" "notes.org" ".gtk-bookmarks" ".xboardrc" "._.apdisk" ".apdisk" "notes.org~" ".guestfish" ".screenrc" ".wget-hsts" ".y2usersettings" ".y2log" ".esd_auth" ".inputrc" ".xinitrc.template" ".xim.template" ".i18n" ".m2/" ".dbus/" ".cache_backup/" ".dbus_backup/" ".local/" ".pki/" "public_html/" ".gimp-2.8/" ".bitcoin/" ".armory/" ".xpra/" "data/" "software/" ".docker/" ".gvfs/" ".DS_Store" ".subversion/" ".gnupg/" ".repoconfig/" ".vim/" ".lein/" ".dir_colors/" "VirtualBox VMs/" ".vbox/" ".x2goclient/" ".x2go/" ".ssh/" "development/" ".emacs" ".emacs.d/" ".mozilla/" "Videos/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" "bin/" ".fonts/" ".config/" "../" "./")
+
+ ("/home/ol/development/" (24720 13100 969427 925000) "ltenad9607-quectel-ws2/" "poky-latest/" "global-6.6/" "global-6.6.tar.gz" "global-6.6.3/" "global-6.6.3.tar.gz" "poky-rust/" "alsa-lib/" "dlt-qxdm/" "libuv/" "libuvtest/" "macemu/" "repo/" "repo.bundle" "qti/" "notes.org" "notes.org~" "alberto/" "dlt-viewer/" "DLTtool.log" "dlttool-1.0.0/" "splitxml.c" "rust/" "ltenad9607-quectel-ws1/" "osg/" "nightly-build-pages/" "linuxdeploy/" "shairport/" "asn1/" "idefix/" "ril-client/" "ssc/" "clojure-test-env/" "no-more-secrets/" "ttyd/" "randtest.c" "tmp/" "nightly-build-python/" "nightly-build/" "SDL/" "mandelbrot-native/" "vss/" "bctoolbox/" "ortp/" "mediastreamer2/" "tinyscheme/" "alsaucm/" "project-alpha/" "nrepl-adapter/" "unamefake/" "tar-1.30/" "libcutils/" "libxmlexample/" "minicaller/" "mandelbrot-set/" "libintercom/" "libffitest/" "pixie/" "radiomat/" "patch-manifest/" "._.DS_Store" ".DS_Store" "solitaire/" "pub-oss/" "gnome-terminal-colors-solarized/" "../" "./")
+
+ ("/home/ol/development/rust/" (24726 42936 758069 582000) "rust-intercom/" "config-rs/" "alsa-test/" "bytebufftest/" "async-example/" "rust-ssc/" "otto/" "log-test/" "tst1/" "add/" "restaurant/" "slices/" "branches/" "functions/" "variables/" "guessing_game/" "hello_cargo/" "hello" "hello.c" "main" "main.rs" "../" "./")
+
+ ("/home/ol/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/" (24726 41196 598393 16000) "lib/" "libexec/" "bin/" "share/" "etc/" "../" "./")
+
+ ("/home/ol/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/" (24726 41203 554519 656000) "librustc_driver-bcac88c1fda1187d.so" "libtest-e0d08a82dcb7da7b.so" "libstd-c6dddd3d354e6bea.so" "libLLVM-12-rust-1.54.0-nightly.so" "rustlib/" "../" "./")
+
+ ("/home/ol/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/" (24726 41204 18528 102000) "multirust-config.toml" "multirust-channel-manifest.toml" "manifest-rustfmt-preview-x86_64-unknown-linux-gnu" "manifest-rustc-x86_64-unknown-linux-gnu" "etc/" "manifest-rust-std-x86_64-unknown-linux-gnu" "x86_64-unknown-linux-gnu/" "manifest-rust-docs-x86_64-unknown-linux-gnu" "manifest-clippy-preview-x86_64-unknown-linux-gnu" "rust-installer-version" "components" "manifest-cargo-x86_64-unknown-linux-gnu" "../" "./")
+
+ ("/home/ol/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/" (24726 41203 554519 656000) "bin/" "lib/" "../" "./")
+
+ ("/home/ol/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/" (24726 41200 438462 927000) "libcore-c8ded1707ad10767.rlib" "libaddr2line-9c99fb6e5ca5159e.rlib" "librustc-nightly_rt.msan.a" "libunicode_width-7590543c881e6235.rlib" "libunwind-019d54ecc304b655.rlib" "libtest-e0d08a82dcb7da7b.so" "libgetopts-759d40b5d9a6a451.rlib" "libprofiler_builtins-ed0ddf647c897e03.rlib" "librustc-nightly_rt.asan.a" "libstd_detect-0e4f7587da8acf20.rlib" "libpanic_unwind-c2ca47afdcc5e309.rlib" "libstd-c6dddd3d354e6bea.so" "liblibc-e41c6d24baeb2249.rlib" "libhashbrown-00672fabc4ff9c9d.rlib" "libtest-e0d08a82dcb7da7b.rlib" "librustc-nightly_rt.tsan.a" "libproc_macro-b4c8bad424f10594.rlib" "libadler-20a1e49116ab0df9.rlib" "liballoc-9849bb0fbad7f0f5.rlib" "librustc-nightly_rt.lsan.a" "libminiz_oxide-b47be2942017e108.rlib" "libterm-24036eb8e889985c.rlib" "librustc_demangle-7be0a6711ed15b5c.rlib" "libobject-25e09d9868291683.rlib" "libstd-c6dddd3d354e6bea.rlib" "librustc_std_workspace_std-56b60793e4f96438.rlib" "libgimli-85040d7563599960.rlib" "librustc_std_workspace_core-a1fd7734706d5518.rlib" "librustc_std_workspace_alloc-72fe231ef0473d15.rlib" "libpanic_abort-59bf920525ebc87e.rlib" "libcfg_if-cc7d9343e4f608be.rlib" "libcompiler_builtins-8b33f9cbbc9652fe.rlib" "../" "./")
+
+ ("/home/ol/.rustup/toolchains/" (24726 41196 598393 16000) "nightly-x86_64-unknown-linux-gnu/" "stable-x86_64-unknown-linux-gnu/" "../" "./")
+
+ ("/home/ol/.rustup/" (24726 42046 877868 851000) "toolchains/" "update-hashes/" "settings.toml" "../" "./")
+
+ ("/home/ol/.cargo/bin/" (24726 42046 837868 123000) "racer" "cargo-miri" "clippy-driver" "cargo-clippy" "rls" "rust-gdb" "rust-lldb" "cargo" "rustdoc" "rustc" "cargo-fmt" "rustfmt" "rustup" "exa" "rust-sscd" "ssc" "bindgen" "cargo-bitbake" "../" "./")
+
+ ("/home/ol/.cargo/" (24604 63379 899905 352000) "git/" ".crates2.json" ".crates.toml" "registry/" ".package-cache" "env" "bin/" "../" "./")
+
+ ("/home/ol/.cache/" (24546 25300 545071 726000) "xreader/" "libimobiledevice/" "plasma-svgelements-default_v5.68.0" "ksycoca5_de_W1G9I7uc40hTNgZAnkp158JiXZA=" "transmission/" "gnome-disks/" "dlt-viewer/" "keybase/" "ksycoca5_de__Aqr9cHnDS8ixsVPbii1NZNeZzI=" "ksycoca5_de_3CV+gvxdQHnvOeFC8ahIO4sI9i8=" "gnome-calendar/" "FlightGear/" "gnome-screenshot/" "gdm/" "remmina/" ".mc_connections" "gimp/" "ksycoca5_en_ffcBeb848uXMgBu4LqL2X8i31lE=" "ksycoca5_en_r4fBCxSx7lQjYJyhyK5fL+eJHmQ=" "qtshadercache-x86_64-little_endian-lp64/" "plasma_theme_default_v5.68.0.kcache" "kdenlive/" "icon-cache.kcache" "shotwell/" "sessions/" "Homebrew/" "pragha/" "orchard/" "Eclipse/" "chromium/" "flatpak/" "qtshadercache/" "openSUSE/" "mc/" "polari/" "gnome-dictionary-3.0/" "go-build/" "org.gnome.Maps/" "geocode-glib/" "champlain/" "pip/" "gnome-documents/" "osmgpsmap/" "vinagre/" "icedtea-web/" "gegl-0.4/" "dconf/" "openbox/" "gnome-photos/" "LightTable/" "keyring-G9V8HZ/" "keyring-SOUIIZ/" "keyring-CK57HZ/" "keyring-J6TKIZ/" "mesa_shader_cache/" "inkscape/" "obexd/" "gnome-control-center/" "vlc/" "totem/" "darktable/" "bijiben/" "telepathy/" "folks/" "gegl-0.2/" "rhythmbox/" "gegl-0.3/" "babl/" "bijiben-shell-search-provider/" "gnome-calculator/" "yelp/" "media-art/" "thumbnails/" "gnome-software/" "mozilla/" "gstreamer-1.0/" "tracker/" "evolution/" "libgweather/" "ibus/" "fontconfig/" "mesa/" "../" "./")
+
+ ("/home/ol/development/rust/variables/" (24449 59637 11830 557000) "target/" "Cargo.lock" "src/" "Cargo.toml" ".gitignore" ".git/" "../" "./")
+
+ ("/home/ol/development/rust/variables/src/" (24726 40985 486549 271000) "main.rs" "main.rs~" "../" "./")
+
+ ("/home/ol/development/rust/hello_cargo/src/" (24726 40478 9306 625000) "main.rs" "main.rs~" "../" "./")
+
+ ("/home/ol/development/rust/slices/src/" (24698 41823 605802 173000) "main.rs" "main.rs~" "../" "./")
+
+ ("/home/ol/development/rust/slices/" (24455 22810 288927 220000) "target/" "Cargo.lock" "src/" "Cargo.toml" ".gitignore" ".git/" "../" "./")
+
+ ("/home/ol/development/rust/guessing_game/" (24449 57383 485592 412000) "Cargo.toml" "Cargo.toml~" "target/" "Cargo.lock" "src/" ".gitignore" ".git/" "../" "./")
+
+ ("/home/ol/development/rust/guessing_game/src/" (24449 59321 277931 675000) "main.rs" "main.rs~" "../" "./")
+
  ("/home/ol/development/rust/rust-ssc/" (24725 18944 495049 625000) "Cargo.lock" "Cargo.toml" "Cargo.toml~" "target/" "README" "README~" "AUTHORS" "AUTHORS~" "README.md" "build.rs" "build.rs~" "ssc.rc" "src/" "COPYING" ".gitignore" ".git/" "../" "./")
 
  ("/home/ol/development/rust/rust-ssc/src/" (24724 57614 513728 228000) "main.rs" "proc.rs" "proc.rs~" "alsa.rs" "asoundlib.rs" "asoundlib.rs~" "config.rs" "config.rs~" "wavio.rs" "wavio.rs~" "alsa.rs~" "wav_proc.rs" "wav_proc.rs~" "main.rs~" "../" "./")
-
- ("/home/ol/" (24725 16198 876993 385000) ".Xauthority" ".bash_history" ".gitconfig" ".gitconfig~" ".repo_.gitconfig.json" ".viminfo" ".ssc.rc" ".ssc.rc~" ".octave_hist" "darktable_exported/" ".profile" ".profile~" "my_livecode/" ".runrev/" ".finf/" "mac_system7_5" ".basilisk_ii_prefs" ".basilisk_ii_prefs~" ".basilisk_ii_xpram" "Temp/" ".repopickle_.gitconfig" ".gforth-history" ".dlt/" "splitxml.c~" ".lesshst" ".rustup/" ".cargo/" ".DspParamEditor.properties" ".fgfs/" ".hp48/" ".ngspice_history" ".qucs/" ".cache/" ".ICEauthority" ".xsession-x2go-maxwell-errors" ".xsession-x2go-maxwell-errors.old" ".gsutil/" "Entwicklung/" "Dokumente/" "Dokumentation/" ".icewm/" ".:1-fakexinerama" "share/" ".var/" ".cmake/" ".y2control/" ".audacity-data/" "snap/" "nightly-build-logs/" ".netrc" ".netrc~" "._opel_depends_coreutils.txt" ".gphoto/" ".minirc.dfl" ".tooling/" "eclipse-workspace/" ".swt/" "workspace/" ".eclipse/" ".localhost:10.0-fakexinerama" ".android/" "._reverted_changes.log" "._syslog" ".nightly-build/" "build-descriptions/" ".mysql_history" ".rnd" "nightly-build-logs-test/" ".httpie/" ".cups/" ".designer/" ".pyhistory" "tmp/" ".bashrc~" ".bashrc" "go/" "._notes-mac.org" "notes_ril.txt" ".java/" ".linphonerc" ".linphonec_history" ".linphone-zidcache" "Nextcloud/" ".python-history" "notes_ril.txt~" ".serverauth.5330" ".xdg_menu_cache/" ".gnome2/" "notes.org" ".gtk-bookmarks" ".xboardrc" "._.apdisk" ".apdisk" "notes.org~" ".guestfish" ".screenrc" ".wget-hsts" ".y2usersettings" ".y2log" ".esd_auth" ".inputrc" ".xinitrc.template" ".xim.template" ".i18n" ".m2/" ".dbus/" ".cache_backup/" ".dbus_backup/" ".local/" ".pki/" "public_html/" ".gimp-2.8/" ".bitcoin/" ".armory/" ".xpra/" "data/" "software/" ".docker/" ".gvfs/" ".DS_Store" ".subversion/" ".gnupg/" ".repoconfig/" ".vim/" ".lein/" ".dir_colors/" "VirtualBox VMs/" ".vbox/" ".x2goclient/" ".x2go/" ".ssh/" "development/" ".emacs" ".emacs.d/" ".mozilla/" "Videos/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" "bin/" ".fonts/" ".config/" "../" "./")
-
- ("/home/ol/development/rust/hello_cargo/src/" (24724 16675 457263 6000) "main.rs" "../" "./")
 
  ("/home/ol/development/rust/hello_cargo/" (24704 17047 511807 534000) "Cargo.toml" "Cargo.toml~" "target/" "Cargo.lock" "src/" ".gitignore" ".git/" "../" "./")
 
  ("/home/ol/development/radiomat/" (24567 17852 989866 335000) "target/" "project.clj" "browser_repl.clj" "project.clj~" "clean.sh" "build-server.sh" "build-client.sh" "build-and-start.sh" "Makefile" "check_make.sh" ".gitignore" "start-server.sh" "gen-pixie-doc.sh" "test/" "doc/" "resources/" "COPYING" ".git/" "src/" "../" "./")
 
  ("/home/ol/development/ssc/src/" (24704 8654 993596 412000) "#ssc_server.c#" "ssc_config.c" "sscd" "sscd-proc.o" "sscd-alsa.o" "proc.c" "proc.c~" "alsa.c" "alsa.c~" "sscd-ssc_config.o" "ssc_config.c~" "sscd-ssc_segfaulthandler.o" "sscd-revision.o" "sscd-utils.o" "sscd-log.o" "sscd-wav_proc.o" "sscd-wavio.o" "sscd-ssc_server.o" "Makefile" "Makefile.in" "wav_proc.c" "ssc_server.c" "ssc_segfaulthandler.h" "ssc_segfaulthandler.c" "revision.c" "proc.h" "common.h" "Makefile.am" ".libs/" ".deps/" "wav_proc.h" "utils.c" "ssc_server.h" "log.c" "wavio.h" "wavio.c" "utils.h" "ssc_config.h" "revision.h" "log.h" "alsa.h" "../" "./")
-
- ("/home/ol/development/rust/rust-intercom/src/" (24722 49002 608064 516000) "server_connection.rs" "event.rs" "server_connection.rs~" "lib.rs" "lib.rs~" "data_stream.rs" "data_stream.rs~" "event.rs~" "client_connection.rs" "client_connection.rs~" "../" "./")
 
  ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/build/tmp-glibc/work/armv7ahf-neon-oe-linux-gnueabi/rust-ssc/0.0.1.AUTOINC-r0/" (24724 5898 114712 718000) "sstate-install-package_write_ipk/" "deploy-ipks/" "sstate-install-package_qa/" "sstate-install-packagedata/" "pkgdata/" "packages-split/" "package/" "sstate-install-package/" "sstate-install-populate_sysroot/" "sysroot-destdir/" "image/" "pseudo/" "build/" "sstate-install-populate_lic/" "license-destdir/" "wrapper/" "cargo_home/" "ld.so.conf" "rust-ssc/" "recipe-sysroot-native/" "recipe-sysroot/" "temp/" "../" "./")
 
@@ -461,48 +504,6 @@
  ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/meta-rust/recipes-devtools/rust/" (24720 15409 223190 247000) "rust.inc" "rust.inc~" "rust_1.51.0.bb" "rust_1.49.0.bb" "rust/" "rust-target.inc" "rust-source.inc" "rust-source-1.51.0.inc" "rust-source-1.49.0.inc" "rust-snapshot.inc" "rust-snapshot-1.51.0.inc" "rust-snapshot-1.49.0.inc" "rust-llvm_1.51.0.bb" "rust-llvm_1.49.0.bb" "rust-llvm/" "rust-llvm.inc" "rust-cross_1.51.0.bb" "rust-cross_1.49.0.bb" "rust-cross.inc" "rust-cross-canadian_1.51.0.bb" "rust-cross-canadian_1.49.0.bb" "rust-cross-canadian.inc" "rust-common.inc" "libstd-rs_1.51.0.bb" "libstd-rs_1.49.0.bb" "libstd-rs.inc" "files/" "../" "./")
 
  ("/home/ol/development/ltenad9607-quectel-ws1/apps_proc/poky/meta-peiker/" (24448 8515 430188 446000) "recipes/" "recipes-support/" "recipes-mdm9607/" "recipes-devtools/" "recipes-core/" "recipes-connectivity/" "peiker-restricted" "peiker-proprietary" "files/" "conf/" "classes/" "MIT_restricted" "BSD_restricted" "Apache-2.0_restricted" ".gitignore" ".git/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws1/apps_proc/poky/meta-rust/" (24588 27141 522389 209000) "scripts/" "recipes-example/" "recipes-devtools/" "lib/" "conf/" "classes/" "README.md" "Jenkinsfile" "COPYING.MIT" ".gitignore" ".github/" ".git/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/meta-rust/recipes-devtools/" (24720 15233 87991 528000) "rust/" "cargo/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws1/apps_proc/poky/" (24588 28262 983152 284000) "meta-openembedded/" "meta-rust/" "meta-wnc/" "meta-selinux/" "meta-qti-wlan-prop/" "meta-qti-wlan/" "meta-qti-ss-mgr-prop/" "meta-qti-ss-mgr/" "meta-qti-security-prop/" "meta-qti-security/" "meta-qti-location-prop/" "meta-qti-location/" "meta-qti-drones-prop/" "meta-qti-drones/" "meta-qti-data-prop/" "meta-qti-data/" "meta-qti-core-prop/" "meta-qti-core/" "meta-qti-bt-prop/" "meta-qti-bt/" "meta-qti-bsp-prop/" "meta-qti-bsp/" "meta-qti-auto-prop/" "meta-qti-auto/" "meta-qti-audio-prop/" "meta-qti-audio-external/" "meta-qti-audio-cal/" "meta-qti-audio/" "meta-proprietary/" "meta-peiker/" "meta-java/" "meta-binarise/" "build/" "scripts/" "oe-init-build-env" "meta/" "meta-yocto-bsp/" "meta-skeleton/" "meta-selftest/" "meta-poky/" "documentation/" "bitbake/" "README.qemu" "README.poky" "README.hardware" "README.LSB" "LICENSE" ".templateconf" ".gitignore" ".git/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/9607_nand_images/" (24720 15120 677951 300000) "vmlinux" "unsigned_binaries.tar" "ubinize.squashfs.cfg" "ubinize.cfg" "tz.mbn" "sbl1.mbn" "rpm.mbn" "partition.mbn" "orig_MODEM_PROC_IMG_9607.genns.prodQ.elf" "mdm9607-usrfs.ubifs" "mdm9607-usrfs.squashfs" "mdm9607-sysfs.ubi" "mdm9607-sysfs.squashfs.ubi" "mdm9607-rootfs.ubifs" "mdm9607-rootfs.squashfs" "mdm9607-persistfs.ubifs" "mdm9607-otafs.ubifs" "mdm9607-boot.img" "mdm9607-appfs.ubifs" "mdm9607-2k/" "devcfg.mbn" "binaries.tar" "appsboot.mbn" "Ver_Info.txt" "NPRG9x07.mbn" "NON-HLOS.ubifs" "NON-HLOS.ubi" "ENPRG9x07.mbn" ".gitattributes" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/build/conf/" (24720 13542 757410 859000) "set_bb_env.sh" "local.conf" "get_bblayers.py" ".gitignore" ".git/" "../" "./")
-
- ("/home/ol/development/" (24720 13100 969427 925000) "ltenad9607-quectel-ws2/" "poky-latest/" "global-6.6/" "global-6.6.tar.gz" "global-6.6.3/" "global-6.6.3.tar.gz" "poky-rust/" "alsa-lib/" "dlt-qxdm/" "libuv/" "libuvtest/" "macemu/" "repo/" "repo.bundle" "qti/" "notes.org" "notes.org~" "alberto/" "dlt-viewer/" "DLTtool.log" "dlttool-1.0.0/" "splitxml.c" "rust/" "ltenad9607-quectel-ws1/" "osg/" "nightly-build-pages/" "linuxdeploy/" "shairport/" "asn1/" "idefix/" "ril-client/" "ssc/" "clojure-test-env/" "no-more-secrets/" "ttyd/" "randtest.c" "tmp/" "nightly-build-python/" "nightly-build/" "SDL/" "mandelbrot-native/" "vss/" "bctoolbox/" "ortp/" "mediastreamer2/" "tinyscheme/" "alsaucm/" "project-alpha/" "nrepl-adapter/" "unamefake/" "tar-1.30/" "libcutils/" "libxmlexample/" "minicaller/" "mandelbrot-set/" "libintercom/" "libffitest/" "pixie/" "radiomat/" "patch-manifest/" "._.DS_Store" ".DS_Store" "solitaire/" "pub-oss/" "gnome-terminal-colors-solarized/" "../" "./")
-
- ("/home/ol/data/" (24680 44762 496982 894000) "VirtualBox VMs/" "Audio-Aufzeichnungen/" "Classic Mac/" "Documents/" "missing.txt~" "sources-9x15/" "jamvm.tgz" "icedtea.tgz" "git2.tgz" "sources-9x15-20200416T161531Z-001.zip" "peiker/" "Filme/" "Pictures/" "._.DS_Store" ".DS_Store" "tmp/" "solaris-home/" "nextcloud/" "development/" "blckchain/" "Software/" "Fotos/" "../" "./")
-
- ("/home/ol/development/rust/rust-intercom/example/src/" (24714 51051 416137 330000) "client.rs" "client.rs~" "server.rs" "server.rs~" "../" "./")
-
- ("/home/ol/development/rust/rust-intercom/example/" (24714 51906 611667 909000) "target/" "Cargo.toml" "Cargo.toml~" "Cargo.lock" "src/" "../" "./")
-
- ("/home/ol/tmp/" (24715 55046 14748 990000) "Cargo.toml" "mono.wav" "stereo.wav" "madness.wav" "otto.wav" "ringtone.wav" "operational.wav" "210418_0002.wav" "tmp/" "librt-2.31.so" "libpthread-2.31.so" "ld-2.31.so" "libc-2.31.so" "libstd.so" "ssc_0.0.1.ipk" "t1.m" "t1.m~" "dlt-qxdm.bundle" "progit/" "BitcoinArmory/" "EP2009_105_CKIII_SAP_V4_MBA-Akustik-Wiki.pdf" "Hello1/" "hello.livecode" "Hello/" "test_toene/" "test4.wav" "test3.wav" "test2.wav" "Bildschirmfoto vom 2021-01-20 22-53-06.png" "Bildschirmfoto vom 2021-01-20 19-14-06.png" "pnryokb-1529936822.jpg" "lk.bundle" "untitled.bmp.jpg.xmp" "tonarm_gebrochen.JPG.xmp" "Bauernschrank_h1.jpg.xmp" "tonarm_gebrochen.JPG" "Bestelleingangsbestätigung.pdf" "mac_se_recap.pdf" "Bauernschrank_h1.jpg" "Kelim_Teppiche_Linnemann.pdf" "test.wav" "test.mp3" "silent.aup" "silent_data/" "test.aup" "test_data/" "untitled.bmp.jpg" "splitxml.c~" "tmp.txt" "test_endianess.c" "test_endianess.c~" "Jörg_Ramb.asc" "keybase_amd64.rpm" "test.c" "test.c~" "DspParamEditor/" "Starter/" "CappuccinoStarter-1.0.0.zip" "idefix/" "DspParamCrtl/" "boot_images/" "mesontest/" "../" "./")
-
- ("/home/ol/development/poky-rust/" (24697 14635 887782 526000) "source/" "meta-rust-packages/" "build/" "meta-rust/" "meta-openembedded/" ".gitignore" "scripts/" "oe-init-build-env" "meta/" "meta-yocto-bsp/" "meta-skeleton/" "meta-selftest/" "meta-poky/" "documentation/" "contrib/" "bitbake/" "README.qemu" "README.poky" "README.hardware" "README.OE-Core" "MEMORIAM" "LICENSE.MIT" "LICENSE.GPL-2.0-only" "LICENSE" ".templateconf" ".git/" "../" "./")
-
- ("/home/ol/development/rust/" (24714 22245 315641 435000) "rust-intercom/" "config-rs/" "alsa-test/" "bytebufftest/" "async-example/" "rust-ssc/" "otto/" "log-test/" "tst1/" "add/" "restaurant/" "slices/" "branches/" "functions/" "variables/" "guessing_game/" "hello_cargo/" "hello" "hello.c" "main" "main.rs" "../" "./")
-
- ("/home/ol/development/nightly-build/src/server/" (24483 42659 189852 386000) "local_settings.clj" "local_settings.clj~" "#core.clj#" "build_task.clj" "utils.clj" "crypto.clj" "cron.clj" "core.clj" "config.clj" "config.clj~" "#auth.clj#" "tasks.clj" "session.clj" "build_log_handler.clj" "auth.clj" "build_log_handler.clj~" "test_config.clj~" "shell_utils.clj" "email.clj" "../" "./")
-
- ("/home/ol/development/nightly-build/src/" (24019 1333 502644 733000) "server/" "crossover/" "client/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws1/apps_proc/peiker/alsaucm/" (24448 16618 137695 267000) "depcomp" "Makefile.in" "missing" "install-sh" "config.sub" "config.guess" "compile" "config.h.in" "config.h.in~" "aclocal.m4" "ltmain.sh" "configure" "autom4te.cache/" "ucm.rc" "src/" "m4/" "doc/" "configure.ac" "alsaucm.scm" "README.md" "README" "Makefile.am" "INSTALL" "COPYING" ".gitignore" ".git/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws1/apps_proc/" (24448 14748 562718 988000) "9607_nand_images/" "wnc/" "wlan/" "wlan-proprietary/" "vnw/" "vendor/" "time-services/" "thermal-engine/" "tftp/" "telux/" "tcp-splice/" "system/" "synergy-bt-proprietary/" "ss-restart/" "shortcut-fe/" "remotefs/" "qmi-framework/" "qmi/" "qcom-opensource/" "proprietary/" "prebuilt_HY11/" "poky/" "pmipv6/" "mdm-ss-mgr/" "mdm-init/" "mcm-gps/" "mcm-core/" "mcm-api/" "mbim/" "kernel/" "hardware/" "gps/" "fs-scrub-daemon/" "frameworks/" "filesystems/" "external/" "diag/" "data-oss/" "data-kernel/" "data-ipa-cfg-mgr/" "data/" "bt-proprietary/" "bootable/" "audio/" "android_compat/" "OTA/" "syncbuild.sh" "peiker/" "patchs/" "apply_page2k_flash.sh" "MK_lk.sh" "MK_kernel.sh" "BUILD_peiker.sh" "BUILD.sh" "AppliedPage2K.txt" "../" "./")
-
- ("/home/ol/development/mandelbrot-native/" (23701 8573 52921 252000) "libtool" "Makefile" "parmandel-0.1.tar.gz" "Makefile.in" "README.md" "README" ".gitignore" "stamp-h1" "aclocal.m4" "configure.ac" "GRTAGS" "GPATH" "GTAGS" "config.h" "config.status" "config.log" "depcomp" "missing" "install-sh" "config.sub" "config.guess" "compile" "config.h.in" "configure" "ltmain.sh" "autom4te.cache/" "src/" "m4/" "NEWS" "Makefile.am" "ChangeLog" "COPYING" "AUTHORS" ".git/" "../" "./")
-
- ("/home/ol/.cargo/bin/" (24713 45075 351129 643000) "ssc" "bindgen" "cargo-miri" "clippy-driver" "cargo-clippy" "rls" "rust-gdb" "rust-lldb" "cargo" "rustdoc" "rustc" "cargo-fmt" "rustfmt" "rustup" "cargo-bitbake" "../" "./")
-
- ("/home/ol/.cargo/" (24604 63379 899905 352000) "git/" ".crates2.json" ".crates.toml" "registry/" ".package-cache" "env" "bin/" "../" "./")
-
- ("/home/ol/.emacs.d/" (24713 36255 701806 578000) "ido.last" "ido.last~" "idlwave/" ".emacs" ".emacs~" ".emacs_common" "session.10f11fe938b3d9d59159638443742906000000189600089" "session.109e665ae7c93362bd159441734996369600000153990090" "session.106b6786a8a7d68b6415943263738411100000195720094" "session.10672e2fb580b58d50159398582697653800000227210092" "session.1026c285d9f12dc07b1593967324791600000161310092" "session.10e5fdffbf37895dd8159395236389969200000108460089" "session.10c0c39ff9f87323e7159395126911473300000308370089" "session.10607fc069b88fe92a159394160660035300000036440089" "#ido.last#" "session.1020ad4474e7cb5f0a159394092318143800000312550089" "session.102ea3eaa4d03cfdbf159391898425109300000105220092" ".emacs_common~" "abbrev_defs" "url/" "ac-comphist.dat" "auto-save-list/" "eshell/" ".emacs_linux" "elpa/" ".emacs_mac" "swank/" "lisp/" "fuzzy.el" "ac-dict/" "README.md" ".gitignore" ".git/" "../" "./")
-
- ("/home/ol/Downloads/servo-latest/" (24712 25163 419612 82000) "servo/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

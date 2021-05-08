@@ -19,7 +19,7 @@
  '(ido-mode (quote both) nil (ido))
  '(package-selected-packages
    (quote
-    (rust-mode asn1-mode solarized-theme paredit org-tree-slide org-evil org-bullets multi-term free-keys evil-org evil-magit eimp dash-functional dash-at-point company cider)))
+    (racer cargo rust-mode asn1-mode solarized-theme paredit org-tree-slide org-evil org-bullets multi-term free-keys evil-org evil-magit eimp dash-functional dash-at-point company cider)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

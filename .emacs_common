@@ -193,6 +193,17 @@ The Unix system program `par' is required be installed on the system."
         (setq python-indent 4)))
 
 
+;; Rust
+(add-hook 'rust-mode-hook #'racer-mode)
+(add-hook 'rust-mode-hook #'cargo-minor-mode)
+(add-hook 'racer-mode-hook #'eldoc-mode)
+(add-hook 'racer-mode-hook #'company-mode)
+(require 'rust-mode)
+(define-key rust-mode-map (kbd "TAB") #'company-indent-or-complete-common)
+(setq company-tooltip-align-annotations t)
+(evil-define-key 'normal rust-mode-map (kbd "M-.") 'racer-find-definition)
+(evil-define-key 'normal rust-mode-map (kbd "M-,") 'pop-tag-mark)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
 ;; Allow input to be sent to somewhere other than inferior-lisp
