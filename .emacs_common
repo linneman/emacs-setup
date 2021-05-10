@@ -436,6 +436,12 @@ The Unix system program `par' is required be installed on the system."
 (setq org-hide-emphasis-markers t)
 (setq org-image-actual-width nil)
 
+;; org-reveal (x-reveal)
+(load-library "ox-reveal")
+(setq org-reveal-root (concat "file:///" (expand-file-name "~/.emacs.d/reveal.js")))
+(setq org-reveal-mathjax t)
+
+
 ;; image mode hook (requires image-magick)
 (add-hook 'image-mode-hook 'eimp-mode)
 
