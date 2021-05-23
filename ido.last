@@ -2,6 +2,17 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/ol/Nextcloud/Documents/peiker/" . "rust-presentation/")
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example_2_2/" . "src/")
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example_2_1/" . "src/")
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example_1_2/" . "src/")
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example1.2/" . "src/")
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example2/" . "src/")
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/" . "example_2_1/")
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/ref_and_borrowing/" . "src/")
+ ("/home/ol/Nextcloud/Documents/" . "peiker/")
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/" . "examples/")
+ ("/home/ol/Nextcloud/" . "Documents/")
  ("/home/ol/data/solaris-home/Entwicklung/" . "git-presentation.org/")
  ("/home/ol/.rustup/" . "toolchains/")
  ("/home/ol/development/poky-rust/build/tmp/work/armv7vet2hf-neon-poky-linux-gnueabi/rust-ssc/0.0.1.AUTOINC+4938fc13ad-r0/" . "temp/")
@@ -216,7 +227,7 @@
  ("/home/ol/data/" . "solaris-home/")
  ("/home/ol/development/nightly-build/resources/" . "build-descriptions/")
  ("/home/ol/development/nightly-build/" . "src/")
- ("/home/ol/development/" . "reveal.js/")
+ ("/home/ol/development/" . "rust/")
  ("/home/ol/Entwicklung/" . "DspParameterEditor/")
  ("/home/ol/tmp/boot_images/core/storage/flash/tools/src/nand/" . "config_v2/")
  ("/home/ol/tmp/boot_images/core/storage/flash/tools/src/" . "nand/")
@@ -238,16 +249,26 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/ol/data/solaris-home/Entwicklung/git-presentation.org/"
+ "/home/ol/Nextcloud/Documents/peiker/rust-presentation/"
+ "/home/ol/"
+ "/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example_2_2/"
+ "/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example_2_2/src/"
+ "/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example_2_1/src/"
+ "/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example_1_2/src/"
+ "/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example1.2/src/"
+ "/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example2/src/"
+ "/home/ol/Nextcloud/Documents/peiker/rust-presentation/ref_and_borrowing/src/"
+ "/home/ol/development/HDiffPatch/"
+ "/home/ol/development/rust/rust-intercom/src/"
+ "/home/ol/development/nightly-build/src/server/"
+ "/home/ol/development/nightly-build/src/crossover/"
  "/home/ol/tmp/reveal-test/"
+ "/home/ol/data/solaris-home/Entwicklung/git-presentation.org/"
  "/home/ol/.emacs.d/"
  "/home/ol/development/reveal.js/"
- "/home/ol/"
- "/home/ol/development/rust/rust-intercom/src/"
  "/home/ol/development/rust/rust-ssc/"
  "/home/ol/development/rust/rust-intercom/example/src/"
  "/home/ol/development/rust/rust-ssc/src/"
- "/home/ol/development/nightly-build/src/server/"
  "/home/ol/development/rust/slices/src/"
  "/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/meta-peiker/recipes/rust-ssc/"
  "/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/meta-peiker/"
@@ -278,39 +299,101 @@
  "/home/ol/tmp/"
  "/home/ol/development/rust/intercom/src/"
  "/home/ol/development/alsa-lib/include/"
- "/home/ol/development/alsa-lib/src/pcm/"
- "/home/ol/development/rust/hello_cargo/"
- "/home/ol/development/ltenad9607-quectel-ws1/apps_proc/kernel/msm-3.18/drivers/usb/gadget/"
- "/home/ol/development/ltenad9607-quectel-ws1/apps_proc/kernel/msm-3.18/drivers/usb/gadget/function/"
- "/home/ol/development/poky-rust/meta-rust/classes/"
- "/home/ol/development/poky-rust/build/conf/"
- "/home/ol/development/poky-rust/build/"
- "/home/ol/development/ltenad9607-quectel-ws1/apps_proc/poky/meta-proprietary/classes/"
- "/home/ol/development/ltenad9607-quectel-ws1/apps_proc/poky/meta-proprietary/recipes/alsaucm/"
- "/home/ol/development/ltenad9607-quectel-ws1/apps_proc/poky/meta-peiker/recipes/ssc/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "git-presentation.org"
- "presentation.css"
- "reveal-test.org"
- ".emacs_common"
- "reveal-test.html"
- "CONTRIBUTING.md"
+ "presentation.org"
  "notes.org"
- "ac-comphist.dat"
- "data_stream.rs"
- "Cargo.toml"
+ ".gitignore"
+ "README"
+ "main.rs"
+ "CHANGELOG.md"
+ "server_connection.rs"
+ "reveal-test.org"
+ "core.clj"
+ "config.clj"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ol/.emacs.d/" (24729 665 893052 712000) "ido.last" "ido.last~" ".emacs_common" ".emacs_common~" "reveal.js/" ".emacs" "auto-save-list/" ".emacs~" "ac-comphist.dat" "session.10f11fe938b3d9d59159638443742906000000189600089" "session.109e665ae7c93362bd159441734996369600000153990090" "session.106b6786a8a7d68b6415943263738411100000195720094" "session.10672e2fb580b58d50159398582697653800000227210092" "session.1026c285d9f12dc07b1593967324791600000161310092" "session.10e5fdffbf37895dd8159395236389969200000108460089" "session.10c0c39ff9f87323e7159395126911473300000308370089" "session.10607fc069b88fe92a159394160660035300000036440089" "session.1020ad4474e7cb5f0a159394092318143800000312550089" "session.102ea3eaa4d03cfdbf159391898425109300000105220092" "abbrev_defs" "eshell/" ".emacs_linux" "elpa/" ".emacs_mac" "swank/" "lisp/" "fuzzy.el" "ac-dict/" "README.md" ".gitignore" ".git/" "../" "./")
+ ("/home/ol/.emacs.d/elpa/ox-reveal-20210515.1007/" (24746 48336 91862 32000) "ox-reveal.elc" "ox-reveal-autoloads.el" "ox-reveal-pkg.el" "ox-reveal.el" "../" "./")
 
- ("/home/ol/data/solaris-home/Entwicklung/git-presentation.org/" (24729 1804 538138 702000) "separate_hello_func.patch" "my.diff" "git-presentation.org" ".gitignore" "#git-presentation.org#" "sample-project/" "sample-project-work/" "figures/" ".git/" "../" "./")
+ ("/home/ol/Nextcloud/" (24746 48584 884417 62000) "._.DS_Store" ".DS_Store" "passwords.kdbx" "tmp/" "keypassx.key" "development/" "Nextcloud.png" "Photos/" "Nextcloud.mp4" "Nextcloud Manual.pdf" "Nextcloud Community.jpeg" "Filme/" "Documents/" "Audiofiles/" ".owncloudsync.log" "._sync_861e618a7264.db" "../" "./")
 
- ("/home/ol/tmp/reveal-test/" (24729 2574 784406 96000) "reveal-test.html" "reveal-test.html~" "figures/" "presentation.css" "presentation.css~" "reveal-test.org" "reveal-test.org~" "../" "./")
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/" (24746 48582 460372 670000) "presentation.html" "presentation.html~" "presentation.org" "presentation.org~" "presentation.pdf" "presentation.tex" "examples/" ".gitignore" ".git/" "presentation.css~" "presentation.css" "figures/" "../" "./")
+
+ ("/home/ol/.emacs.d/" (24746 48491 978715 764000) "ido.last" "ido.last~" "session.106a72cd8e72748586162164057581738100000170180144" ".emacs" ".emacs_common" ".emacs_common~" "auto-save-list/" ".emacs~" "ac-comphist.dat" "session.10f11fe938b3d9d59159638443742906000000189600089" "session.109e665ae7c93362bd159441734996369600000153990090" "session.106b6786a8a7d68b6415943263738411100000195720094" "session.10672e2fb580b58d50159398582697653800000227210092" "session.1026c285d9f12dc07b1593967324791600000161310092" "session.10e5fdffbf37895dd8159395236389969200000108460089" "session.10c0c39ff9f87323e7159395126911473300000308370089" "session.10607fc069b88fe92a159394160660035300000036440089" "session.1020ad4474e7cb5f0a159394092318143800000312550089" "session.102ea3eaa4d03cfdbf159391898425109300000105220092" "abbrev_defs" "eshell/" ".emacs_linux" "elpa/" ".emacs_mac" "swank/" "lisp/" "fuzzy.el" "ac-dict/" "README.md" ".gitignore" ".git/" "../" "./")
+
+ ("/home/ol/" (24746 48020 94080 997000) ".bash_history" ".Xauthority" ".gitconfig" ".gitconfig~" ".repo_.gitconfig.json" ".viminfo" ".ssc.rc" ".ssc.rc~" ".octave_hist" "darktable_exported/" ".profile" ".profile~" "my_livecode/" ".runrev/" ".finf/" "mac_system7_5" ".basilisk_ii_prefs" ".basilisk_ii_prefs~" ".basilisk_ii_xpram" "Temp/" ".repopickle_.gitconfig" ".gforth-history" ".dlt/" "splitxml.c~" ".lesshst" ".rustup/" ".cargo/" ".DspParamEditor.properties" ".fgfs/" ".hp48/" ".ngspice_history" ".qucs/" ".cache/" ".ICEauthority" ".xsession-x2go-maxwell-errors" ".xsession-x2go-maxwell-errors.old" ".gsutil/" "Entwicklung/" "Dokumente/" "Dokumentation/" ".icewm/" ".:1-fakexinerama" "share/" ".var/" ".cmake/" ".y2control/" ".audacity-data/" "snap/" "nightly-build-logs/" ".netrc" ".netrc~" "._opel_depends_coreutils.txt" ".gphoto/" ".minirc.dfl" ".tooling/" "eclipse-workspace/" ".swt/" "workspace/" ".eclipse/" ".localhost:10.0-fakexinerama" ".android/" "._reverted_changes.log" "._syslog" ".nightly-build/" "build-descriptions/" ".mysql_history" ".rnd" "nightly-build-logs-test/" ".httpie/" ".cups/" ".designer/" ".pyhistory" "tmp/" ".bashrc~" ".bashrc" "go/" "._notes-mac.org" "notes_ril.txt" ".java/" ".linphonerc" ".linphonec_history" ".linphone-zidcache" "Nextcloud/" ".python-history" "notes_ril.txt~" ".serverauth.5330" ".xdg_menu_cache/" ".gnome2/" "notes.org" ".gtk-bookmarks" ".xboardrc" "._.apdisk" ".apdisk" "notes.org~" ".guestfish" ".screenrc" ".wget-hsts" ".y2usersettings" ".y2log" ".esd_auth" ".inputrc" ".xinitrc.template" ".xim.template" ".i18n" ".m2/" ".dbus/" ".cache_backup/" ".dbus_backup/" ".local/" ".pki/" "public_html/" ".gimp-2.8/" ".bitcoin/" ".armory/" ".xpra/" "data/" "software/" ".docker/" ".gvfs/" ".DS_Store" ".subversion/" ".gnupg/" ".repoconfig/" ".vim/" ".lein/" ".dir_colors/" "VirtualBox VMs/" ".vbox/" ".x2goclient/" ".x2go/" ".ssh/" "development/" ".emacs" ".emacs.d/" ".mozilla/" "Videos/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" "bin/" ".fonts/" ".config/" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/" (24743 48649 926995 966000) "linnemann_logbuch.ods" "rust-presentation/" "Quectel/" "WNC/" "test.txt" "survey.txt" "ltenad9640/" "Attendance_CoreALM_Git_Training_2018-05-04.docx" "OpenNAD-Logos/" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example_2_2/" (24743 46029 655172 233000) "target/" "Cargo.lock" "README" "README~" "src/" "Cargo.toml" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example_2_2/src/" (24743 46065 747828 153000) "main.rs" "main.rs~" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example_2_1/src/" (24743 45419 908093 636000) "main.rs" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example_2_1/" (24743 45441 120479 20000) "README" "src/" "Cargo.toml" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/" (24743 45419 908093 636000) "example_2_1/" "example_1_2/" "example_1_1/" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example_1_2/src/" (24743 45016 504765 651000) "#main.rs#" ".#main.rs" "main.rs" "main.rs~" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example_1_2/" (24743 45319 674272 763000) "README" "target/" "Cargo.lock" "src/" "Cargo.toml" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example2.1/" (24743 45180 615746 782000) "README" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example1.2/src/" (24743 38772 775086 37000) "main.rs" "main.rs~" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example1.2/" (24743 38772 771085 963000) "README" "target/" "Cargo.lock" "src/" "Cargo.toml" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example2/" (24743 38690 685592 538000) "README" "target/" "Cargo.lock" "src/" "Cargo.toml" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example1/" (24743 38588 467732 878000) "README" "target/" "Cargo.lock" "src/" "Cargo.toml" "../" "./")
+
+ ("/home/ol/tmp/" (24739 57456 767569 801000) "atlin-rnma-ivc.bundle" "reveal-test/" "bond.bundle" "bond.wav" "Cargo.toml" "mono.wav" "stereo.wav" "madness.wav" "otto.wav" "ringtone.wav" "operational.wav" "210418_0002.wav" "tmp/" "librt-2.31.so" "libpthread-2.31.so" "ld-2.31.so" "libc-2.31.so" "libstd.so" "ssc_0.0.1.ipk" "t1.m" "t1.m~" "dlt-qxdm.bundle" "progit/" "BitcoinArmory/" "EP2009_105_CKIII_SAP_V4_MBA-Akustik-Wiki.pdf" "Hello1/" "hello.livecode" "Hello/" "test_toene/" "test4.wav" "test3.wav" "test2.wav" "Bildschirmfoto vom 2021-01-20 22-53-06.png" "Bildschirmfoto vom 2021-01-20 19-14-06.png" "pnryokb-1529936822.jpg" "lk.bundle" "untitled.bmp.jpg.xmp" "tonarm_gebrochen.JPG.xmp" "Bauernschrank_h1.jpg.xmp" "tonarm_gebrochen.JPG" "Bestelleingangsbestätigung.pdf" "mac_se_recap.pdf" "Bauernschrank_h1.jpg" "Kelim_Teppiche_Linnemann.pdf" "test.wav" "test.mp3" "silent.aup" "silent_data/" "test.aup" "test_data/" "untitled.bmp.jpg" "splitxml.c~" "tmp.txt" "test_endianess.c" "test_endianess.c~" "Jörg_Ramb.asc" "keybase_amd64.rpm" "test.c" "test.c~" "DspParamEditor/" "Starter/" "CappuccinoStarter-1.0.0.zip" "idefix/" "DspParamCrtl/" "boot_images/" "mesontest/" "../" "./")
+
+ ("/home/ol/.ssh/" (24717 56395 403651 666000) "known_hosts" "known_hosts~" "config" "config~" "authorized_keys" "authorized_keys~" "id_rsa.pub" "id_rsa" "../" "./")
+
+ ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/meta-peiker/recipes-mdm9607/qcom-binaries/" (24720 13542 877413 24000) "qcom-firmware_git.bb" "qcom-boot_git.bb" "../" "./")
+
+ ("/home/ol/development/libintercom/" (24659 43232 886652 948000) "GRTAGS" "GPATH" "GTAGS" "libtool" "stamp-h1" "config.h" "libintercom.pc" "Makefile" "config.status" "config.log" "test-driver" "depcomp" "Makefile.in" "missing" "install-sh" "config.sub" "config.guess" "compile" "config.h.in" "configure" "aclocal.m4" "ltmain.sh" "autom4te.cache/" ".gitignore" "INSTALL" "configure.ac" "README" "src/" "m4/" "libintercom.pc.in" "include/" "example/" "doc/" "autogen.sh" "README.md" "NEWS" "Makefile.am" "ChangeLog" "COPYING" "AUTHORS" ".git/" "../" "./")
+
+ ("/home/ol/development/libintercom/src/" (24587 57034 334183 809000) "test_icom_transport" "test_icom_transport-test_data_stream_splitter.o" "test_icom_oneshot_client" "test_icom_oneshot_client-test_oneshot_client.o" "test_icom_client" "test_icom_client-test_client.o" "test_icom_server" "libintercom.la" "utils.lo" "utils.o" "revision.lo" "revision.o" "log.lo" "log.o" "data_stream_splitter.lo" "data_stream_splitter.o" "client.lo" "client.o" "server.lo" "server.o" "events.lo" "events.o" "test_icom_server-test_server.o" ".libs/" ".deps/" "Makefile" "Makefile.in" "server.c" "events.c" "utils.c" "test_server.c" "test_oneshot_client.c" "test_client.c" "client.c" "Makefile.am" "data_stream_splitter.c" "utils.h" "test_data_stream_splitter.c" "test_data_stream_splitter.h" "test_server.h" "test_client.h" "test.sh" "revision.c" "log.c" "../" "./")
+
+ ("/home/ol/development/nightly-build/" (24730 49780 578275 252000) "target/" "README.md" "README.md~" "project.clj" "doc/" ".gitignore" "out/" "browser_repl.clj" "README" "COPYING" "project.clj~" ".lein-repl-history" ".git/" "test/" ".hgignore" "src/" "resources/" "CHANGELOG.md" "../" "./")
+
+ ("/home/ol/.nightly-build/" (24403 51564 666182 246000) "local_settings.clj" "local_settings.clj~" "log-atom-store.clj" "session-store.clj" "tasks/" "user-store.clj" "active-config" "key_crt.jks" "../" "./")
+
+ ("/home/ol/data/solaris-home/Entwicklung/git-presentation.org/" (24729 2613 837129 71000) "git-presentation.html" "separate_hello_func.patch" "my.diff" "git-presentation.org" ".gitignore" "#git-presentation.org#" "sample-project/" "sample-project-work/" "figures/" ".git/" "../" "./")
+
+ ("/home/ol/tmp/reveal-test/" (24730 49571 286450 793000) "reveal-test.html" "reveal-test.html~" "figures/" "presentation.css" "presentation.css~" "reveal-test.org" "reveal-test.org~" "../" "./")
+
+ ("/home/ol/development/nightly-build/src/server/" (24730 47670 603580 895000) "local_settings.clj" "build_task.clj" "build_task.clj~" "local_settings.clj~" "utils.clj" "crypto.clj" "cron.clj" "core.clj" "config.clj" "config.clj~" "#auth.clj#" "tasks.clj" "session.clj" "build_log_handler.clj" "auth.clj" "build_log_handler.clj~" "test_config.clj~" "shell_utils.clj" "email.clj" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/examples/example2/src/" (24743 38269 837937 344000) "main.rs" "main.rs~" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/ref_and_borrowing/src/" (24743 35045 515293 418000) "main.rs" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/ref_and_borrowing/" (24743 35045 515293 418000) "src/" "Cargo.toml" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/" (24743 23437 506577 815000) "Blutdrucktabelle.ods" "Finanzen/" "SE30/" "Steuer/" "System76/" "Bestellung drucken – Musikhaus Thomann.pdf" "Rogers_Boxen/" "Briefe/" "Verkaufsbeleg_RA-3-20-00811.pdf" "Diagramm_Blutdruckwerte_Feb20-Mai20.ods" "Diagramm_Blutdruckwerte_Okt19-Feb20.odt" "Mama/" "Ich/" "Diagramm_Blutdruckwerte_Okt19-Jan20.odt" "Rente/" "construction/" "Auto/" "Urlaub/" "._.DS_Store" ".DS_Store" "peiker/" "cv_linnemann.pdf" "documentation/" "Sinclair_Spectrum/" "Reisen/" "DSCF3722.JPG" "Papa/" "About.odt" "About.txt" "Aura/" "../" "./")
+
+ ("/home/ol/development/HDiffPatch/" (24740 529 398521 445000) "test/" "libParallel/" "libHDiffPatch/" "hpatchz.c" "hpatch_dir_listener.h" "hdiffz_import_patch.h" "hdiffz_import_patch.c" "hdiffz.cpp" "file_for_patch.h" "file_for_patch.c" "dirDiffPatch/" "decompress_plugin_demo.h" "compress_plugin_demo.h" "compress_parallel.h" "compress_parallel.cpp" "checksum_plugin_demo.h" "builds/" "_dir_ignore.h" "_clock_for_demo.h" "_atosize.h" "README.md" "Makefile" "LICENSE" "CHANGELOG.md" ".travis.yml" ".gitignore" ".git/" "../" "./")
+
+ ("/home/ol/development/" (24740 528 478503 696000) "HDiffPatch/" "atlin-rnma-ivc/" "ltenad9607-quectel-ws2/" "poky-latest/" "global-6.6/" "global-6.6.tar.gz" "global-6.6.3/" "global-6.6.3.tar.gz" "poky-rust/" "alsa-lib/" "dlt-qxdm/" "libuv/" "libuvtest/" "macemu/" "repo/" "repo.bundle" "qti/" "notes.org" "notes.org~" "alberto/" "dlt-viewer/" "DLTtool.log" "dlttool-1.0.0/" "splitxml.c" "rust/" "ltenad9607-quectel-ws1/" "osg/" "nightly-build-pages/" "linuxdeploy/" "shairport/" "asn1/" "idefix/" "ril-client/" "ssc/" "clojure-test-env/" "no-more-secrets/" "ttyd/" "randtest.c" "tmp/" "nightly-build-python/" "nightly-build/" "SDL/" "mandelbrot-native/" "vss/" "bctoolbox/" "ortp/" "mediastreamer2/" "tinyscheme/" "alsaucm/" "project-alpha/" "nrepl-adapter/" "unamefake/" "tar-1.30/" "libcutils/" "libxmlexample/" "minicaller/" "mandelbrot-set/" "libintercom/" "libffitest/" "pixie/" "radiomat/" "patch-manifest/" "._.DS_Store" ".DS_Store" "solitaire/" "pub-oss/" "gnome-terminal-colors-solarized/" "../" "./")
+
+ ("/home/ol/development/atlin-rnma-ivc/" (24739 57549 377244 594000) "recipes-security/" "recipes-multimedia/" "recipes-ltenad/" "recipes-kernel/" "recipes-gac/" "recipes-core/" "recipes-atlin/" "recipes-application/" "recipes-acsf/" "conf/" "classes/" ".gitattributes" ".git/" "../" "./")
+
+ ("/home/ol/development/rust/rust-intercom/" (24721 41203 757191 332000) "Cargo.lock" "target/" "build.rs" "Cargo.toml" "Cargo.toml~" "example/" ".gitignore" "COPYING" ".gitignore~" "src/" ".git/" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/figures/" (24730 47841 34715 671000) "commit_illustration/" "../" "./")
+
+ ("/home/ol/Nextcloud/Documents/peiker/rust-presentation/figures/commit_illustration/" (23143 39898 0 0) "a_commit.png" "a_commit.odg" "#a_commit.png#" "../" "./")
+
+ ("/home/ol/development/nightly-build/src/crossover/" (24019 1298 474025 451000) "macros.clj" "../" "./")
 
  ("/home/ol/data/solaris-home/Entwicklung/" (24202 55786 0 0) ".DS_Store" "nightly-build-test/" "nightly-build-publish/" "nightly-build-pages/" "html-test/" "dlt-viewer/" "sensolligent_excercise_linneman/" "nightly-build/" "testpipeline.txt" "springboot/" "sebsa_appl_grandcentral/" "ril-client/" "quicksort/" "mandelbrot-native/" "docker/" "AOE/" "vss/" "udp-test/" "kotlin/" "Jan_Winkler/" "data_stream_splitter/" "xml/" "xcodetest2/" "xcodetest/" "workspace/" "web/" "valgrind-3.5.0/" "tmp/" "tinyscheme/" "testserial/" "templates/" "tcm_backup/" "tcm/" "swingtest/" "ssc/" "sqlite4java/" "sol_hoang/" "sol_doc/" "sol_1_1/" "sol_1_0/" "snake/" "skripts/" "sipgateway/" "signale/" "serialproxy/" "scrollpanetest/" "scheme/" "ruby/" "rails/" "ql_data/" "ql-add-header/" "pixie/" "particles/" "ortp/" "octave/" "objmem/" "music-parser/" "mkultra/" "minicaller/" "microchip/" "memorymapping/" "mediastreamer2/" "ltenad/" "linphone/" "libintercom_test/" "libintercom/" "libffitest_old/" "libffitest/" "libeXosip2/" "libcutils_test/" "libcutils_check/" "libcutils/" "libbsd/" "layout/" "joomla/" "javascript/" "java/" "io_scheme/" "image-builder/" "idefix/" "iWave/" "hello-vala/" "git/" "git-presentation.org/" "git-foo/" "gen-dsp/" "gambc-v4_6_5-devel/" "erlang/" "eclipse/" "doxy2man/" "dbus-example/" "closure/" "clojure/" "bthfck3/" "beagle/" "base64.c/" "backup/" "b64/" "autotools-book-files/" "audioanalysator/" "alsaucm_old/" "alsaucm/" "alberto/" "Wipeout/" "ThreadExample/" "Studium/" "Sinclair_QL/" "Signalverarbeitung/" "SSV/" "RegenTankTabelle/" "QT/" "QL/" "Python/" "Ports/" "Philips/" "Perl/" "Peiker/" "Objective_C/" "Modelle/" "Logos/" "LeakageTest/" "Kernel/" "Emacs/" "DspParameterEditor/" "DspParamCrtl/" "Alberto_Windows_Embedded_2016-01-27/" "ANSI_Programme/" "ANSI++_Prog./" "../" "./")
 
@@ -319,8 +402,6 @@
  ("/home/ol/data/" (24680 44762 496982 894000) "VirtualBox VMs/" "Audio-Aufzeichnungen/" "Classic Mac/" "Documents/" "missing.txt~" "sources-9x15/" "jamvm.tgz" "icedtea.tgz" "git2.tgz" "sources-9x15-20200416T161531Z-001.zip" "peiker/" "Filme/" "Pictures/" "._.DS_Store" ".DS_Store" "tmp/" "solaris-home/" "nextcloud/" "development/" "blckchain/" "Software/" "Fotos/" "../" "./")
 
  ("/home/ol/Documents/" (24691 16275 326385 39000) "codes.txt.gpg" "login/" "BC/" "Ausgabe.pdf" "test.txt~" "20200630191337_Ihr_Einlieferungsbeleg.pdf" "Verkaufsbeleg_RA-3-20-00811.pdf" "._.DS_Store" ".DS_Store" "harddisks/" "._uml-2-Notationsuebersicht-oose.de.pdf" "uml-2-Notationsuebersicht-oose.de.pdf" "._thesis_crossplatform_dev.pdf" "thesis_crossplatform_dev.pdf" "._mythicalmanmonth00fred.pdf" "mythicalmanmonth00fred.pdf" "._Clojure_Programming.pdf" "Clojure_Programming.pdf" "../" "./")
-
- ("/home/ol/development/" (24728 64612 307766 762000) "ltenad9607-quectel-ws2/" "poky-latest/" "global-6.6/" "global-6.6.tar.gz" "global-6.6.3/" "global-6.6.3.tar.gz" "poky-rust/" "alsa-lib/" "dlt-qxdm/" "libuv/" "libuvtest/" "macemu/" "repo/" "repo.bundle" "qti/" "notes.org" "notes.org~" "alberto/" "dlt-viewer/" "DLTtool.log" "dlttool-1.0.0/" "splitxml.c" "rust/" "ltenad9607-quectel-ws1/" "osg/" "nightly-build-pages/" "linuxdeploy/" "shairport/" "asn1/" "idefix/" "ril-client/" "ssc/" "clojure-test-env/" "no-more-secrets/" "ttyd/" "randtest.c" "tmp/" "nightly-build-python/" "nightly-build/" "SDL/" "mandelbrot-native/" "vss/" "bctoolbox/" "ortp/" "mediastreamer2/" "tinyscheme/" "alsaucm/" "project-alpha/" "nrepl-adapter/" "unamefake/" "tar-1.30/" "libcutils/" "libxmlexample/" "minicaller/" "mandelbrot-set/" "libintercom/" "libffitest/" "pixie/" "radiomat/" "patch-manifest/" "._.DS_Store" ".DS_Store" "solitaire/" "pub-oss/" "gnome-terminal-colors-solarized/" "../" "./")
 
  ("/home/ol/development/poky-rust/source/rust-ssc/src/" (24724 2632 723191 485000) "proc.rs" "main.rs" "alsa.rs" "wavio.rs" "wav_proc.rs" "config.rs" "asoundlib.rs" "../" "./")
 
@@ -368,10 +449,6 @@
 
  ("/home/ol/development/rust/rust-intercom/example/src/" (24727 4143 804104 431000) "server.rs" "server.rs~" "client.rs" "client.rs~" "../" "./")
 
- ("/home/ol/tmp/" (24728 65010 711111 9000) "reveal-test/" "bond.bundle" "bond.wav" "Cargo.toml" "mono.wav" "stereo.wav" "madness.wav" "otto.wav" "ringtone.wav" "operational.wav" "210418_0002.wav" "tmp/" "librt-2.31.so" "libpthread-2.31.so" "ld-2.31.so" "libc-2.31.so" "libstd.so" "ssc_0.0.1.ipk" "t1.m" "t1.m~" "dlt-qxdm.bundle" "progit/" "BitcoinArmory/" "EP2009_105_CKIII_SAP_V4_MBA-Akustik-Wiki.pdf" "Hello1/" "hello.livecode" "Hello/" "test_toene/" "test4.wav" "test3.wav" "test2.wav" "Bildschirmfoto vom 2021-01-20 22-53-06.png" "Bildschirmfoto vom 2021-01-20 19-14-06.png" "pnryokb-1529936822.jpg" "lk.bundle" "untitled.bmp.jpg.xmp" "tonarm_gebrochen.JPG.xmp" "Bauernschrank_h1.jpg.xmp" "tonarm_gebrochen.JPG" "Bestelleingangsbestätigung.pdf" "mac_se_recap.pdf" "Bauernschrank_h1.jpg" "Kelim_Teppiche_Linnemann.pdf" "test.wav" "test.mp3" "silent.aup" "silent_data/" "test.aup" "test_data/" "untitled.bmp.jpg" "splitxml.c~" "tmp.txt" "test_endianess.c" "test_endianess.c~" "Jörg_Ramb.asc" "keybase_amd64.rpm" "test.c" "test.c~" "DspParamEditor/" "Starter/" "CappuccinoStarter-1.0.0.zip" "idefix/" "DspParamCrtl/" "boot_images/" "mesontest/" "../" "./")
-
- ("/home/ol/" (24728 64498 457667 450000) ".bash_history" ".Xauthority" ".gitconfig" ".gitconfig~" ".repo_.gitconfig.json" ".viminfo" ".ssc.rc" ".ssc.rc~" ".octave_hist" "darktable_exported/" ".profile" ".profile~" "my_livecode/" ".runrev/" ".finf/" "mac_system7_5" ".basilisk_ii_prefs" ".basilisk_ii_prefs~" ".basilisk_ii_xpram" "Temp/" ".repopickle_.gitconfig" ".gforth-history" ".dlt/" "splitxml.c~" ".lesshst" ".rustup/" ".cargo/" ".DspParamEditor.properties" ".fgfs/" ".hp48/" ".ngspice_history" ".qucs/" ".cache/" ".ICEauthority" ".xsession-x2go-maxwell-errors" ".xsession-x2go-maxwell-errors.old" ".gsutil/" "Entwicklung/" "Dokumente/" "Dokumentation/" ".icewm/" ".:1-fakexinerama" "share/" ".var/" ".cmake/" ".y2control/" ".audacity-data/" "snap/" "nightly-build-logs/" ".netrc" ".netrc~" "._opel_depends_coreutils.txt" ".gphoto/" ".minirc.dfl" ".tooling/" "eclipse-workspace/" ".swt/" "workspace/" ".eclipse/" ".localhost:10.0-fakexinerama" ".android/" "._reverted_changes.log" "._syslog" ".nightly-build/" "build-descriptions/" ".mysql_history" ".rnd" "nightly-build-logs-test/" ".httpie/" ".cups/" ".designer/" ".pyhistory" "tmp/" ".bashrc~" ".bashrc" "go/" "._notes-mac.org" "notes_ril.txt" ".java/" ".linphonerc" ".linphonec_history" ".linphone-zidcache" "Nextcloud/" ".python-history" "notes_ril.txt~" ".serverauth.5330" ".xdg_menu_cache/" ".gnome2/" "notes.org" ".gtk-bookmarks" ".xboardrc" "._.apdisk" ".apdisk" "notes.org~" ".guestfish" ".screenrc" ".wget-hsts" ".y2usersettings" ".y2log" ".esd_auth" ".inputrc" ".xinitrc.template" ".xim.template" ".i18n" ".m2/" ".dbus/" ".cache_backup/" ".dbus_backup/" ".local/" ".pki/" "public_html/" ".gimp-2.8/" ".bitcoin/" ".armory/" ".xpra/" "data/" "software/" ".docker/" ".gvfs/" ".DS_Store" ".subversion/" ".gnupg/" ".repoconfig/" ".vim/" ".lein/" ".dir_colors/" "VirtualBox VMs/" ".vbox/" ".x2goclient/" ".x2go/" ".ssh/" "development/" ".emacs" ".emacs.d/" ".mozilla/" "Videos/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" "bin/" ".fonts/" ".config/" "../" "./")
-
  ("/home/ol/development/reveal.js/" (24728 63950 579568 111000) "test/" "plugin/" "package.json" "package-lock.json" "js/" "index.html" "gulpfile.js" "examples/" "dist/" "demo.html" "css/" "README.md" "LICENSE" "CONTRIBUTING.md" ".npmignore" ".gitignore" ".github/" ".git/" "../" "./")
 
  ("/home/" (24328 57365 530164 994000) "linuxbrew/" "guest/" "git/" "ol/" "../" "./")
@@ -385,8 +462,6 @@
  ("/home/ol/development/rust/tst1/" (24522 19218 243528 316000) "target/" "Cargo.lock" "src/" "Cargo.toml" ".gitignore" ".git/" "../" "./")
 
  ("/home/ol/development/rust/tst1/src/" (24522 19378 386416 538000) "main.rs" "main.rs~" "../" "./")
-
- ("/home/ol/development/nightly-build/src/server/" (24722 33872 347723 392000) "local_settings.clj" "build_task.clj" "build_task.clj~" "local_settings.clj~" "#core.clj#" "utils.clj" "crypto.clj" "cron.clj" "core.clj" "config.clj" "config.clj~" "#auth.clj#" "tasks.clj" "session.clj" "build_log_handler.clj" "auth.clj" "build_log_handler.clj~" "test_config.clj~" "shell_utils.clj" "email.clj" "../" "./")
 
  ("/home/ol/development/nightly-build/src/" (24019 1333 502644 733000) "server/" "crossover/" "client/" "../" "./")
 
@@ -441,70 +516,6 @@
  ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/build/" (24724 5970 552048 487000) "doxygen.tag" "doxygen_ext_docs/" "buildhistory/" "sstate-cache/" "cache/" "bitbake-cookerdaemon.log" "tmp-glibc/" "downloads/" "conf/" "../" "./")
 
  ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/peiker/rust-intercom/" (24724 5361 388808 621000) "Cargo.toml" "Cargo.toml~" "target/" "src/" "example/" "build.rs" "COPYING" ".gitignore" ".git/" "../" "./")
-
- ("/home/ol/development/poky-rust/source/rust-intercom/" (24724 3984 607739 8000) "Cargo.toml" "target/" "build.rs" "src/" "example/" "COPYING" ".gitignore" ".git/" "../" "./")
-
- ("/home/ol/development/poky-rust/meta-rust-packages/recipes-audio/rust-intercom/" (24724 3965 891398 730000) "rust-intercom_0.1.0.bb" "rust-intercom_0.1.0.bb~" "../" "./")
-
- ("/home/ol/development/poky-rust/build/tmp/work/armv7vet2hf-neon-poky-linux-gnueabi/rust-ssc/0.0.1.AUTOINC+4938fc13ad-r0/temp/" (24724 3890 638030 744000) "run.do_compile.27590" "run.do_compile" "log.do_compile.27590" "log.do_compile" "run.do_qa_configure.27578" "run.do_configure.27578" "run.do_configure" "log.do_configure.27578" "log.do_configure" "run.uninative_changeinterp.27505" "run.sstate_hardcode_path_unpack.27505" "run.uninative_changeinterp.27506" "run.sstate_hardcode_path_unpack.27506" "run.sstate_create_package.27505" "depsig.do_deploy_source_date_epoch" "depsig.do_deploy_source_date_epoch.27505" "run.sstate_report_unihash.27505" "run.sstate_hardcode_path.27505" "run.sstate_create_package.27506" "depsig.do_populate_lic" "depsig.do_populate_lic.27506" "run.sstate_task_postfunc.27505" "run.sstate_report_unihash.27506" "run.sstate_hardcode_path.27506" "run.sstate_task_postfunc.27506" "run.populate_lic_qa_checksum.27506" "run.do_populate_lic.27506" "run.do_populate_lic" "run.sstate_task_prefunc.27506" "run.do_deploy_source_date_epoch.27505" "run.do_deploy_source_date_epoch" "run.sstate_task_prefunc.27505" "run.do_rust_create_wrappers.27504" "run.do_rust_create_wrappers" "log.do_populate_lic.27506" "log.do_populate_lic" "log.do_deploy_source_date_epoch.27505" "log.do_deploy_source_date_epoch" "log.do_rust_create_wrappers.27504" "log.do_rust_create_wrappers" "run.do_qa_patch.27500" "run.patch_do_patch.27500" "run.do_patch.27500" "run.do_patch" "run.extend_recipe_sysroot.27500" "log.do_patch.27500" "log.do_patch" "run.create_source_date_epoch_stamp.27424" "run.do_qa_unpack.27424" "run.do_prepare_recipe_sysroot.27425" "run.do_prepare_recipe_sysroot" "run.extend_recipe_sysroot.27425" "log.do_prepare_recipe_sysroot.27425" "log.do_prepare_recipe_sysroot" "run.base_do_unpack.27424" "run.do_unpack.27424" "run.do_unpack" "log.do_unpack.27424" "log.do_unpack" "run.base_do_fetch.27354" "run.do_fetch.27354" "run.do_fetch" "log.do_fetch.27354" "log.do_fetch" "run.do_cleanall.27320" "run.do_cleanall" "log.do_cleanall.27320" "log.do_cleanall" "run.do_cleansstate.27319" "run.do_cleansstate" "log.do_cleansstate.27319" "log.do_cleansstate" "log.task_order" "../" "./")
-
- ("/home/ol/development/poky-rust/build/tmp/work/armv7vet2hf-neon-poky-linux-gnueabi/rust-ssc/0.0.1.AUTOINC+4938fc13ad-r0/" (24724 3881 385862 557000) "build/" "deploy-source-date-epoch/" "license-destdir/" "wrapper/" "source-date-epoch/" "recipe-sysroot/" "recipe-sysroot-native/" "cargo_home/" "rust-ssc/" "temp/" "../" "./")
-
- ("/home/ol/development/poky-rust/build/tmp/work/armv7vet2hf-neon-poky-linux-gnueabi/rust-ssc/" (24724 3858 441445 447000) "0.0.1.AUTOINC+4938fc13ad-r0/" "../" "./")
-
- ("/home/ol/development/poky-rust/build/tmp/work/armv7vet2hf-neon-poky-linux-gnueabi/" (24715 57754 908846 286000) "rust-intercom/" "rust-ssc/" "deptest/" "alsa-lib/" "dropbear/" "libstd-rs/" "gcc/" "qemuwrapper-cross/" "modutils-initscripts/" "sysvinit/" "zip/" "netbase/" "glibc-locale/" "shared-mime-info/" "gnome-desktop-testing/" "btrfs-tools/" "which/" "grep/" "iproute2/" "socat/" "bc/" "unzip/" "findutils/" "libtool/" "binutils/" "automake/" "pkgconfig/" "gnu-config/" "procps/" "autoconf/" "libmnl/" "iptables/" "tcp-wrappers/" "bison/" "libmpc/" "eudev/" "kmod/" "make/" "busybox/" "mpfr/" "mdadm/" "gettext/" "dbus-test/" "ptest-runner/" "libcroco/" "m4/" "libmodule-build-perl/" "liberror-perl/" "diffutils/" "gawk/" "sed/" "elfutils/" "flex/" "lzo/" "e2fsprogs/" "coreutils/" "libcap/" "bash/" "gmp/" "libxml2/" "perl/" "db/" "acl/" "glib-2.0/" "dbus/" "shadow-sysroot/" "expat/" "shadow/" "libx11/" "libsm/" "initscripts/" "libxcb/" "libice/" "libpthread-stubs/" "libxdmcp/" "xcb-proto/" "libxau/" "base-passwd/" "xtrans/" "python3/" "sqlite3/" "xz/" "libnsl2/" "readline/" "libffi/" "xorgproto/" "libpcre/" "libtirpc/" "util-macros/" "attr/" "openssl/" "gdbm/" "util-linux/" "libcap-ng/" "bash-completion/" "ncurses/" "libxcrypt/" "bzip2/" "opkg-utils/" "zlib/" "libtool-cross/" "gcc-runtime/" "libgcc/" "libgcc-initial/" "glibc/" "linux-libc-headers/" "../" "./")
-
- ("/home/ol/development/poky-rust/build/tmp/work/" (24696 31334 567077 505000) "qemuarm-poky-linux-gnueabi/" "all-poky-linux/" "armv7vet2hf-neon-poky-linux-gnueabi/" "x86_64-linux/" "../" "./")
-
- ("/home/ol/development/poky-rust/build/tmp/" (24701 25485 77508 682000) "sysroots/" "qa.log" "pkgdata/" "deploy/" "work-shared/" "sysroots-components/" "work/" "stamps/" "buildstats/" "sysroots-uninative/" "sstate-control/" "cache/" "abi_version" "saved_tmpdir" "log/" "hosttools/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/meta-peiker/recipes/rust-intercom/" (24720 3756 388438 590000) "rust-intercom_0.1.0.bb~" "rust-intercom_0.1.0.bb" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/meta-peiker/recipes/rust-ssc/" (24721 24201 337899 641000) "files/" "rust-ssc_0.0.1.bb" "rust-ssc_0.0.1.bb~" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/meta-peiker/recipes/" (24720 15465 972221 444000) "rust-intercom/" "rust-ssc/" "wmm/" "watchdog-config/" "watchdog-appl/" "vss/" "vph-pwr-mon/" "tools/" "tinyscheme/" "thermal-engine/" "syslog-ng/" "strongswan/" "ssc/" "speedtest/" "smack/" "sipgateway/" "sec-config/" "rild/" "ril-tests/" "ril-tests-java/" "ril-shell-java/" "ril-java/" "ril-include/" "ril-client/" "readonly-rootfs/" "rci/" "ramfs-init/" "qmifdscli/" "qfuse/" "qdiag/" "ptpd/" "osip/" "ortp/" "openssh/" "openjdk-8/" "nvimgr/" "nfs4-development/" "mtdrd/" "mosquitto/" "minicaller/" "mediastreamer2/" "locproxy/" "loc-api/" "linux-ramdisk/" "linux-minikernel/" "linphone/" "libswe/" "libscrubqmi/" "libolcutils/" "libol/" "liblinenoise/" "libkcapi/" "libintercom/" "libflash/" "libdsp/" "libasrc/" "lib-ril/" "lib-peikerril/" "lib-libmnl/" "lan-config/" "krb5/" "iperf/" "initscripts/" "inband-modem/" "images/" "idefix/" "googletest/" "giflib/" "flashtool/" "exosip/" "evtp-prod-default/" "evtp-platform/" "eventlog/" "doxygen/" "dlt-qxdm/" "dlt-daemon/" "dhcpcd/" "audiowatchdog/" "audiorouter/" "audioloop/" "audiohal/" "audiofrontend/" "alsaucm/" "a-gps-loc-client/" "../" "./")
-
- ("/home/ol/development/poky-rust/meta-rust-packages/recipes-audio/" (24715 52196 458193 125000) "rust-intercom/" "rust-ssc/" "deptest/" "images/" "../" "./")
-
- ("/home/ol/development/poky-rust/meta-rust-packages/" (24697 15042 631190 564000) "recipes-audio/" "recipes-example/" "COPYING.MIT" "README" "conf/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/peiker/inband_modem/" (24720 13552 177580 686000) "readme.txt" "inband_modem_service_v01.h" "inband_modem_service_v01.c" "inband_modem_service_clnt_test_2000.c" "inband_modem_service_clnt_test_1001.c" "inband_modem_service_clnt_test_1000.c" "inband_modem_service_clnt_test_0001.c" "inband_modem_service_clnt_test_0000.c" "inband_modem_service_clnt_common_stats.h" "inband_modem_service_clnt_common_stats.c" "inband_modem_service_clnt_common.h" "inband_modem_service_clnt_common.c" "inband_modem_service_clnt.c" "configure.ac" "Makefile.am" ".gitignore" ".git/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/build/tmp-glibc/work/armv7ahf-neon-oe-linux-gnueabi/perl/5.24.1-r0/image/usr/lib/" (24720 21173 172958 229000) "libperl.so.5" "libperl.so.5.24.1" "perl5/" "perl/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/build/tmp-glibc/work/armv7ahf-neon-oe-linux-gnueabi/perl/5.24.1-r0/image/usr/bin/" (24720 21173 116957 188000) "perl" "perlthanks" "pstruct" "zipdetails" "xsubpp" "splain" "shasum" "ptargrep" "ptardiff" "ptar" "prove" "pod2html" "pl2pm" "piconv" "perlivp" "perldoc" "perlbug" "libnetcfg" "json_pp" "instmodsh" "h2xs" "h2ph" "encguess" "enc2xs" "corelist" "cpan" "c2ph" "podselect" "podchecker" "pod2usage" "pod2text" "pod2man" "perl5.24.1" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/build/tmp-glibc/work/armv7ahf-neon-oe-linux-gnueabi/perl/5.24.1-r0/image/usr/" (24720 21168 960879 971000) "lib/" "bin/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/build/tmp-glibc/work/armv7ahf-neon-oe-linux-gnueabi/perl/5.24.1-r0/image/" (24720 21168 960879 971000) "usr/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/build/tmp-glibc/work/armv7ahf-neon-oe-linux-gnueabi/perl/5.24.1-r0/" (24720 21288 147094 8000) "sstate-install-package_qa/" "sstate-install-package_write_ipk/" "deploy-ipks/" "sstate-install-populate_sysroot/" "sysroot-destdir/" "sstate-install-packagedata/" "pkgdata/" "packages-split/" "package/" "sstate-install-package/" "image/" "pseudo/" "configure.sstate" "sstate-install-populate_lic/" "license-destdir/" "0001-Skip-various-tests-if-PERL_BUILD_PACKAGING-is-set.patch" "test/" "CVE-2018-18314.patch" "CVE-2018-18314_2.patch" "CVE-2018-18314_1.patch" "CVE-2018-18311.patch" "makedepend.SH.patch" "run-ptest" "CVE-2017-12837.patch" "CVE-2017-12883.patch" "perl-5.26.1-guard_old_libcrypt_fix.patch" "perl-fix-conflict-between-skip_all-and-END.patch" "perl-errno-generation-gcc5.patch" "perl-PathTools-don-t-filter-out-blib-from-INC.patch" "ext-ODBM_File-t-odbm.t-fix-the-path-of-dbmt_common.p.patch" "ext-ODBM_File-hints-linux.pl-link-libgdbm_compat.patch" "t-run-switches.t-perl5-perl.patch" "make_ext.pl-fix-regenerate-makefile-failed-while-cc-.patch" "config.sh-64-be" "config.sh-64-le" "config.sh-64" "config.sh-32-be" "config.sh-32-le" "config.sh-32" "config.sh" "dynaloaderhack.patch" "fix_bad_rpath.patch" "cross-generate_uudmap.patch" "perl-enable-gdbm.patch" "native-perlinc.patch" "generate-sh.patch" "letgcc-find-errno.patch" "perl-moreconfig.patch" "perl-dynloader.patch" "perl-archlib-exp.patch" "installperl.patch" "Makefile.SH.patch" "Makefile.patch" "debian/" "perl-5.24.1/" "recipe-sysroot-native/" "recipe-sysroot/" "temp/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/build/tmp-glibc/work/armv7ahf-neon-oe-linux-gnueabi/perl/" (24720 19395 391856 92000) "5.24.1-r0/" "../" "./")
-
- ("/home/ol/development/poky-latest/meta/conf/distro/include/" (24723 51247 347659 310000) "yocto-uninative.inc" "tcmode-default.inc" "maintainers.inc" "uninative-flags.inc" "tclibc-newlib.inc" "tclibc-musl.inc" "tclibc-glibc.inc" "tclibc-baremetal.inc" "security_flags.inc" "ptest-packagelists.inc" "no-static-libs.inc" "lto.inc" "init-manager-sysvinit.inc" "init-manager-systemd.inc" "init-manager-none.inc" "init-manager-mdev-busybox.inc" "distro_alias.inc" "default-versions.inc" "default-providers.inc" "default-distrovars.inc" "../" "./")
-
- ("/home/ol/development/poky-latest/" (24714 24267 988626 585000) "scripts/" "oe-init-build-env" "meta/" "meta-yocto-bsp/" "meta-skeleton/" "meta-selftest/" "meta-poky/" "documentation/" "contrib/" "bitbake/" "README.qemu" "README.poky" "README.hardware" "README.OE-Core" "Makefile" "MEMORIAM" "LICENSE.MIT" "LICENSE.GPL-2.0-only" "LICENSE" ".templateconf" ".gitignore" ".git/" "../" "./")
-
- ("/home/ol/.nightly-build/" (24403 51564 666182 246000) "local_settings.clj" "local_settings.clj~" "log-atom-store.clj" "session-store.clj" "tasks/" "user-store.clj" "active-config" "key_crt.jks" "../" "./")
-
- ("/home/ol/development/nightly-build/" (24722 34296 87476 843000) "target/" ".nrepl-port" "README.md" "README.md~" "project.clj" "doc/" ".gitignore" "out/" "browser_repl.clj" "README" "COPYING" "project.clj~" ".lein-repl-history" ".git/" "test/" ".hgignore" "src/" "resources/" "CHANGELOG.md" "../" "./")
-
- ("/home/ol/development/nightly-build/target/" (24722 34328 516070 451000) "bond-1.0.3-standalone.jar" "bond-1.0.3.jar" "cljsbuild-compiler-1/" "cljsbuild-compiler-0/" "cljsbuild-crossover/" "stale/" "classes/" "../" "./")
-
- ("/home/ol/development/rust/rust-intercom/" (24721 41203 757191 332000) "Cargo.lock" "target/" "build.rs" "Cargo.toml" "Cargo.toml~" "example/" ".gitignore" "COPYING" ".gitignore~" "src/" ".git/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/peiker/libintercom/" (24721 37275 245287 586000) "GRTAGS" "GPATH" "GTAGS" "src/" "m4/" "libintercom.pc.in" "include/" "example/" "doc/" "configure.ac" "autogen.sh" "README.md" "README" "NEWS" "Makefile.am" "INSTALL" "ChangeLog" "COPYING" "AUTHORS" ".gitignore" ".git/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/build/tmp-glibc/work/armv7ahf-neon-oe-linux-gnueabi/rust-ssc/0.0.1.AUTOINC-r0/image/usr/lib/rust/" (24721 39218 784817 115000) "librust_intercom.so" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/build/tmp-glibc/work/armv7ahf-neon-oe-linux-gnueabi/rust-ssc/0.0.1.AUTOINC-r0/image/usr/lib/" (24721 39218 780817 44000) "rust/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/build/tmp-glibc/work/armv7ahf-neon-oe-linux-gnueabi/rust-ssc/0.0.1.AUTOINC-r0/image/usr/" (24721 39218 788817 190000) "bin/" "lib/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/build/tmp-glibc/work/armv7ahf-neon-oe-linux-gnueabi/rust-ssc/0.0.1.AUTOINC-r0/image/" (24721 39218 804817 483000) "etc/" "usr/" "../" "./")
-
- ("/home/ol/development/ltenad9607-quectel-ws2/apps_proc/poky/build/tmp-glibc/work/armv7ahf-neon-oe-linux-gnueabi/" (24720 24231 381354 971000) "rust-ssc/" "rust-intercom/" "libstd-rs/" "libgcc-initial/" "libgcc/" "gcc-runtime/" "glibc-mtrace/" "psm/" "opkg/" "alsaucm/" "ssc/" "wmm/" "nvimgr/" "lib-peikerril/" "mbndump/" "kbd/" "strongswan/" "iw/" "conntrack-tools/" "iputils/" "dhcpcd/" "locproxy/" "gnsstests/" "smack-userspace/" "flashtool/" "wireless-tools/" "csd-server/" "subsystem-ramdump/" "audit/" "system-conf/" "tcpdump/" "rng-tools/" "modutils-initscripts/" "ptpd/" "evtp-prod-default/" "strace/" "netbase/" "qfuse/" "logrotate/" "iperf/" "pimd/" "init-ifupdown/" "gdb/" "ethtool/" "mtd-utils/" "sec-config/" "evtp-platform/" "socat/" "gawk/" "m4/" "dnsmasq/" "watchdog-config/" "ril-tests/" "rild/" "syslog-ng/" "iproute2/" "hostap-daemon-qcacld/" "minicaller/" "diag-reboot-app/" "ebtables/" "qemuwrapper-cross/" "python/" "surround-sound-3mic/" "libtirpc/" "lttng-ust/" "acl/" "coreutils/" "e2fsprogs/" "libcap-ng/" "alsa-lib/" "tinyscheme/" "curl/" "alsa-intf/" "libcheck/" "libnetfilter-conntrack/" "shared-mime-info/" "libflash/" "wpa-supplicant-qcacld/" "libsolv/" "watchdog/" "libbsd/" "pkgconfig/" "procps/" "iptables/" "bash/" "rpm/" "libgcrypt/" "libpcap/" "liburcu/" "libidn2/" "tinycompress/" "glibc-locale/" "perl/" "flex/" "xdelta3/" "libnfnetlink/" "gnutls/" "elfutils/" "qahw/" "file/" "nss/" "tcp-wrappers/" "libintercom/" "libgpg-error/" "libarchive/" "popt/" "libtool/" "nspr/" "nettle/" "acdbloader/" "libolcutils/" "lzo/" "acdbrtac/" "adiertac/" "libhardware/" "pugixml/" "system-media/" "libnl/" "data-oss/" "libunistring/" "ril-client/" "libxml2/" "dbus/" "loc-pla-hdr/" "location-api-iface/" "tinyalsa/" "gmp/" "libcap/" "lib-ril/" "python3/" "audcal/" "expat/" "sqlite3/" "readline/" "gdbm/" "db/" "xz/" "audioalsa/" "system-core/" "libunwind/" "ext4-utils/" "libbase/" "libutils/" "libatomic-ops/" "libsparse/" "safe-iop/" "shadow-sysroot/" "shadow/" "attr/" "openssl/" "initscripts/" "libselinux/" "base-passwd/" "libmincrypt/" "glib-2.0/" "libcutils/" "common-headers/" "util-linux/" "libffi/" "ncurses/" "libpcre/" "liblog/" "bzip2/" "bash-completion/" "zlib/" "opkg-utils/" "libtool-cross/" "glibc/" "glibc-initial/" "linux-libc-headers/" "defaultpkgname/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
