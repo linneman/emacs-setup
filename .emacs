@@ -16,10 +16,9 @@
  ;; If there is more than one, they won't work right.
  '(delete-selection-mode nil)
  '(ido-enable-flex-matching t)
- '(ido-mode (quote both) nil (ido))
+ '(ido-mode 'both nil (ido))
  '(package-selected-packages
-   (quote
-    (htmlize ox-reveal racer cargo rust-mode asn1-mode solarized-theme paredit org-tree-slide org-evil org-bullets multi-term free-keys evil-org evil-magit eimp dash-functional dash-at-point company cider)))
+   '(multi-term htmlize ox-reveal racer cargo rust-mode asn1-mode solarized-theme paredit org-tree-slide org-evil org-bullets free-keys evil-org evil-magit eimp dash-functional dash-at-point company cider))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
