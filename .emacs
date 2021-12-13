@@ -15,6 +15,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(delete-selection-mode nil)
+ '(evil-ex-visual-char-range t)
  '(ido-enable-flex-matching t)
  '(ido-mode 'both nil (ido))
  '(package-selected-packages
