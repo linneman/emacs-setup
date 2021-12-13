@@ -18,7 +18,7 @@
  '(ido-enable-flex-matching t)
  '(ido-mode 'both nil (ido))
  '(package-selected-packages
-   '(multi-term htmlize ox-reveal racer cargo rust-mode asn1-mode solarized-theme paredit org-tree-slide org-evil org-bullets free-keys evil-org evil-magit eimp dash-functional dash-at-point company cider))
+   '(go-mode multi-term htmlize ox-reveal racer cargo rust-mode asn1-mode solarized-theme paredit org-tree-slide org-evil org-bullets free-keys evil-org evil-magit eimp dash-functional dash-at-point company cider))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

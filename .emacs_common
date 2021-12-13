@@ -8,6 +8,8 @@
 (setq-default indent-tabs-mode nil)
 (setq split-width-threshold 120)
 
+(setq byte-compile-warnings '(cl-functions))
+
 ;; http://ergoemacs.org/emacs/emacs_tabs_space_indentation_setup.html
 ;; set default tab char's display width to 4 spaces
 (setq-default tab-width 2) ; emacs 23.1 to 26 default to 8
