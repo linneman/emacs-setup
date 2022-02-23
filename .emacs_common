@@ -394,7 +394,7 @@ The Unix system program `par' is required be installed on the system."
       (with-temp-buffer
         (insert filename)
         (clipboard-kill-region (point-min) (point-max)))
-      (message filename))))
+      (message "%s" filename))))
 
 
 ;;; shell evaluation and replacement for par
