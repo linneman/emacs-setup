@@ -297,6 +297,17 @@ The Unix system program `par' is required be installed on the system."
        (company-mode)
        ))
 
+(add-hook 'c++-mode-hook
+	  '(lambda ()
+	     (gtags-mode 1)
+       (setq-default c-basic-offset 2)
+	     (setq default-tab-size 2)
+	     (setq default-tab-width 2)
+	     (setq indent-tabs-mode nil)
+	     (setq c-indent-level 2)
+       (company-mode)
+       ))
+
 (add-hook 'java-mode-hook
 	  '(lambda ()
 	     (gtags-mode 1)
