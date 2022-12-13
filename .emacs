@@ -19,8 +19,10 @@
  '(ido-enable-flex-matching t)
  '(ido-mode 'both nil (ido))
  '(package-selected-packages
-   '(clojure-mode bitbake go-mode multi-term htmlize ox-reveal racer cargo rust-mode asn1-mode solarized-theme paredit org-tree-slide org-evil org-bullets free-keys evil-org evil-magit eimp dash-functional dash-at-point company cider))
- '(tool-bar-mode nil))
+   '(use-package evil-collection evil magit clojure-mode bitbake go-mode multi-term htmlize ox-reveal racer cargo rust-mode asn1-mode solarized-theme paredit org-tree-slide org-evil org-bullets free-keys evil-org evil-magit eimp dash-functional dash-at-point company cider))
+ '(tool-bar-mode nil)
+ '(warning-suppress-log-types '((comp) (comp) (comp) (comp) (comp)))
+ '(warning-suppress-types '((comp) (comp) (comp) (comp))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
