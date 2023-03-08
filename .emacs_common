@@ -43,33 +43,6 @@
 (load-theme 'solarized-dark t)
 
 
-;;; Solarized Colorscheme for Ansi-Term
-;(defun my-term-hook ()
-;  (goto-address-mode)
-;  (define-key term-raw-map "\C-y" 'my-term-paste)
-;  (let ((base03  "#002b36")
-;        (base02  "#073642")
-;        (base01  "#586e75")
-;        (base00  "#657b83")
-;        (base0   "#839496")
-;        (base1   "#93a1a1")
-;        (base2   "#eee8d5")
-;        (base3   "#fdf6e3")
-;        (yellow  "#b58900")
-;        (orange  "#cb4b16")
-;        (red     "#dc322f")
-;        (magenta "#d33682")
-;        (violet  "#6c71c4")
-;        (blue    "#268bd2")
-;        (cyan    "#2aa198")
-;        (green   "#859900"))
-;    (setq ansi-term-color-vector
-;          (vconcat `(unspecified ,base02 ,red ,green ,yellow ,blue
-;                                 ,magenta ,cyan ,base2)))))
-;
-;(add-hook 'term-mode-hook 'my-term-hook)
-
-
 ;; mode switch in multiterm mode
 ;; from https://www.reddit.com/r/emacs/comments/4ccczt/keybindings_in_multiterm/
  (defun my-term-switch-line-char ()
@@ -294,24 +267,21 @@ The Unix system program `par' is required be installed on the system."
 ;(setq cscope-do-not-update-database t)
 ;(setq cscope-display-cscope-buffer nil)
 
-;; GTAGS
-(autoload 'gtags-mode "gtags" "" t)
-
 
 (add-hook 'c-mode-hook
 	  '(lambda ()
-	     (gtags-mode 1)
-       (setq-default c-basic-offset 2)
-	     (setq default-tab-size 2)
-	     (setq default-tab-width 2)
+	     (ggtags-mode 1)
+       (setq-default c-basic-offset 4)
+	     (setq default-tab-size 4)
+	     (setq default-tab-width 4)
 	     (setq indent-tabs-mode nil)
-	     (setq c-indent-level 2)
+	     (setq c-indent-level 4)
        (company-mode)
        ))
 
 (add-hook 'c++-mode-hook
 	  '(lambda ()
-	     (gtags-mode 1)
+	     (ggtags-mode 1)
        (setq-default c-basic-offset 2)
 	     (setq default-tab-size 2)
 	     (setq default-tab-width 2)
@@ -322,26 +292,19 @@ The Unix system program `par' is required be installed on the system."
 
 (add-hook 'java-mode-hook
 	  '(lambda ()
-	     (gtags-mode 1)
+	     (ggtags-mode 1)
 	     (setq default-tab-size 2)
 	     (setq default-tab-width 2)
 	     (setq indent-tabs-mode nil)
 	     (setq c-indent-level 2)
 	     ))
 
-(add-hook 'gtags-select-mode-hook
-  '(lambda ()
-     (setq hl-line-face 'underline)
-     (hl-line-mode 1)
-))
-
-(add-hook 'gtags-select-mode-hook
-  '(lambda ()
-     (setq hl-line-face 'underline)
-     (hl-line-mode 1)
-))
-
-(setq gtags-suggested-key-mapping t)
+;; bitbake
+(setq auto-mode-alist (cons '("\\.bb$" . bitbake-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.inc$" . bitbake-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.bbappend$" . bitbake-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.bbclass$" . bitbake-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.conf$" . bitbake-mode) auto-mode-alist))
 
 
 ;;; GIT
@@ -488,7 +451,7 @@ The Unix system program `par' is required be installed on the system."
                               (ebib-entry-mode               . emacs)
                               (ebib-index-mode               . emacs)
                               (ebib-log-mode                 . emacs)
-                              (gtags-select-mode             . emacs)
+                              (ggtags-select-mode            . emacs)
                               (shell-mode                    . insert)
                               (term-mode                     . insert)
                               (bc-menu-mode                  . emacs)
@@ -496,6 +459,14 @@ The Unix system program `par' is required be installed on the system."
                               (semantic-symref-results-mode  . emacs)
                               (rdictcc-buffer-mode           . emacs))
       do (evil-set-initial-state mode state))
+
+;; @see https://bitbucket.org/lyro/evil/issue/511/let-certain-minor-modes-key-bindings
+(eval-after-load 'ggtags
+                 '(progn
+                   (evil-make-overriding-map ggtags-mode-map 'normal)
+                   ;; force update evil keymaps after ggtags-mode loaded
+                   (add-hook 'ggtags-mode-hook #'evil-normalize-keymaps)))
+
 
 ;;; declare jk as <esc> in evil insert mode using the package key-chord
 ;;; taken from http://blog.jenkster.com/2013/02/mapping-jk-in-emacs-evil-mode.html
@@ -510,7 +481,6 @@ The Unix system program `par' is required be installed on the system."
 ;;; global keys
 (define-key evil-insert-state-map "\C-f" 'evil-normal-state)
 (define-key evil-visual-state-map "\C-f" 'evil-normal-state)
-(define-key evil-normal-state-map "\C-t" 'gtags-pop-stack)
 
 (global-set-key (kbd "C-x g") 'goto-line)
 (global-set-key (kbd "C-x 5") 'goto-match-paren)
@@ -518,7 +488,8 @@ The Unix system program `par' is required be installed on the system."
 (global-set-key (kbd "C-x ?") 'ol-put-file-name-on-clipboard)
 (global-set-key (kbd "C-,") 'point-to-register)
 (global-set-key (kbd "C-.") 'jump-to-register)
-(global-set-key (kbd "M-]") 'multi-term)
+(global-set-key (kbd "M-p") 'multi-term)
+
 
 ;; paredit for terminals (the standard barf and slurp keys do not work there!)
 (global-set-key (kbd "M-<") 'paredit-forward-barf-sexp)
