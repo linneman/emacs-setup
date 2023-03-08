@@ -465,7 +465,11 @@ The Unix system program `par' is required be installed on the system."
                  '(progn
                    (evil-make-overriding-map ggtags-mode-map 'normal)
                    ;; force update evil keymaps after ggtags-mode loaded
-                   (add-hook 'ggtags-mode-hook #'evil-normalize-keymaps)))
+                   (add-hook 'ggtags-mode-hook #'evil-normalize-keymaps)
+                   ;; disable tag generation
+                   (defun ggtags-update-tags ()
+                     (interactive)
+                     t)))
 
 
 ;;; declare jk as <esc> in evil insert mode using the package key-chord
