@@ -492,7 +492,7 @@ The Unix system program `par' is required be installed on the system."
 (global-set-key (kbd "C-x ?") 'ol-put-file-name-on-clipboard)
 (global-set-key (kbd "C-,") 'point-to-register)
 (global-set-key (kbd "C-.") 'jump-to-register)
-(global-set-key (kbd "M-p") 'multi-term)
+(global-set-key (kbd "C-M-]") 'multi-term)
 
 
 ;; paredit for terminals (the standard barf and slurp keys do not work there!)
