@@ -16,6 +16,18 @@
 ;; set current buffer's tab char's display width to 4 spaces
 (setq tab-width 2)
 
+(column-number-mode 1)
+
+;; same like (global-hl-line-mode 1) but only for programming and text modes
+;; acc. to: https://emacsredux.com/blog/2020/11/21/disable-global-hl-line-mode-for-specific-modes
+
+;; let's enable it for all programming major modes
+(add-hook 'prog-mode-hook #'hl-line-mode)
+;; and for all modes derived from text-mode
+(add-hook 'text-mode-hook #'hl-line-mode)
+;; and for bitbake
+(add-hook 'bitbake-mode-hook #'hl-line-mode)
+
 
 ;(setq url-proxy-services '(("http" . "172.28.28.254:3128")
 ;                           ("https" . "172.28.28.254:3128")))
@@ -276,6 +288,7 @@ The Unix system program `par' is required be installed on the system."
 	     (setq default-tab-width 4)
 	     (setq indent-tabs-mode nil)
 	     (setq c-indent-level 4)
+       (hs-minor-mode)
        (company-mode)
        ))
 
@@ -287,6 +300,7 @@ The Unix system program `par' is required be installed on the system."
 	     (setq default-tab-width 2)
 	     (setq indent-tabs-mode nil)
 	     (setq c-indent-level 2)
+       (hs-minor-mode)
        (company-mode)
        ))
 
@@ -297,6 +311,7 @@ The Unix system program `par' is required be installed on the system."
 	     (setq default-tab-width 2)
 	     (setq indent-tabs-mode nil)
 	     (setq c-indent-level 2)
+       (hs-minor-mode)
 	     ))
 
 ;; bitbake
@@ -493,6 +508,7 @@ The Unix system program `par' is required be installed on the system."
 (global-set-key (kbd "C-,") 'point-to-register)
 (global-set-key (kbd "C-.") 'jump-to-register)
 (global-set-key (kbd "C-M-]") 'multi-term)
+(global-set-key (kbd "C-c <SPC>") 'eval-expression)
 
 
 ;; paredit for terminals (the standard barf and slurp keys do not work there!)
