@@ -95,7 +95,8 @@
   ;; If there is more than one, they won't work right.
  '(ido-enable-flex-matching t)
  '(ido-mode (quote both) nil (ido))
- '(tool-bar-mode nil))
+ '(tool-bar-mode nil)
+ '(menu-bar-mode nil))
 
 ;;; evil (VIM emulation)
 (setq evil-want-C-i-jump nil) ;; for tab in org mode under terminal
