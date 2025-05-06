@@ -1,7 +1,7 @@
 ;;; OL's common setup (OS independent)
 
 ;;; global setup
-(global-linum-mode 1)
+(global-display-line-numbers-mode 1)
 (global-font-lock-mode t)
 (setq inhibit-splash-screen t)
 (server-start)
@@ -55,6 +55,13 @@
 (load-theme 'solarized-dark t)
 
 
+;; Use this to manually 'repair' broken colors when loading a theme different from solarized
+;; (set-face-background 'minibuffer-prompt nil)
+;; (set-face-background 'dired-directory 'nil)
+;; (set-face-background 'line-number 'nil)
+;; (set-face-background 'line-number-current-line 'nil)
+
+
 ;; mode switch in multiterm mode
 ;; from https://www.reddit.com/r/emacs/comments/4ccczt/keybindings_in_multiterm/
  (defun my-term-switch-line-char ()
@@ -73,7 +80,7 @@
  (add-hook 'term-mode-hook 'my-term-mode-hook)
  (defun my-term-mode-hook ()
    ;; disable line numbers in terminal
-   (linum-mode 0)
+   (display-line-numbers-mode 0)
 
    ;; from https://www.reddit.com/r/emacs/comments/4ccczt/keybindings_in_multiterm/
    (setq term-buffer-maximum-size 1000)
@@ -143,6 +150,7 @@ The Unix system program `par' is required be installed on the system."
 (require 'rainbow-delimiters)
 (add-hook 'clojure-mode-hook 'rainbow-delimiters-mode-enable)
 (add-hook 'clojurescript-mode-hook 'rainbow-delimiters-mode-enable)
+(add-hook 'scheme-mode-hook 'rainbow-delimiters-mode-enable)
 
 (custom-set-faces
  '(rainbow-delimiters-depth-1-face ((((background dark)) (:foreground "#b58900")))) ; yellow
@@ -433,7 +441,7 @@ The Unix system program `par' is required be installed on the system."
 (define-key global-map "\C-cl" 'org-store-link)
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-log-done t)
-(add-hook 'org-mode-hook (lambda () (linum-mode 0) (org-bullets-mode 1)))
+(add-hook 'org-mode-hook (lambda () (display-line-numbers-mode 0) (org-bullets-mode 1)))
 ;(require 'evil-org)
 (require 'ob-shell)
 (setq org-hide-emphasis-markers t)
@@ -457,7 +465,7 @@ The Unix system program `par' is required be installed on the system."
 (add-hook 'eww-mode-hook 'my-eww-hook)
 (defun my-eww-hook ()
   ;; disab le line numbers in terminal
-  (linum-mode 0))
+  (display-line-numbers-mode 0))
 
 
 ;;; evil initial state setup
