@@ -323,6 +323,24 @@ The Unix system program `par' is required be installed on the system."
        (hs-minor-mode)
 	     ))
 
+
+;; lsp-mode
+(use-package lsp-mode
+             :commands (lsp lsp-deferred)
+             :init
+             (setq lsp-keymap-prefix "C-c l")
+             :config
+             (lsp-enable-which-key-integration t))
+
+(setq gc-cons-threshold 100000000)
+(setq read-process-output-max (* 1024 1024)) ;; 1mb
+
+;; whick-key
+(use-package which-key
+             :ensure t
+             :config
+             (which-key-mode))
+
 ;; bitbake
 (setq auto-mode-alist (cons '("\\.bb$" . bitbake-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.inc$" . bitbake-mode) auto-mode-alist))
