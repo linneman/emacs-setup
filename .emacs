@@ -15,14 +15,14 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   '("efcecf09905ff85a7c80025551c657299a4d18c5fcfedd3b2f2b6287e4edd659" "fee7287586b17efbfda432f05539b58e86e059e78006ce9237b8732fde991b4c" "f5b6be56c9de9fd8bdd42e0c05fecb002dedb8f48a5f00e769370e4517dde0e8" "57a29645c35ae5ce1660d5987d3da5869b048477a7801ce7ab57bfb25ce12d3e" default))
+   '("3e200d49451ec4b8baa068c989e7fba2a97646091fd555eca0ee5a1386d56077" "833ddce3314a4e28411edf3c6efde468f6f2616fc31e17a62587d6a9255f4633" "51ec7bfa54adf5fff5d466248ea6431097f5a18224788d0bd7eb1257a4f7b773" "a9028cd93db14a5d6cdadba789563cb90a97899c4da7df6f51d58bb390e54031" "efcecf09905ff85a7c80025551c657299a4d18c5fcfedd3b2f2b6287e4edd659" "fee7287586b17efbfda432f05539b58e86e059e78006ce9237b8732fde991b4c" "f5b6be56c9de9fd8bdd42e0c05fecb002dedb8f48a5f00e769370e4517dde0e8" "57a29645c35ae5ce1660d5987d3da5869b048477a7801ce7ab57bfb25ce12d3e" default))
  '(delete-selection-mode nil)
  '(evil-ex-visual-char-range t)
  '(ido-enable-flex-matching t)
  '(ido-mode 'both nil (ido))
  '(menu-bar-mode nil)
  '(package-selected-packages
-   '(lsp-treemacs treemacs-evil treemacs-all-the-icons treemacs which-key lsp-mode geiser-chibi slime dts-mode cobol-mode ggtags smalltalk-mode use-package evil-collection evil magit clojure-mode bitbake go-mode multi-term htmlize ox-reveal racer cargo rust-mode asn1-mode solarized-theme paredit org-tree-slide org-evil org-bullets free-keys evil-org evil-magit eimp dash-functional dash-at-point company cider))
+   '(modus-themes lsp-treemacs treemacs-evil treemacs-all-the-icons treemacs which-key lsp-mode geiser-chibi slime dts-mode cobol-mode ggtags smalltalk-mode use-package evil-collection evil magit clojure-mode bitbake go-mode multi-term htmlize ox-reveal racer cargo rust-mode asn1-mode solarized-theme paredit org-tree-slide org-evil org-bullets free-keys evil-org evil-magit eimp dash-functional dash-at-point company cider))
  '(tool-bar-mode nil)
  '(warning-suppress-log-types '((comp) (comp) (comp) (comp) (comp)))
  '(warning-suppress-types '((comp) (comp) (comp) (comp))))
