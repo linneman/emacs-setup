@@ -545,3 +545,15 @@ The Unix system program `par' is required be installed on the system."
 
 ;; dired
 (setq dired-dwim-target t)
+
+;; search (and replace) in imperial C projects
+;; acc. to: https://vaughndickson.com/2013/03/07/keybinding-for-emacs-helm-to-recursively-grep-certain-file-extensions-in-your-src-directories/
+(defun project-search-in-c-project ()
+  (interactive)
+  (helm-do-grep-1 '("/home/vaughn/src")
+                  '(4)
+                  nil
+                  '("*.c" "*.h")))
+
+;; and set keybinding to C-M-f
+(global-set-key (kbd "C-M-f") 'project-search-in-c-project)
